@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="cardtest" width="600" height="400" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="down_hand" x="45" y="37" width="86" height="129">
+		<e:Image source="mjbg_down_hand_blue_png" scaleX="1" scaleY="1" width="86" height="129"/>
+		<e:Image source="s_wind_7_png" scaleX="1" scaleY="1" width="86" height="129"/>
+	</e:Group>
+	<e:Group id="common" x="274" y="267" width="70" height="110">
+		<e:Image source="mjbg_down_hand_blue_png" scaleX="1" scaleY="1" top="0" right="0" bottom="0" left="0"/>
+		<e:Image source="s_wind_7_png" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0"/>
+	</e:Group>
+	<e:Group id="down_hand_ming" x="44" y="172.33" width="75" height="113">
+		<e:Image source="mjbg_down_eat_blue_png" scaleX="1" scaleY="1" width="75" height="113"/>
+		<e:Image source="s_wind_7_png" scaleX="0.9" scaleY="0.9" y="-25" x="0"/>
+	</e:Group>
+	<e:Group id="up_hand_replay" x="246.73" y="19.95" width="47" height="70">
+		<e:Image source="mjbg_down_hand_blue_png" scaleX="1" scaleY="1" width="47" height="70"/>
+		<e:Image source="s_wind_7_png" scaleX="1" scaleY="1" width="47" height="70"/>
+	</e:Group>
+	<e:Group id="up_hand_ming" x="216.73" y="109.95" width="48" height="68">
+		<e:Image scaleX="1" scaleY="1" width="48" height="68" source="mjbg_down_eat_blue_png"/>
+		<e:Image source="s_wind_7_png" scaleX="0.55" scaleY="0.55" y="-15" x="1"/>
+	</e:Group>
+	<e:Group id="up_hand" x="187.97" y="19.33" width="47" height="70">
+		<e:Image scaleX="1" scaleY="1" width="47" height="70" source="mjbg_up_hand_blue_png"/>
+		<e:Image scaleX="1" scaleY="1" width="47" height="70" source="" visible="false"/>
+	</e:Group>
+	<e:Group id="left_hand" x="394" y="20.65" width="25" height="59">
+		<e:Image scaleX="1" scaleY="1" width="25" height="59" source="mjbg_left_hand_blue_png"/>
+		<e:Image source="" scaleX="1" scaleY="1" width="25" height="59"/>
+	</e:Group>
+	<e:Group id="letf_hand_ming" x="367.39" y="103.34" width="59" height="50">
+		<e:Image scaleX="1" scaleY="1" width="59" height="50" source="mjbg_left_out_blue_png"/>
+		<e:Image scaleX="1" scaleY="1" width="59" height="50" source="h_wind_7_png"/>
+	</e:Group>
+	<e:Group id="letf_hand_replay" x="367.39" y="243.34" width="49" height="40">
+		<e:Image scaleX="1" scaleY="1" width="49" height="40" source="mjbg_left_out_blue_png"/>
+		<e:Image scaleX="1" scaleY="1" width="49" height="40" source="h_wind_7_png"/>
+	</e:Group>
+	<e:Group id="letf_chu" x="375.39" y="308.34" width="58" height="47">
+		<e:Image scaleX="1" scaleY="1" width="58" height="47" source="mjbg_left_out_blue_png"/>
+		<e:Image scaleX="1" scaleY="1" width="58" height="47" source="h_wind_7_png"/>
+	</e:Group>
+	<e:Group id="right_hand" x="517.36" y="20.64" width="25" height="59">
+		<e:Image scaleX="1" scaleY="1" width="25" height="59" source="mjbg_right_hand_blue_png"/>
+		<e:Image source="" scaleX="1" scaleY="1" width="25" height="59"/>
+	</e:Group>
+	<e:Group id="right_hand_ming" x="504.04" y="95.01" width="59" height="50">
+		<e:Image scaleX="1" scaleY="1" width="59" height="50" source="mjbg_right_out_blue_png"/>
+		<e:Image scaleX="-1" scaleY="-1" width="59" height="50" source="h_wind_7_png" x="59" y="35"/>
+	</e:Group>
+	<e:Group id="down_eat" x="46.66" y="287" width="68" height="106">
+		<e:Image source="mjbg_down_eat_blue_png" scaleX="1" scaleY="1" width="68" height="106"/>
+		<e:Image source="s_wind_7_png" scaleX="0.85" scaleY="0.85" y="-23" x="-2"/>
+	</e:Group>
+	<e:Group id="up_eat" x="216.66" y="187" width="45" height="69">
+		<e:Image source="mjbg_down_eat_blue_png" width="45" height="69"/>
+		<e:Image source="s_wind_7_png" y="-14" x="1" width="43" height="66"/>
+	</e:Group>
+	<e:Group id="up_down_chu" x="216.66" y="277" width="45" height="69">
+		<e:Image source="mjbg_down_eat_blue_png" scaleX="1" scaleY="1" width="45" height="69"/>
+		<e:Image source="s_wind_7_png" y="-14" x="1" width="43" height="66"/>
+	</e:Group>
+	<e:Group id="letf_eat" x="367.39" y="183.34" width="58" height="47">
+		<e:Image scaleX="1" scaleY="1" width="58" height="47" source="mjbg_left_out_blue_png"/>
+		<e:Image scaleX="1" scaleY="1" width="58" height="47" source="h_wind_7_png"/>
+	</e:Group>
+	<e:Group id="right_eat" x="494.04" y="175.01" width="46" height="38">
+		<e:Image scaleX="1" scaleY="1" width="46" height="38" source="mjbg_right_out_blue_png"/>
+		<e:Image scaleX="-1" scaleY="-1" width="46" height="38" source="h_wind_7_png" x="46" y="26"/>
+	</e:Group>
+	<e:Group id="right_hand_replay" x="490.71" y="238.33" width="49" height="40">
+		<e:Image scaleX="1" scaleY="1" width="49" height="40" source="mjbg_right_out_blue_png"/>
+		<e:Image scaleX="-1" scaleY="-1" width="49" height="40" source="h_wind_7_png" y="28" x="49"/>
+	</e:Group>
+	<e:Group id="right_chu" x="500.71" y="307.33" width="58" height="47">
+		<e:Image scaleX="1" scaleY="1" width="58" height="47" source="mjbg_right_out_blue_png"/>
+		<e:Image scaleX="-1" scaleY="-1" width="58" height="47" source="h_wind_7_png" y="32" x="58"/>
+	</e:Group>
+</e:Skin>

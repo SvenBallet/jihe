@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.ClubRankingListViewSkin" width="869.33" height="501" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group right="0" left="0" top="0" bottom="0">
+		<e:Image source="club_right_tab_bottom_png" anchorOffsetX="0" top="6" left="0" right="0.3300000000000409" bottom="21" scale9Grid="18,66,5,11" anchorOffsetY="0"/>
+		<e:Label text="排名" size="28" textColor="0x6E3700" fontFamily="Microsoft YaHei" y="17" x="57"/>
+		<e:Label text="昵称" size="28" textColor="0x6E3700" fontFamily="Microsoft YaHei" x="241" y="17"/>
+		<e:Label text="ID" size="28" textColor="0x6E3700" fontFamily="Microsoft YaHei" x="477" y="17"/>
+		<e:Label text="积分" size="28" textColor="0x6E3700" fontFamily="Microsoft YaHei" x="707" y="17"/>
+		<e:Scroller id="listScroller" anchorOffsetX="0" anchorOffsetY="0" top="63" left="33" bottom="28" right="36.33000000000004">
+			<e:DataGroup id="listGroup" anchorOffsetX="0" width="800" anchorOffsetY="0" height="389" x="51.52"/>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

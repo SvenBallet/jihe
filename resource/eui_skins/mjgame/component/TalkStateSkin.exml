@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.TalkStateSkin" width="260" height="260" xmlns:e="http://ns.egret.com/eui">
+    <e:Image source="voice_yuyin_bg_png" scale9Grid="28,27,53,36" width="260" height="260" x="0" y="0"/>
+    <e:Group id="microGro" width="260" height="260" x="0" y="0">
+        <e:Image source="voice_recorder_png" y="22" x="20"/>
+        <e:Image id="voiceImg" source="voice_v7_png" y="22" scaleX="1" scaleY="1" x="140"/>
+        <e:Label text="手指上滑 取消发送" size="24" y="218" horizontalCenter="0"/>
+    </e:Group>
+    <e:Group id="arrowGro" width="260" height="260" x="0" y="0">
+        <e:Image source="voice_cancel_png" y="22" horizontalCenter="0"/>
+        <e:Label text="松开手指 取消发送" size="24" y="217.99999999999997" horizontalCenter="0" x="30.999999999999943" scaleX="1" scaleY="1" textColor="0xff0000"/>
+    </e:Group>
+    <e:Group id="shortGro" width="260" height="260" x="0" y="0">
+        <e:Image source="voice_voice_to_short_png" y="22" horizontalCenter="0"/>
+        <e:Label text="录音时间太短" y="218" size="24" horizontalCenter="0"/>
+    </e:Group>
+    <e:Group id="progressGro" width="260" height="260" x="0" y="0">
+        <e:Image id="progressImg" source="act_prg_png" scale9Grid="7,5,5,2" width="250" bottom="0" x="5"/>
+    </e:Group>
+</e:Skin>

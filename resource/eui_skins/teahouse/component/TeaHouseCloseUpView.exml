@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:FL="FL.*"
+        class="skins.TeaHouseCloseUpViewSkin">
+    <e:Image x="0" y="0" source="buju_21_png" />
+    <e:Label id="msgLab" text="Label" x="84" y="154" anchorOffsetX="0" width="590" anchorOffsetY="0" height="158" />
+</e:Skin>

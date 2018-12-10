@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.LobbyCreateMjItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:FL="FL.*" xmlns:w="http://ns.egret.com/wing" width="910">
+	<e:Label text="人数：" x="0" y="0" textColor="0x6e3700" fontFamily="Microsoft YaHei" size="32" height="60" verticalAlign="middle"/>
+	<e:Label text="局数：" x="0" y="70" textColor="0x6e3700" fontFamily="Microsoft YaHei" size="32" height="60" verticalAlign="middle"/>
+	<e:Group id="personNumGroup" x="105.00000000000011" y="2">
+		<e:RadioButton id="fourPerson" label="4人" x="0" y="0" skinName="skins.RadioButtonSkin"/>
+		<e:RadioButton id="threePerson" label="3人" x="196" y="0" skinName="skins.RadioButtonSkin"/>
+		<e:RadioButton id="twoPerson" label="2人" x="397" y="0" skinName="skins.RadioButtonSkin"/>
+	</e:Group>
+	<e:Group id="gameGroup" x="105.00000000000011" y="72">
+		<e:RadioButton id="fourGames" label="4局" x="0" y="0" skinName="skins.RadioButtonSkin"/>
+		<e:RadioButton id="eightGames" label="8局" x="196" y="0" skinName="skins.RadioButtonSkin"/>
+		<e:RadioButton id="sixteenGames" label="16局" x="397" y="0" skinName="skins.RadioButtonSkin"/>
+	</e:Group>
+	<e:CheckBox id="averageBill" label="房费均摊" x="730" y="76" skinName="skins.CheckBoxSkin"/>
+	<e:Image source="right_split_line_png" left="0" right="0" anchorOffsetY="0" height="3" y="64"/>
+	<e:Image source="right_split_line_png" left="0" right="0" anchorOffsetY="0" height="3" y="132"/>
+	<e:Label id="diamondNumFourGames" text="(20钻)" x="197" y="89" textColor="0xff7d00" size="26"/>
+	<e:Label id="diamondNumEightGames" text="(30钻)" x="394" y="89" textColor="0xff7d00" size="26"/>
+	<e:Label id="diamondNumSixteenGames" text="(60钻)" x="613" y="89" textColor="0xff7d00" size="26"/>
+</e:Skin>

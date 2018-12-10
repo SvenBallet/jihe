@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.MJGameOverDetailItemSkin" width="160" height="440" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="1621a2634fe"/>
+	<e:Image source="detail_blue_grid_png" x="0" y="0" anchorOffsetX="0" width="161" height="51"/>
+	<e:Image source="detail_write_grid_png" x="0" y="50" width="161" height="51"/>
+	<e:Image source="detail_write_grid_png" x="0" y="100" width="161" height="51"/>
+	<e:Image source="detail_write_grid_png" x="0" y="150" width="161" height="51"/>
+	<e:Image source="detail_write_grid_png" x="0" y="240" width="161" height="51"/>
+	<e:Image source="detail_write_grid_png" x="0" y="290" width="161" height="51"/>
+	<e:Image source="detail_write_grid_png" x="0" y="340" width="161" height="51"/>
+	<e:Image source="detail_write_grid_png" x="0" y="390" width="161" height="51"/>
+	<e:Label id="playerName" text="玩家" x="0" y="0" size="26" fontFamily="SimHei" width="160" height="50" textColor="0x003c5a" verticalAlign="middle" textAlign="center"/>
+	<e:Label id="playerIndex" text="ID" x="0" y="50" size="26" fontFamily="SimHei" width="160" textAlign="center" height="50" textColor="0x323232" verticalAlign="middle"/>
+	<e:Label id="zhuangXian" text="庄闲" x="0" y="100" size="26" fontFamily="SimHei" width="160" textAlign="center" height="50" textColor="0x323232" verticalAlign="middle"/>
+	<e:Label id="huText" text="平胡" x="0" y="150" size="26" fontFamily="SimHei" width="160" textAlign="center" height="50" textColor="0x0064c8" verticalAlign="middle"/>
+	<e:Label id="niaoNum" text="中鸟数量" x="0" y="240" size="26" fontFamily="SimHei" width="160" textAlign="center" height="50" textColor="0x007d00" verticalAlign="middle"/>
+	<e:Label id="niaoScore" text="中鸟计分" x="0" y="290" size="26" fontFamily="SimHei" width="160" textAlign="center" height="50" textColor="0xc82800" verticalAlign="middle"/>
+	<e:Label id="gangScore" text="杠分" x="0" y="340" size="26" fontFamily="SimHei" width="160" textAlign="center" height="50" textColor="0xC82800" verticalAlign="middle"/>
+	<e:Label id="totailScore" text="总结算" x="0" y="390" size="26" fontFamily="SimHei" width="160" textAlign="center" height="50" textColor="0xff7800" verticalAlign="middle"/>
+</e:Skin>

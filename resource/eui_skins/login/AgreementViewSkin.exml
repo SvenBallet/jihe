@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.AgreementViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:FL="FL.*" minHeight="720" minWidth="1280">
+	<e:Group id="baseGroup" left="20" right="20" top="10" bottom="10">
+		<e:Group horizontalCenter="-6" top="-9" x="405" y="-62" scaleX="1" scaleY="1">
+			<e:Image source="panel_title_lg_png" x="0" y="0" scale9Grid="54,27,15,26" anchorOffsetX="0" width="389.66" anchorOffsetY="0" height="69"/>
+			<e:Label text="用户协议" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" fontFamily="Microsoft YaHei" textColor="0xB47819" left="0" top="5" bottom="0" right="0" verticalAlign="middle" size="36"/>
+		</e:Group>
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" source="panel_bottom_blue_png" scale9Grid="42,35,29,29" width="1270" height="645" horizontalCenter="2" verticalCenter="28.5"/>
+		<FL:GameButton id="commonBtn" width="174.54" height="63.58" skinName="skins.GameButtonSkin" label="确定" labelSize="26" anchorOffsetX="87.27" anchorOffsetY="31.79" y="634.02" horizontalCenter="0.5"/>
+		<e:Scroller width="1100" height="460" y="121" anchorOffsetX="0" horizontalCenter="0">
+			<e:Group>
+				<e:Label id="labelText" text="健康游戏忠告\n    抵制不良游戏，拒绝盗版游戏。注意自我保护，谨防受骗上当。适度游戏益脑，沉迷游戏伤身。合理安排时间，享受健康生活。\n" x="0" y="0" textColor="0x326e87" fontFamily="SimHei" size="28" width="1100" lineSpacing="5"/>
+			</e:Group>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

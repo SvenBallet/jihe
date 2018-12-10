@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.LobbyCreateRunFasterItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:FL="FL.*" width="910" height="314">
+	<e:Scroller width="910" height="314">
+		<e:Group>
+			<e:Label text="剩余牌数：" x="0" y="138" textColor="0x6e3700" fontFamily="Microsoft YaHei" size="32" scaleX="1" scaleY="1" anchorOffsetY="0" height="60" verticalAlign="middle"/>
+			<e:Label text="速度选择：" textColor="0x6E3700" fontFamily="Microsoft YaHei" size="32" scaleX="1" scaleY="1" anchorOffsetY="0" height="60" verticalAlign="middle" y="3"/>
+			<e:Group id="shengYuPaiShuGroup" x="146" y="140" scaleX="1" scaleY="1">
+				<e:RadioButton id="notShowCardNum" label="不显示牌数" x="8" y="0" skinName="skins.RadioButtonSkin"/>
+				<e:RadioButton id="showCardNum" label="显示牌数" x="290" y="0" skinName="skins.RadioButtonSkin"/>
+			</e:Group>
+			<e:Group id="speedGro" x="146.93" y="4.58" scaleX="1" scaleY="1">
+				<e:RadioButton id="lowSpeedRad" label="普通模式" x="8" y="0" skinName="skins.RadioButtonSkin"/>
+				<e:RadioButton id="quickSpeedRad" label="快速模式" x="290" y="0" skinName="skins.RadioButtonSkin"/>
+			</e:Group>
+			<e:Group id="firstGameGroup" x="146" y="70" scaleX="1" scaleY="1">
+				<e:RadioButton id="heitao3" label="首局先出黑桃三" x="8" y="0" skinName="skins.RadioButtonSkin"/>
+				<e:RadioButton id="random" label="首局无要求" x="290" y="0" skinName="skins.RadioButtonSkin"/>
+			</e:Group>
+			<e:Label text="首局选择：" x="0" y="69" textColor="0x6e3700" fontFamily="Microsoft YaHei" size="32" scaleX="1" scaleY="1" anchorOffsetY="0" height="60" verticalAlign="middle"/>
+			<e:Label text="炸弹玩法：" x="0" y="207" textColor="0x6e3700" fontFamily="Microsoft YaHei" size="32" scaleX="1" scaleY="1" anchorOffsetY="0" height="60" verticalAlign="middle"/>
+			<e:Label text="最后规则：" x="0" y="274" textColor="0x6e3700" fontFamily="Microsoft YaHei" size="32" scaleX="1" scaleY="1" anchorOffsetY="0" height="60" verticalAlign="middle"/>
+			<e:CheckBox id="hongTaoShiZaNiao" label="红桃10扎鸟" x="688" y="75" skinName="skins.CheckBoxSkin" scaleX="1" scaleY="1"/>
+			<e:CheckBox id="zhaDanBukeChai" label="炸弹不可拆" x="154" y="212.66" skinName="skins.CheckBoxSkin" scaleX="1" scaleY="1"/>
+			<e:CheckBox id="sanZhangShaoDaiChuWan" label="三张可少带出完" x="154" y="279" skinName="skins.CheckBoxSkin" scaleX="1" scaleY="1"/>
+			<e:CheckBox id="sanZhangShaoDaiJieWan" label="三张可少带接完" x="437" y="279" skinName="skins.CheckBoxSkin" scaleX="1" scaleY="1"/>
+			<e:CheckBox id="feiJiShaoDaiJieWan" label="飞机可少带接完" x="437" y="335" skinName="skins.CheckBoxSkin" scaleX="1" scaleY="1"/>
+			<e:CheckBox id="feiJiShaoDaiChuWan" label="飞机可少带出完" x="154" y="335" skinName="skins.CheckBoxSkin" scaleX="1" scaleY="1"/>
+			<e:CheckBox id="yunXuSiDaiEr" label="允许4带2" x="437" y="212.66" skinName="skins.CheckBoxSkin" scaleX="1" scaleY="1"/>
+			<e:CheckBox id="yunXuSiDaiSan" label="允许4带3" x="688" y="212.66" skinName="skins.CheckBoxSkin" scaleX="1" scaleY="1"/>
+			<e:Image source="right_split_line_png" left="0" anchorOffsetY="0" right="0" height="3" y="64" x="0" scaleX="1" scaleY="1"/>
+			<e:Image source="right_split_line_png" left="0" right="0" anchorOffsetY="0" height="3" y="132" x="0" scaleX="1" scaleY="1"/>
+			<e:Image source="right_split_line_png" left="0" right="0" anchorOffsetY="0" height="3" y="202" x="0" scaleX="1" scaleY="1"/>
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

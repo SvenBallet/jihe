@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.MahjongShowHuListSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="touchIcon" source="mahjong_hu_list_icon_png" left="0" verticalCenter="0" touchEnabled="true"/>
+	<e:Group id="showGro" height="104" x="0" y="0" touchChildren="false" touchEnabled="false">
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" left="0" right="-10" top="0" bottom="0" source="hubg_png" height="104" scale9Grid="18,12,30,4" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Image source="icon_huTip_png" x="16" y="28.5" scaleX="1" scaleY="1"/>
+		<e:Label id="sumCardNum" text="999" x="52" size="20" fontFamily="Microsoft YaHei" y="26" scaleX="1" scaleY="1" textColor="0xfa9000" textAlign="center" width="50"/>
+		<e:Label text="张" x="68" size="20" fontFamily="Microsoft YaHei" y="53" scaleX="1" scaleY="1" textColor="0xFA9000"/>
+		<e:Group id="huGroup" anchorOffsetY="0" anchorOffsetX="0" x="100" bottom="2" top="8" y="8" scaleX="1" scaleY="1">
+			<e:layout>
+			<e:HorizontalLayout horizontalAlign="left" gap="0"/>
+			</e:layout>
+			<e:Group x="0" y="0" width="43" anchorOffsetX="0">
+			<e:Image x="0" y="0" width="43" height="63" anchorOffsetX="0" anchorOffsetY="0" source=""/>
+			<e:Label text="10分" x="2" size="16" fontFamily="Microsoft YaHei" y="65" scaleX="1" scaleY="1" textColor="0xffffff" width="40" textAlign="center"/>
+			<e:Image source="xiegang_png" x="16" y="33"/>
+			<e:Label text="3" x="32" size="16" fontFamily="Microsoft YaHei" textColor="0xEDEC41" y="43" scaleX="1" scaleY="1"/>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

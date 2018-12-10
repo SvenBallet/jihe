@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.NumberInputItemSkin" xmlns:e="http://ns.egret.com/eui">
+	<e:Label text="{data}" x="0" y="0" width="40" height="70" verticalAlign="middle" textAlign="center" size="55" fontFamily="Microsoft YaHei" textColor="0xb95a00"/>
+</e:Skin>

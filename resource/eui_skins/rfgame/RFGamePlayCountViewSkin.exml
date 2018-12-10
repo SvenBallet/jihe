@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.RFGamePlayCountViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="240" height="49">
+	<e:Group id="leftGroup" width="119" height="49" touchEnabled="false" horizontalCenter="-60.5" verticalCenter="0">
+		<e:Image source="timer_text_bg_png" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Label id="currPlayCount" text="999" fontFamily="Arial" textAlign="center" anchorOffsetX="0" width="44" textColor="0x49C9D3" size="26" x="42.67" y="11" scaleX="1" scaleY="1"/>
+		<e:Label text="局" fontFamily="Microsoft YaHei" textAlign="center" anchorOffsetX="0" size="22" x="89" y="13" scaleX="1" scaleY="1" textColor="0xF7F9F9"/>
+		<e:Label text="第" fontFamily="Microsoft YaHei" textAlign="center" anchorOffsetX="0" size="22" x="14" y="13" scaleX="1" scaleY="1" textColor="0xF9FEFF"/>
+	</e:Group>
+	<e:Group id="rightGroup" width="119" height="49" touchEnabled="false" horizontalCenter="60.5" verticalCenter="0">
+		<e:Image x="119.32" y="0" scaleX="-1" scaleY="1" source="timer_text_bg_png"/>
+		<e:Label id="totalPlayCount" text="999" fontFamily="Arial" textAlign="center" anchorOffsetX="0" width="44" textColor="0x49C9D3" size="26" x="36.98" y="11" scaleX="1" scaleY="1"/>
+		<e:Label text="局" fontFamily="Microsoft YaHei" textAlign="center" anchorOffsetX="0" textColor="0xF7F9F9" size="22" x="84.98" y="13" scaleX="1" scaleY="1"/>
+		<e:Label text="共" fontFamily="Microsoft YaHei" textAlign="center" anchorOffsetX="0" textColor="0xF7F9F9" size="22" x="10.65" y="13" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>

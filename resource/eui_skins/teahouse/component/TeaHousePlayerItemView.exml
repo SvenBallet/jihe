@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.TeaHousePlayerItemViewSkin"  xmlns:e="http://ns.egret.com/eui"
+        xmlns:FL="FL.*" xmlns:w="http://ns.egret.com/wing" width="96" height="96">
+	<e:Image id="joinTable" source="th_jiontable_png" y="48" x="48" anchorOffsetX="48" anchorOffsetY="48" width="96" height="96"/>
+	<e:Group id="avatarGroup">
+		<e:Image id="avatarBtn" width="96" height="96" source="avartar_circle_t_png"/>
+		<e:Image source="th_avatar_png" width="80" height="80" x="8" y="6"/>
+		<e:Image id="headImg" height="96" width="96" source=""/>
+	</e:Group>
+
+</e:Skin>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.TeaHouseTableDetailViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:FL="FL.*">
+    <e:Group id="baseGroup" height="510" width="740" horizontalCenter="0" verticalCenter="0" anchorOffsetY="0">
+        <e:Image anchorOffsetX="0" anchorOffsetY="0" left="0" right="0" top="55" bottom="-10"
+                 source="panel_bottom_blue_png" scale9Grid="42,40,28,24" />
+
+        <e:DataGroup id="dataGroup" width="637" height="265" x="62" y="145" anchorOffsetX="0" anchorOffsetY="0" />
+        <e:Label text="昵称" x="75.68" y="106" textColor="0xf46d05" />
+        <e:Label text="游戏ID" x="278.36" y="106"  textColor="0xf46d05"/>
+        <e:Label text="IP地址" x="518.98" y="106"  textColor="0xf46d05"/>
+			<e:Group id="dissGroup" horizontalCenter="0" bottom="11">
+				<e:Group id="dissBtn" x="101" y="39" anchorOffsetX="101" anchorOffsetY="39">
+					<e:Image source="th_green_btn_png" anchorOffsetX="0" width="204" horizontalCenter="0" y="0" scale9Grid="52,37,1,4"/>
+					<e:Image source="th_disstable_png" x="28" y="18"/>
+				</e:Group>
+			</e:Group>
+    </e:Group>
+	<e:Group horizontalCenter="-6" top="2" x="405" y="-62" scaleX="1" scaleY="1">
+		<e:Image scale9Grid="54,27,15,26" anchorOffsetX="0" anchorOffsetY="0" source="th_top_png"/>
+		<e:Label id="titleLab" text="茶楼管理" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" fontFamily="Microsoft YaHei" textColor="0xB47819" left="0" top="0" bottom="0" right="0" verticalAlign="middle" size="36" visible="false"/>
+		<e:Image id="titleImg" y="14" horizontalCenter="0" source="th_table_png"/>
+	</e:Group>
+
+    <e:Group id="closeGroup" top="35" left="678" right="-16" bottom="395">
+        <e:Image id="closeBtn" scaleX="1" scaleY="1" anchorOffsetX="26" anchorOffsetY="28"
+                 horizontalCenter="0" verticalCenter="0"  source="th_close_png"/>
+    </e:Group>
+</e:Skin>

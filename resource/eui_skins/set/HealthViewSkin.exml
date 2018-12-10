@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.HealthViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:FL="FL.*" minHeight="720" minWidth="1280">
+	<e:Group id="baseGroup" left="20" right="20" top="10" bottom="10">
+		<e:Group horizontalCenter="-6" top="-9" x="405" y="-62" scaleX="1" scaleY="1">
+			<e:Image source="panel_title_lg_png" x="0" y="0" scale9Grid="54,27,15,26" anchorOffsetX="0" width="389.66" anchorOffsetY="0" height="69"/>
+			<e:Label text="健康游戏须知" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" fontFamily="Microsoft YaHei" textColor="0xB47819" left="0" top="5" bottom="0" right="0" verticalAlign="middle" size="36"/>
+		</e:Group>
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" source="panel_bottom_blue_png" scale9Grid="42,35,29,29" width="1270" height="645" horizontalCenter="2" verticalCenter="28.5"/>
+		<FL:GameButton id="commonBtn" width="174.54" height="63.58" skinName="skins.GameButtonSkin" label="确定" labelSize="26" anchorOffsetX="87.27" anchorOffsetY="31.79" y="634.02" horizontalCenter="0.5"/>
+		<e:Label id="adultLab" text="家长监护工程" x="987.41" y="497.7" textColor="0xff3200" size="28" fontFamily="Microsoft YaHei"/>
+		<e:Label id="reportCenterLab" text="举报不良信息中心" x="960" y="552" size="28" fontFamily="Microsoft YaHei" textColor="0xff3200"/>
+		<e:Label text="1、杭州然趣始终为用户提供公平公正、健康绿色的游戏环境。游戏中所有道具不具任何商业属性功能，仅限用户本人使用。 " y="116" fontFamily="Microsoft YaHei" size="28" width="1100" textColor="0x000000" horizontalCenter="0"/>
+		<e:Label text="2、游戏中的钻石，仅限在游戏中使用，禁止转让。杭州然趣对钻石不回购，并严禁利用游戏进行兑换现金、财物等行为。" y="193" fontFamily="Microsoft YaHei" size="28" width="1100" textColor="0x000000" x="87"/>
+		<e:Label text="3、禁止利用游戏产品从事违法违规活动。一旦发现，封号处理。情节严重的移交司法机关，请用户文明游戏。" y="269" textColor="0x000000" fontFamily="Microsoft YaHei" size="28" width="1100" x="87"/>
+		<e:Label text="4、杭州然趣致力于为用户打造优质的线上游戏交流和线上好友互动体验的平台，不参与、不组织、不指导任何线下游戏，请用户提高警惕，以防上当！" y="346" textColor="0x000000" fontFamily="Microsoft YaHei" size="28" width="1100" x="87"/>
+		<e:Label text="5、创建房间所消耗的道具由钻石兑换。" y="436" textColor="0x000000" fontFamily="Microsoft YaHei" size="28" width="1100" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.LobbyRightTopViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="1280">
+	<e:Group id="settingGroup" width="100" height="100" right="28" top="0">
+		<e:Image id="settingBtn" source="setbtn_png" anchorOffsetX="30.67" anchorOffsetY="40.67" horizontalCenter="-0.5" verticalCenter="-1"/>
+	</e:Group>
+	<e:Group id="helpGroup" width="100" height="100" right="139" top="0">
+		<e:Image id="helpBtn" source="b1_png" x="51.33" y="49.99" anchorOffsetX="32" anchorOffsetY="39"/>
+	</e:Group>
+	<e:Group id="scrollGroup" scrollEnabled="true" anchorOffsetX="0" height="40" horizontalCenter="6" top="65">
+		<e:Image source="broadcast_bottom_png" x="0" y="0" anchorOffsetX="0" width="800" scaleX="1" scaleY="1" scale9Grid="20,19,67,5"/>
+		<e:Image source="broadcast_speaker_png" x="10.15" y="-0.33"/>
+	</e:Group>
+	<e:Scroller id="noticeScroller" width="696" height="40" anchorOffsetX="0" horizontalCenter="9" top="64">
+		<e:Group>
+			<e:Label id="msgLabel" text="滚动公告" fontFamily="Microsoft YaHei" size="24" scaleX="1" scaleY="1" x="300" y="8"/>
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

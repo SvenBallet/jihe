@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:FL="FL.*" class="skins.ClubMemberListItemViewSkin"  width="843">
+	<e:Label id="memberName" text="一二三四..." scaleX="1" scaleY="1" size="22" fontFamily="Microsoft YaHei" textAlign="center" width="115" textColor="0xb95a00" horizontalCenter="-363" verticalCenter="1.5" anchorOffsetX="0"/>
+	<e:Label id="memberID" text="123456" scaleX="1" scaleY="1" size="22" fontFamily="Microsoft YaHei" textColor="0xb95a00" horizontalCenter="-262.5" verticalCenter="2.5" textAlign="center"/>
+	<e:Label id="memberPro" text="普通成员" scaleX="1" scaleY="1" size="22" fontFamily="Microsoft YaHei" textColor="0xb95a00" horizontalCenter="-168.5" verticalCenter="2.5" textAlign="center"/>
+	<e:Label id="joinTime" text="2018/03/08" scaleX="1" scaleY="1" size="22" fontFamily="Microsoft YaHei" textColor="0xb95a00" horizontalCenter="-50" verticalCenter="3.5" textAlign="center"/>
+	<e:Label id="score" text="123456..." scaleX="1" scaleY="1" size="22" fontFamily="Microsoft YaHei" width="94" textAlign="center" textColor="0xb95a00" horizontalCenter="69.5" verticalCenter="2.5"/>
+	<e:Label id="loginTime" text="2018/03/08" scaleX="1" scaleY="1" size="22" fontFamily="Microsoft YaHei" textColor="0xb95a00" horizontalCenter="193" verticalCenter="1.5" textAlign="center"/>
+	<FL:GameButton id="mgrBtn" width="140" height="51" anchorOffsetX="69.41" anchorOffsetY="25.5" skinName="skins.GameButtonSkin" label="管理" labelSize="24" y="27.5" right="10"/>
+	<e:Image source="share_line_png" left="0" right="0" bottom="0" scale9Grid="2,0,5,3"/>
+
+</e:Skin>

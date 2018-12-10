@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.RFRoomOverViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:FL="FL.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="share_bg_jpg" top="0" left="0" right="0" bottom="0"/>
+	<e:Group width="1280" height="720" horizontalCenter="0" verticalCenter="0">
+		<e:Group x="381" y="0" scaleX="1" scaleY="1" width="518" height="62">
+			<e:Image x="0" y="0" scale9Grid="54,27,15,26" anchorOffsetX="0" anchorOffsetY="0" source="room_over_title_bg_png"/>
+			<e:Image source="room_over_title_png" y="9" x="180"/>
+		</e:Group>
+		<FL:GameButton id="shareBtn" width="234" height="74" skinName="skins.GameButtonSkin" label="分享" imgName="btn_red_png" x="1107.95" anchorOffsetX="117" anchorOffsetY="37" scaleX="1" scaleY="1" bottom="20"/>
+		<FL:GameButton id="shareBtn0" width="234" height="74" skinName="skins.GameButtonSkin" label="复制战绩" imgName="btn_red_png" x="611.3" anchorOffsetX="117" anchorOffsetY="37" scaleX="1" scaleY="1" bottom="20"/>
+		<FL:GameButton id="backLobbyBtn" width="234" height="74" skinName="skins.GameButtonSkin" label="返回" x="859.95" anchorOffsetX="117" anchorOffsetY="37" scaleX="1" scaleY="1" bottom="20"/>
+		<e:Label id="playWay" text="红中麻将  4/16局" x="54.75" size="30" fontFamily="SimHei" anchorOffsetX="0" bold="true" scaleX="1" scaleY="1" bottom="74" textColor="0xffffff" width="300"/>
+		<e:Label id="roomNum" text="房间号：369258" x="54.75" size="30" fontFamily="SimHei" anchorOffsetX="0" bold="true" scaleX="1" scaleY="1" bottom="39" textColor="0xffffff" width="300"/>
+		<e:Label id="timeLabel" text="2017-12-09 15:03" x="54.75" size="30" fontFamily="SimHei" anchorOffsetX="0" scaleX="1" scaleY="1" bold="true" bottom="6" textColor="0xffffff" width="300"/>
+		<e:Group id="LayoutGro" height="500" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="-20" x="35.000000000000014" y="156" scaleX="1" scaleY="1" width="1280">
+			<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" gap="30"/>
+			</e:layout>
+			<FL:RFRoomOverItem id="playerInfoPos0" x="15" y="9" skinName="skins.MJRoomOverItemSkin" width="268" height="500"/>
+			<FL:RFRoomOverItem id="playerInfoPos1" x="25" y="19" skinName="skins.MJRoomOverItemSkin" width="268" height="500"/>
+			<FL:RFRoomOverItem id="playerInfoPos2" x="35" y="29" skinName="skins.MJRoomOverItemSkin" width="268" height="500"/>
+			<FL:RFRoomOverItem id="playerInfoPos3" x="45" y="39" skinName="skins.MJRoomOverItemSkin" width="268" height="500"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

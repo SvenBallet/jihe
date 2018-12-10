@@ -1,0 +1,26 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="voice0" Type="Plist" ID="0c2cbf86-dc7a-47f9-9f09-f60392cc6382" Version="2.3.3.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="2" AllowRotation="True" AllowAnySize="True" AllowTrim="True" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="voice/voice_adj.png" />
+      <FilePathData Path="voice/voice_cancel.png" />
+      <FilePathData Path="voice/voice_dialog_loading_bg.9.png" />
+      <FilePathData Path="voice/voice_recorder.png" />
+      <FilePathData Path="voice/voice_v_anim1.png" />
+      <FilePathData Path="voice/voice_v_anim2.png" />
+      <FilePathData Path="voice/voice_v_anim3.png" />
+      <FilePathData Path="voice/voice_v1.png" />
+      <FilePathData Path="voice/voice_v2.png" />
+      <FilePathData Path="voice/voice_v3.png" />
+      <FilePathData Path="voice/voice_v4.png" />
+      <FilePathData Path="voice/voice_v5.png" />
+      <FilePathData Path="voice/voice_v6.png" />
+      <FilePathData Path="voice/voice_v7.png" />
+      <FilePathData Path="voice/voice_voice_to_short.png" />
+      <FilePathData Path="voice/voice_yuyin_bg.png" />
+      <FilePathData Path="voice/voice_yyDialog.png" />
+      <FilePathData Path="voice/voice_yyDialog_right.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>

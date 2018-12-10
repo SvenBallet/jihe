@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.TeaHouseMgrViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:FL="FL.*">
+    <e:Group id="baseGroup" left="20" right="20" top="10" bottom="10">
+        <e:Image anchorOffsetX="0" anchorOffsetY="0" left="-14" right="-16" top="57" bottom="-2"
+                 source="panel_bottom_blue_png" scale9Grid="42,35,29,29" />
+        <e:Image source="panel_bottom_gray_png" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="28,28,19,10" top="69"
+                 bottom="18" width="226" x="1" />
+        <e:Group id="viewGroup" left="235" top="80" bottom="30" right="10" x="283" y="90" anchorOffsetX="0"
+                 anchorOffsetY="0" />
+        <e:Group horizontalCenter="-6" top="2" x="405" y="-62" scaleX="1" scaleY="1">
+            <e:Image scale9Grid="54,27,15,26" anchorOffsetX="0"
+                     anchorOffsetY="0"  source="th_top_png"/>
+            <e:Label id="titleLab" text="茶楼管理" anchorOffsetX="0" anchorOffsetY="0" textAlign="center"
+                     fontFamily="Microsoft YaHei" textColor="0xB47819" left="0" top="0" bottom="0" right="0"
+                     verticalAlign="middle" size="36"  visible="false"/>
+					<e:Image id="titleImg" source="th_mem_png" y="14" horizontalCenter="0"/>
+        </e:Group>
+        <e:Scroller id="listScoller" scrollPolicyV="on" scrollPolicyH="off" anchorOffsetY="0" top="87" bottom="41"
+                    width="223" x="11">
+            <e:Group id="listGroup" anchorOffsetY="0" x="-35" height="569.24" y="-10.61">
+                <e:List id="btnList" width="223" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" />
+            </e:Group>
+        </e:Scroller>
+			<e:Group id="myWarGro" width="200" height="200" x="20" bottom="50" visible="false">
+				<e:Label text="总战绩" y="15" horizontalCenter="0" fontFamily="Microsoft YaHei" x="58" scaleX="1" scaleY="1" textColor="0x912d00"/>
+				<e:Label id="totalLab" text="+25" y="57" horizontalCenter="0" textColor="0xd74646" x="77" scaleX="1" scaleY="1" size="50"/>
+				<e:Label id="roundLab" text="20" y="130" textColor="0xD74646" scaleX="1" scaleY="1" size="25" left="140"/>
+				<e:Label id="winLab" text="20" y="170" textColor="0xD74646" scaleX="1" scaleY="1" size="25" left="140"/>
+				<e:Label text="总局数：" y="130" scaleX="1" scaleY="1" textColor="0x912d00" size="25" fontFamily="Microsoft YaHei" x="38"/>
+				<e:Label text="大赢家数：" y="170" scaleX="1" scaleY="1" textColor="0x912D00" size="25" fontFamily="Microsoft YaHei" x="13"/>
+			</e:Group>
+    </e:Group>
+    <e:Group id="closeGroup" width="78" height="82" top="51" right="-6">
+        <e:Image id="closeBtn" scaleX="1" scaleY="1" anchorOffsetX="25" anchorOffsetY="31"
+                 horizontalCenter="0" verticalCenter="0"  source="th_close_png"/>
+    </e:Group>
+</e:Skin>

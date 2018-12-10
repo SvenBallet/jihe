@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.ClubRoomListViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:FL="FL.*" >
+	<e:Group id="tabGroup" top="11" left="137" right="136" bottom="383">
+		<e:Image source="create_tab_bottom_png" x="0" y="0" scale9Grid="33,28,5,4" anchorOffsetX="0" width="542"/>
+		<e:Image source="create_tab_line_png" x="179" y="14"/>
+		<e:Image source="create_tab_line_png" x="360" y="14"/>
+		<e:Group id="unStartGroup" x="2" y="1">
+			<e:Image id="unStartBtn" source="create_tab_chosen_png" scale9Grid="41,27,4,2" anchorOffsetX="0" left="1" right="1" top="2" bottom="0"/>
+			<e:Label id="unStartLabel" text="未开始" x="0" y="0" anchorOffsetX="0" width="173" anchorOffsetY="0" height="55" textAlign="center" verticalAlign="middle" size="28" fontFamily="Microsoft YaHei" textColor="0xffffff"/>
+		</e:Group>
+		<e:Group id="onGameGroup" x="184" y="1">
+			<e:Image id="onGameBtn" left="1" top="2" bottom="0" right="1" source="" scale9Grid="37,28,8,1"/>
+			<e:Label id="onGameLabel" text="对局中" x="0" y="1" anchorOffsetX="0" width="173" anchorOffsetY="0" height="55" textAlign="center" verticalAlign="middle" size="28" fontFamily="Microsoft YaHei" textColor="0xde6126"/>
+		</e:Group>
+		<e:Group id="overGroup" x="365" y="1">
+			<e:Image id="overBtn" x="1" y="2" source=""/>
+			<e:Label id="overLabel" text="已结束" x="0" y="1" anchorOffsetX="0" width="173" anchorOffsetY="0" height="55" textAlign="center" verticalAlign="middle" size="28" fontFamily="Microsoft YaHei" textColor="0xde6126"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="tableHeadGroup" left="0" right="0" top="88" bottom="5" anchorOffsetY="0">
+		<e:Image source="club_right_tab_bottom_png" anchorOffsetX="0" top="0" left="0" right="0" bottom="21" anchorOffsetY="0" scale9Grid="18,51,5,6"/>
+		<e:Label text="房号" x="22" y="12" textColor="0x6E3700" size="26" fontFamily="Microsoft YaHei"/>
+		<e:Label text="玩法" x="141" y="12" textColor="0x6E3700" size="26" fontFamily="Microsoft YaHei"/>
+		<e:Label text="局数" x="262" y="12" textColor="0x6E3700" size="26" fontFamily="Microsoft YaHei"/>
+		<e:Label text="人数" x="377" y="12" textColor="0x6E3700" size="26" fontFamily="Microsoft YaHei"/>
+		<e:Label text="操作" x="627" y="12" textColor="0x6E3700" size="26" fontFamily="Microsoft YaHei"/>
+	</e:Group>
+	<e:Scroller id="roomListScroller" anchorOffsetX="0" anchorOffsetY="0" left="0" right="0" top="141" bottom="30">
+		<e:Group id="roomListGroup" anchorOffsetX="0" width="796" anchorOffsetY="0" height="285" x="0" y="-9"/>
+	</e:Scroller>
+</e:Skin>

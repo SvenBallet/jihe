@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.ShareQrCodeViewSkin" width="846" height="510" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:FL="FL.*">
+	<e:Image width="650" height="400" source="panel_bottom_blue_png" scale9Grid="50,46,14,12" y="67" horizontalCenter="0"/>
+	<e:Group id="closeGroup" width="78" anchorOffsetX="0" anchorOffsetY="0" right="127" height="82" top="50">
+		<e:Image id="closeBtn" source="close_png" scaleX="1" scaleY="1" anchorOffsetX="25" anchorOffsetY="33" horizontalCenter="0" verticalCenter="0"/>
+	</e:Group>
+	<e:Group horizontalCenter="0" top="0" x="405" y="-62" scaleX="1" scaleY="1">
+		<e:Image source="panel_title_lg_png" x="0" y="0" scale9Grid="54,27,15,26" anchorOffsetX="0" width="317.66" anchorOffsetY="0" height="69"/>
+		<e:Label text="二维码邀请" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" fontFamily="Microsoft YaHei" textColor="0xB47819" left="0" top="5" bottom="0" right="0" verticalAlign="middle" size="30"/>
+	</e:Group>
+	<e:Group id="qrCodeGro" width="240" height="340" x="155.02" y="104.34">
+		<e:Image id="qrCodeImg" width="240" height="240" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Image id="qrIconImg" width="50" height="50" y="95" scaleX="1" scaleY="1" horizontalCenter="0" source="game_icon_png"/>
+		<e:Label id="tipsLab" text="扫一扫，下载游戏" fontFamily="SimHei" size="20" textColor="0x3C96BE" y="283.84" scaleX="1" scaleY="1" horizontalCenter="0"/>
+		<e:Group id="shareTipsLab" width="240" height="108" x="0" scaleX="1" scaleY="1" bottom="0" anchorOffsetY="0">
+			<e:Rect width="240" height="108" x="0" y="0" fillColor="0xffffff"/>
+			<e:Label id="nameLab" text="邀请人昵称：谁谁谁谁" fontFamily="SimHei" size="20" y="18" scaleX="1" scaleY="1" textColor="0x000000" x="0" width="240" textAlign="center"/>
+			<e:Label id="idLab" text="邀请人ID:" fontFamily="SimHei" size="20" textColor="0x000000" y="49" scaleX="1" scaleY="1" x="0" width="240" textAlign="center"/>
+			<e:Label text="(长按识别二维码下载游戏)" fontFamily="SimHei" size="20" textColor="0x000000" y="80" scaleX="1" scaleY="1" x="0" width="240" textAlign="center"/>
+		</e:Group>
+	</e:Group>
+	<e:Group width="130" height="200" scaleX="0.8" scaleY="0.8" y="90" x="501.3299999999999" visible="false">
+		<e:Image id="shareFriendsBtn1" source="common_bottom_png" scale9Grid="21,18,5,11" anchorOffsetX="0" width="130" anchorOffsetY="0" height="130" y="5" scaleX="1" scaleY="1" horizontalCenter="0"/>
+		<e:Image touchEnabled="false" y="23.76" scaleX="1" scaleY="1" horizontalCenter="0" source="share_xl_friends_png"/>
+		<e:Label text="闲聊" fontFamily="SimHei" textColor="0x326E87" size="26" bold="true" y="140" scaleX="1" scaleY="1" horizontalCenter="0"/>
+	</e:Group>
+	<e:Group width="300" height="200" x="411" bottom="110" scaleX="1" scaleY="1" anchorOffsetX="0">
+		<e:Group width="130" height="200" y="0" scaleX="0.8" scaleY="0.8" left="20">
+			<e:Image id="shareFriendsBtn" source="common_bottom_png" scale9Grid="21,18,5,11" anchorOffsetX="0" width="130" anchorOffsetY="0" height="130" y="5" scaleX="1" scaleY="1" horizontalCenter="0"/>
+			<e:Image source="share_friends_png" touchEnabled="false" y="30" scaleX="1" scaleY="1" horizontalCenter="0"/>
+			<e:Label text="好友/群" fontFamily="SimHei" textColor="0x326E87" size="26" bold="true" y="140" scaleX="1" scaleY="1" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group width="130" height="200" y="0" scaleX="0.8" scaleY="0.8" x="177">
+			<e:Image id="shareFriendsBtn0" source="common_bottom_png" scale9Grid="21,18,5,11" anchorOffsetX="0" width="130" anchorOffsetY="0" height="130" y="5" scaleX="1" scaleY="1" horizontalCenter="0"/>
+			<e:Image touchEnabled="false" y="30" scaleX="1" scaleY="1" horizontalCenter="0" source="share_circle_of_friends_png"/>
+			<e:Label text="朋友圈" fontFamily="SimHei" textColor="0x326E87" size="26" bold="true" y="140" scaleX="1" scaleY="1" horizontalCenter="0"/>
+		</e:Group>
+		<e:Label text="请选择一个分享方式" fontFamily="SimHei" horizontalCenter="0" size="20" textColor="0x3C96BE" x="-257" y="170.98" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin width="85" height="90" xmlns:e="http://ns.egret.com/eui" class="skins.LobbyDataItemSkin">
+	<e:Label text="{data}" x="0" y="0" width="85" height="90" verticalAlign="middle" textAlign="center" size="80" fontFamily="Microsoft YaHei" textColor="0xb95a00"/>
+</e:Skin>

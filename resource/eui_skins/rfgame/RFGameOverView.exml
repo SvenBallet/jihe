@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.RFGameOverViewSkin" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:FL="FL.*">
+    <e:Image source="share_bg_jpg" left="0" top="0" bottom="0" right="0"/>
+	<e:Group width="1280" height="720" horizontalCenter="0" verticalCenter="0">
+		<e:Image scale9Grid="30,36,6,8" anchorOffsetY="0" width="1250" height="550" touchEnabled="false" scaleX="1" scaleY="1" anchorOffsetX="0" y="62" source="over_view_bg_png" horizontalCenter="0" x="15"/>
+		<e:Image id="titleBgImg" source="gos_red_bg_png" horizontalCenter="0" top="0" touchEnabled="false" x="347" y="0" scaleX="1" scaleY="1"/>
+		<e:Image id="titleDecorateLeft" source="gos_red_png" y="18" horizontalCenter="-104" touchEnabled="false" x="522" scaleX="1" scaleY="1"/>
+		<e:Image id="titleDecorateRight" source="gos_red_png" scaleX="-1" y="18" horizontalCenter="104" touchEnabled="false" x="758" scaleY="1"/>
+		<e:Image id="titleTextImg" source="gos_title_zm_png" y="13" x="531" touchEnabled="false" scaleX="1" scaleY="1"/>
+		<e:Image id="backLobbyBtn" source="exit_png" y="35" anchorOffsetX="25" anchorOffsetY="25" x="1193" scaleX="1" scaleY="1" visible="false"/>
+		<FL:GameButton id="continueBtn" width="234" height="74" skinName="skins.GameButtonSkin" label="继续" imgName="btn_red_png" x="1096.94" y="673.53" anchorOffsetX="117" anchorOffsetY="37" scaleX="1" scaleY="1"/>
+		<FL:GameButton id="shareBtn" width="234" height="74" skinName="skins.GameButtonSkin" label="分享" x="841.94" y="673.53" anchorOffsetX="117" anchorOffsetY="37" scaleX="1" scaleY="1"/>
+		<FL:RFGameOverItem id="playerItemPos0" width="1216" height="110" x="32" y="145.09" skinName="skins.RFGameOverItemSkin" scaleX="1" scaleY="1"/>
+		<FL:RFGameOverItem id="playerItemPos1" width="1216" height="110" x="32" y="263.44" skinName="skins.RFGameOverItemSkin" scaleX="1" scaleY="1"/>
+		<FL:RFGameOverItem id="playerItemPos2" width="1216" height="110" x="32" y="381.83" skinName="skins.RFGameOverItemSkin" scaleX="1" scaleY="1"/>
+		<FL:RFGameOverItem id="playerItemPos3" width="1216" height="110" x="32" y="500.2" skinName="skins.RFGameOverItemSkin" scaleX="1" scaleY="1"/>
+		<e:Label id="wanfaLabal" text="南宁玩法 抓两个码" x="35" y="624" size="24" fontFamily="SimHei" touchEnabled="false" scaleX="1" scaleY="1" height="48" width="640" verticalAlign="middle" anchorOffsetX="0" textColor="0xffffff"/>
+		<e:Label id="timeAndRoomIdLabal" text="2017-12-06 14:27    房间号：256325" x="35" y="680.2" size="24" fontFamily="SimHei" touchEnabled="false" scaleX="1" scaleY="1" bold="false" textColor="0xffffff"/>
+		<e:Group id="titleGroup" width="1213.64" height="57.58" x="33.03" y="86.52" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<e:Label text="名 称" x="163.36" y="13.79" size="30" fontFamily="Microsoft YaHei" textColor="0xffffff"/>
+			<e:Label text="积 分" x="1075.54" y="13.44" size="30" fontFamily="Microsoft YaHei" textColor="0xffffff"/>
+			<e:Label text="炸 弹" x="928.81" y="13" size="30" fontFamily="Microsoft YaHei" textColor="0xffffff"/>
+			<e:Label text="剩 牌" x="842.12" y="13.44" size="30" fontFamily="Microsoft YaHei" textColor="0xffffff"/>
+		</e:Group>
+		<e:Image source="roomover_line_h_png" y="259.36" horizontalCenter="0.5" x="22" scaleX="1" scaleY="1"/>
+		<e:Image source="roomover_line_h_png" y="378.96" x="22" scaleX="1" scaleY="1"/>
+		<e:Image source="roomover_line_h_png" y="496.96" horizontalCenter="0.5" x="22" scaleX="1" scaleY="1"/>
+	</e:Group>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</e:Skin>

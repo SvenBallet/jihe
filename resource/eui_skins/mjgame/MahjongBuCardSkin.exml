@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.MahjongBuCardSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="hu_bg_png" x="0" y="0"/>
+	<e:Group anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="hucard_alert_png" scale9Grid="18,12,5,4" anchorOffsetX="0" anchorOffsetY="0" left="0" right="0" bottom="0" top="0"/>
+		<e:Group id="container" anchorOffsetY="0" anchorOffsetX="0" left="5" right="5" bottom="5" top="5">
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="left" gap="3"/>
+		</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

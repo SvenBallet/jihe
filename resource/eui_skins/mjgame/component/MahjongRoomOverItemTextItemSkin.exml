@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.MahjongRoomOverItemTextItemSkin" width="180" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="lab" text="胡牌次数" size="22" fontFamily="SimHei" anchorOffsetX="0" height="30" bold="false" scaleX="1" scaleY="1" textColor="0x873b06" width="180" textAlign="left"/>
+	<e:Label id="lab0" text="1" size="22" fontFamily="SimHei" anchorOffsetX="0" height="30" bold="false" scaleX="1" scaleY="1" textColor="0x873B06" width="180" textAlign="right" horizontalCenter="0" verticalCenter="0"/>
+</e:Skin>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.TeaHouseLogRankingItemNewViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:FL="FL.*"
+        xmlns:w="http://ns.egret.com/wing" height="50" minWidth="960">
+    <e:Group left="0" right="0" top="0" bottom="0">
+			<e:Image source="th_rank_line_png" left="8" right="8" bottom="0"/>
+
+        <e:Label id="rankNo" text="1" fontFamily="SimHei" size="28"
+                  left="8" height="30" verticalAlign="middle" width="144" textAlign="center" y="9" bold="true" textColor="0x977420"/>
+			<e:Label id="playerName" text="玩家名字八个字啊" fontFamily="SimHei" size="28" left="170" height="30" verticalAlign="middle" width="280" textAlign="center" y="9" textColor="0x977420"/>
+			<e:Label id="playerIndex" text="9999999" fontFamily="SimHei" size="28" left="484" height="30" verticalAlign="middle" width="144" textAlign="center" y="9" textColor="0x977420"/>
+			<e:Label id="playerScore" text="999999" fontFamily="SimHei" size="28" height="30" verticalAlign="middle" width="100" textAlign="center" y="9" textColor="0x977420" right="250"/>
+			<e:Label id="playerCountNum" text="999999" fontFamily="SimHei" size="28" height="30" verticalAlign="middle" width="100" textAlign="center" y="9" textColor="0x977420" right="144"/>
+			<e:Label id="bigWinNum" text="999999" fontFamily="SimHei" size="28" height="30" verticalAlign="middle" textAlign="center" y="9" textColor="0x977420" right="28" width="100"/>
+
+
+
+
+    </e:Group>
+</e:Skin>

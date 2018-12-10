@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.CustomerViewSkin" width="846" height="510" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:FL="FL.*">
+	<e:Image width="616" height="377" source="panel_bottom_blue_png" scale9Grid="50,46,14,12" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group id="closeGroup" width="78" anchorOffsetX="0" anchorOffsetY="0" right="127" height="82" top="50">
+		<e:Image id="closeBtn" source="close_png" scaleX="1" scaleY="1" anchorOffsetX="25" anchorOffsetY="33" horizontalCenter="0" verticalCenter="0"/>
+	</e:Group>
+	<e:Group horizontalCenter="0" top="0" x="405" y="-62" scaleX="1" scaleY="1">
+		<e:Image source="panel_title_lg_png" x="0" y="0" scale9Grid="54,27,15,26" anchorOffsetX="0" width="317.66" anchorOffsetY="0" height="69"/>
+		<e:Label text="提示" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" fontFamily="Microsoft YaHei" textColor="0xB47819" left="0" top="5" bottom="0" right="0" verticalAlign="middle" size="30"/>
+	</e:Group>
+	<e:Label text="代理及游戏相关问题请加客服微信" y="133.15" size="24" fontFamily="Microsoft YaHei" textColor="0xb95a00" horizontalCenter="0"/>
+	<e:Label text="客服微信：" y="207" size="24" fontFamily="Microsoft YaHei" textColor="0xB95A00" x="227.7"/>
+	<e:Label id="wxLab1" text="lequkefu" y="207" size="24" fontFamily="Microsoft YaHei" textColor="0xB95A00" x="353.33"/>
+	<e:Label text="客服微信：" y="274" size="24" fontFamily="Microsoft YaHei" textColor="0xB95A00" x="227.7"/>
+	<e:Label id="wxLab2" text="lequkefu" y="274" size="24" fontFamily="Microsoft YaHei" textColor="0xB95A00" x="353.33"/>
+	<e:Image source="new_mod_line_png" y="335" horizontalCenter="0"/>
+	<e:Group id="copyGro1" y="198" scaleX="0.7" scaleY="0.7" x="552">
+		<FL:GameButton id="copyBtn1" width="150" height="60" y="30" skinName="skins.GameButtonSkin" anchorOffsetX="75" anchorOffsetY="30" x="75" imgName="btn_green_png" label="复制" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Group id="copyGro2" y="265" scaleX="0.7" scaleY="0.7" x="552">
+		<FL:GameButton id="copyBtn2" width="150" height="60" y="30" skinName="skins.GameButtonSkin" anchorOffsetX="75" anchorOffsetY="30" x="75" imgName="btn_green_png" label="复制" scaleX="1" scaleY="1"/>
+	</e:Group>
+    <e:Group id="sureGro" y="360" scaleX="0.7" scaleY="0.7" horizontalCenter="0">
+		<FL:GameButton id="sureBtn" width="234" height="74" y="37" skinName="skins.GameButtonSkin" anchorOffsetX="117" anchorOffsetY="37" x="117" imgName="btn_red_png" label="确定" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>

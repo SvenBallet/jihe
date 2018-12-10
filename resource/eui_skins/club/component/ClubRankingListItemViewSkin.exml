@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.ClubRankingListItemViewSkin" height="55" xmlns:e="http://ns.egret.com/eui" xmlns:FL="FL.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="share_line_png" bottom="-3" left="0" right="0" scale9Grid="1,0,7,3"/>
+	<e:Label id="clubRank" text="1" anchorOffsetX="0" width="64" anchorOffsetY="0" verticalAlign="middle" textAlign="center" fontFamily="Microsoft YaHei" left="15" bottom="0" top="1" size="30" textColor="0xb95a00"/>
+	<e:Image id="clubImg" source="rank1_png" width="60" left="16" top="0" bottom="3"/>
+	<e:Label id="clubName" text="一二三四五六七八九..." fontFamily="Microsoft YaHei" size="26" textColor="0xb95a00" left="103" top="13" bottom="16" textAlign="center" anchorOffsetX="0" width="254"/>
+	<e:Label id="clubID" text="ID:123456" fontFamily="Microsoft YaHei" size="26" textAlign="center" textColor="0xb95a00" top="13" left="408" bottom="14"/>
+	<e:Label id="clubScore" text="积分:6546879" fontFamily="Microsoft YaHei" size="26" textAlign="center" textColor="0xb95a00" top="13" left="599" bottom="14" anchorOffsetX="0" width="202"/>
+
+</e:Skin>

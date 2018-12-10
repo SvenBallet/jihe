@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.TeaHouseTableDetailItemView_n" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="411" height="157">
+	<e:Image source="th_detail_item_bg_png"/>
+	<e:Image source="th_detail_head_png" x="20" y="20"/>
+	<e:Image id="headIcon" source="th_detail_head_png" x="20" y="20" width="117" height="117"/>
+	<e:Image id="headIconMask" source="th_detail_head_png" x="20" y="20"/>
+	<e:Image id="headStateImg" source="th_detail_state_free_png" x="20" y="20"/>
+	<e:Image id="removeBtn" source="th_detail_ti_btn_png" right="0" top="0"/>
+	<e:Label id="nameLab" text="我是名字我是" x="168" textColor="0x96731e" size="28" fontFamily="Microsoft YaHei" verticalCenter="-23"/>
+	<e:Label id="idLab" text="ID:123456" x="168" textColor="0x96731E" size="28" fontFamily="Microsoft YaHei" verticalCenter="23"/>
+</e:Skin>

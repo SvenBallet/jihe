@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.RFMyHandGroupViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:FL="FL.*"
+        xmlns:w="http://ns.egret.com/wing" width="1280">
+	<e:Group id="_viewGroup" width="1280" height="200" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" touchEnabled="false" bottom="29"/>
+
+	<e:Group id="_touchGroup" width="1280" height="284.09" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="true"  bottom="0" horizontalCenter="0"/>
+	<e:Group id="_controlGroup" width="1150" height="100" anchorOffsetX="0" horizontalCenter="0" touchThrough="true" bottom="279">
+
+
+
+		<e:Image id="rejectBtn" source="rf_no_play_png" scale9Grid="103,40,4,2" x="140" y="50" anchorOffsetX="104" anchorOffsetY="45"/>
+		<e:Image id="playBtn" source="rf_play_card_png" scale9Grid="103,41,2,2" x="700" y="50" anchorOffsetX="102" anchorOffsetY="45"/>
+		<e:Image id="promptBtn" source="rf_prompt_png" scale9Grid="104,40,5,5" x="410" y="50" anchorOffsetX="104" anchorOffsetY="45"/>
+		<e:Image id="ybqBtn" source="rf_cannot_play_png" scale9Grid="105,41,2,2" x="950" y="50" anchorOffsetX="104" anchorOffsetY="45"/>
+	</e:Group>
+
+</e:Skin>

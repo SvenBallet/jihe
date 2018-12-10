@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:FL="FL.*" class="skins.ClubRoomDetailItemSkin">
+	<e:Group height="250" x="0" y="0" anchorOffsetX="0" width="875">
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" source="common_bottom_png" scale9Grid="24,23,3,3" left="0" right="3" top="0" bottom="0"/>
+		<e:Group id="contentGroup" x="5" y="6" width="596" height="244" anchorOffsetX="0" anchorOffsetY="0"/>
+	</e:Group>
+	<FL:GameButton id="cancelRoomBtn" width="134" height="55" x="739.33" y="78" anchorOffsetX="66" anchorOffsetY="24" skinName="skins.GameButtonSkin" label="解散" imgName="btn_red_png" labelSize="22"/>
+	<FL:GameButton id="playMethodBtn" width="134" height="55" y="171" anchorOffsetX="67" anchorOffsetY="24" skinName="skins.GameButtonSkin" label="房间玩法" labelSize="22" right="66"/>
+</e:Skin>

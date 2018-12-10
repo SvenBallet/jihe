@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" class="skins.ChatMsgBoxSkin">
+	<e:Group y="0" anchorOffsetY="0" left="0">
+		<e:Image id="backgroundImg" source="msg_box_png" scale9Grid="19,29,12,12" anchorOffsetY="0" scaleX="1" scaleY="1" anchorOffsetX="0" left="0" top="0" bottom="0" right="0"/>
+		<e:Label id="texLabel" text="LabelLabelLabelLabelLabel" textColor="0x326e87" size="24" fontFamily="Microsoft YaHei" left="25" right="18" top="6" bottom="10" textAlign="left" verticalAlign="middle"/>
+	</e:Group>
+</e:Skin>

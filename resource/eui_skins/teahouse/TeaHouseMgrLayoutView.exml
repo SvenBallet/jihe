@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:FL="FL.*"
+        class="skins.TeaHouseMgLayoutViewSkin" height="588">
+	<e:Image source="buju_bg1_jpg" left="0" right="0" y="0"/>
+	<e:Group horizontalCenter="50.5" top="3">
+		<e:Group x="138.33" y="441.65">
+		<e:Image source="buju_1_png" x="81.33" y="13.35" anchorOffsetY="0" height="71.85"/>
+		<e:Group x="96" y="25.02">
+			<e:Label id="titleLab1" text="经典跑得快" x="0" y="5" anchorOffsetX="0" width="220" textAlign="center" textColor="0xffffff" size="24" fontFamily="Microsoft YaHei"/>
+			<e:Label id="wanfaLab1" text="10局2人 炸弹可拆" x="0" y="35" anchorOffsetX="0" width="220" textAlign="center" size="18" textColor="0xffffff" fontFamily="Microsoft YaHei"/>
+		</e:Group>
+		</e:Group>
+		<e:Group x="137.65" y="271.48">
+		<e:Group id="openGroup2" x="85" y="0">
+			<e:Image source="buju_2_png" x="0" y="0" anchorOffsetY="0" height="110"/>
+			<e:Group id="openBtnGroup2" width="128" height="56" x="62" y="44" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Group id="openBtn2" width="128" x="64" height="56" y="30" anchorOffsetX="64" anchorOffsetY="30">
+				<e:Image source="btn_green_1_png" scale9Grid="32,26,1,1" anchorOffsetX="0" width="128" height="56" x="0" y="0"/>
+				<e:Label text="开启" fontFamily="Microsoft YaHei" x="34" y="11"/>
+			</e:Group>
+			</e:Group>
+		</e:Group>
+		<e:Group id="showGroup2" x="96" y="43" scaleX="1" scaleY="1">
+			<e:Image source="buju_1_png" x="-16" y="-9.28" height="72" touchEnabled="false" scaleX="1" scaleY="1"/>
+			<e:Label id="titleLab2" text="经典跑得快" x="0" y="5" anchorOffsetX="0" width="220" textAlign="center" touchEnabled="false" textColor="0xffffff" size="24" fontFamily="Microsoft YaHei"/>
+			<e:Label id="wanfaLab2" text="10局2人 炸弹可拆" x="0" y="35" anchorOffsetX="0" width="220" textAlign="center" size="18" touchEnabled="false" textColor="0xffffff" fontFamily="Microsoft YaHei"/>
+			<e:Group id="delBtnGroup2" width="128" height="56" anchorOffsetX="0" anchorOffsetY="0" x="-315" y="-5">
+			<e:Group id="delBtn2" width="128" x="64" height="56" y="30" anchorOffsetX="64" anchorOffsetY="30">
+				<e:Image scale9Grid="32,26,1,1" anchorOffsetX="0" width="128" height="56" x="0" y="0" source="btn_brown_1_png"/>
+				<e:Label text="删除" fontFamily="Microsoft YaHei" x="34" y="11"/>
+			</e:Group>
+			</e:Group>
+			<e:Group id="changeBtnGroup2" width="128" height="56" x="419" y="-5" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Group id="changeBtn2" width="128" x="64" height="56" y="30" anchorOffsetX="64" anchorOffsetY="30">
+				<e:Image source="btn_orange_1_png" scale9Grid="32,26,1,1" anchorOffsetX="0" width="128" height="56" x="0" y="0"/>
+				<e:Label text="修改" fontFamily="Microsoft YaHei" x="34" y="11"/>
+			</e:Group>
+			</e:Group>
+		</e:Group>
+		</e:Group>
+		<e:Group x="138.36" y="137.52">
+		<e:Group id="openGroup3" x="85" y="0">
+			<e:Image source="buju_2_png" height="110"/>
+			<e:Group id="openBtnGroup3" width="128" height="56" x="62" y="30" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<e:Group id="openBtn3" anchorOffsetX="64" anchorOffsetY="30" width="128" height="56" x="64" y="30">
+				<e:Image source="btn_green_1_png" scale9Grid="32,26,1,1" anchorOffsetX="0" width="128" height="56" x="0" y="0"/>
+				<e:Label text="开启" fontFamily="Microsoft YaHei" x="34" y="11"/>
+			</e:Group>
+			</e:Group>
+		</e:Group>
+		<e:Group id="showGroup3" x="96" y="28" scaleX="1" scaleY="1">
+			<e:Image source="buju_1_png" x="-16" y="-8" height="74" touchEnabled="false" scaleX="1" scaleY="1"/>
+			<e:Label id="titleLab3" text="经典跑得快" x="0" y="5" anchorOffsetX="0" width="220" textAlign="center" touchEnabled="false" size="24" textColor="0xffffff" fontFamily="Microsoft YaHei"/>
+			<e:Label id="wanfaLab3" text="10局2人 炸弹可拆" x="0" y="35" anchorOffsetX="0" width="220" textAlign="center" size="18" touchEnabled="false" textColor="0xffffff" fontFamily="Microsoft YaHei"/>
+			<e:Group id="delBtnGroup3" width="128" height="56" anchorOffsetX="0" anchorOffsetY="0" x="-315" y="-5">
+			<e:Group id="delBtn3" width="128" x="64" height="56" y="30" anchorOffsetX="64" anchorOffsetY="30">
+				<e:Image source="btn_brown_1_png" scale9Grid="32,26,1,1" anchorOffsetX="0" width="128" height="56" x="0" y="0"/>
+				<e:Label text="删除" fontFamily="Microsoft YaHei" x="34" y="11"/>
+			</e:Group>
+			</e:Group>
+			<e:Group id="changeBtnGroup3" width="128" height="56" x="419" y="-5" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<e:Group id="changeBtn3" width="128" x="64" height="56" y="30" anchorOffsetX="64" anchorOffsetY="30">
+				<e:Image scale9Grid="32,26,1,1" anchorOffsetX="0" width="128" height="56" x="0" y="0" source="btn_orange_1_png"/>
+				<e:Label text="修改" fontFamily="Microsoft YaHei" x="34" y="11"/>
+			</e:Group>
+			</e:Group>
+		</e:Group>
+		</e:Group>
+		<e:Image source="buju_bg_png" x="0" touchEnabled="false" y="0"/>
+		<e:Group id="changeBtnGroup1" width="128" height="56" anchorOffsetX="0" anchorOffsetY="0" y="457" x="653" scaleX="1" scaleY="1">
+		<e:Group id="changeBtn1" width="128" x="64" height="56" y="30" anchorOffsetX="64" anchorOffsetY="30">
+			<e:Image source="btn_orange_1_png" scale9Grid="32,26,1,1" anchorOffsetX="0" width="128" height="56" x="0" y="0"/>
+			<e:Label text="修改" fontFamily="Microsoft YaHei" x="34" y="11"/>
+		</e:Group>
+		</e:Group>
+	</e:Group>
+
+
+
+
+	<e:Image id="offBtn" source="OFF_png" anchorOffsetX="36" anchorOffsetY="36"  left="55" top="25"/>
+	<e:Image id="destroyBtn" source="xiaohui_png" anchorOffsetX="46.67" anchorOffsetY="37.33"  right="47" top="25"/>
+
+
+</e:Skin>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.LobbyBaseRedesignViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*"
+        minHeight="720" minWidth="1280" width="1280" height="720">
+	<w:Declarations>
+	</w:Declarations>
+	<w:Config id="15fb4667ea4" />
+	<e:Image source="lobby_person_png" bottom="1" horizontalCenter="-153"/>
+	<e:Group id="scrollGroup" scrollEnabled="true" anchorOffsetX="0" height="40" horizontalCenter="6" top="107">
+		<e:Image source="broadcast_bottom_png" x="0" y="0" anchorOffsetX="0" width="800" scaleX="1" scaleY="1"
+		         scale9Grid="20,19,67,5" />
+		<e:Image source="broadcast_speaker_png" x="10.15" y="3.66" />
+	</e:Group>
+	<e:Scroller id="noticeScroller" width="696" height="40" anchorOffsetX="0" horizontalCenter="9" top="106">
+		<e:Group>
+			<e:Label id="msgLabel" text="滚动公告" fontFamily="Microsoft YaHei" size="24" scaleX="1" scaleY="1" x="300"  y="10"/>
+		</e:Group>
+	</e:Scroller>
+	<e:Group id="topGroup" left="0" top="0" right="0">
+		<e:Image source="dingbubg_png" left="0" right="0" top="0" scale9Grid="650,33,32,24" />
+		<e:Group id="settingGroup" width="100" height="100" y="0" right="4">
+			<e:Image id="settingBtn" source="setbtn_png" anchorOffsetX="24" anchorOffsetY="36.67" horizontalCenter="-0.5"
+			         verticalCenter="-0.5" />
+		</e:Group>
+		<e:Group id="recordGroup" width="100" height="100" y="0" right="112">
+			<e:Image id="recordBtn" anchorOffsetX="28" anchorOffsetY="37.67" source="record_png" horizontalCenter="-4"
+			         verticalCenter="0.5" />
+		</e:Group>
+		<e:Group id="playerInfo" y="0" left="0">
+			<e:Label id="playerNameLabel" text="DerekWu" x="112" y="13" textAlign="left" size="26" />
+			<e:Label id="idLabel" text="ID：123456" x="110" y="48" fontFamily="SimHei" textAlign="left" size="26" />
+			<e:Group id="avatarGroup" y="-12.16" width="110" height="110" x="0">
+				<e:Image id="avatarBtn" x="20" y="20"  source="avartar_circle_png"/>
+				<e:Image id="headImg" height="72" x="20.5" y="20.5" width="72" source="" />
+			</e:Group>
+			<e:Group id="inviteCodeGroup" height="70" x="1" y="100.34" anchorOffsetY="0" anchorOffsetX="0">
+				<e:Image anchorOffsetX="0" scaleX="1" scaleY="1" source="broadcast_bottom_png" width="194" x="0" height="70" y="0"
+				         scale9Grid="20,17,68,7" />
+				<e:Label id="inviteCodeLabel" text="邀请码：123456" textAlign="center"
+				         verticalAlign="middle" fontFamily="Microsoft YaHei" size="22" anchorOffsetX="0"  y="12" left="20"/>
+				<e:Label text="二维码下载" textAlign="center" verticalAlign="middle" fontFamily="Microsoft YaHei" size="22" anchorOffsetX="0" y="35.33" left="20"/>
+			</e:Group>
+		</e:Group>
+		<e:Group y="23" anchorOffsetY="0" height="43.67" left="257">
+			<e:Image source="broadcast_bottom_png" x="-6.169999999999959" anchorOffsetX="0" width="194.67" scaleX="1" scaleY="1"
+			         scale9Grid="20,19,67,5" />
+			<e:Label id="goldNum" text="3000000" x="45" size="26" fontFamily="SimHei" y="9.31" />
+			<e:Group id="addGoldGroup" width="72" height="69.33" x="121.5" anchorOffsetX="0" anchorOffsetY="0">
+				<e:Image id="addGoldBtn" source="add_png" x="38.68" y="22" scaleX="1" scaleY="1" anchorOffsetX="11.33"
+				         anchorOffsetY="12" />
+			</e:Group>
+			<e:Image source="gold_png" x="0"  y="3.99"/>
+		</e:Group>
+		<e:Group y="23" anchorOffsetY="0" height="43" right="234">
+			<e:Image source="broadcast_bottom_png" x="-6.169999999999959" y="0.37" anchorOffsetX="0" width="194.67" scaleX="1"
+			         scaleY="1" scale9Grid="20,19,67,5" />
+			<e:Label id="diamondNum" text="3000000" x="56" size="26" fontFamily="SimHei" y="9.36" />
+			<e:Group id="addDiamondGroup" width="72" height="68" x="121.5" y="2.71" anchorOffsetX="0" anchorOffsetY="0">
+				<e:Image id="addDiamondBtn" source="add_png" x="38.68" y="20.66" scaleX="1" scaleY="1" anchorOffsetX="11.33"
+				         anchorOffsetY="12" />
+			</e:Group>
+			<e:Image x="0" y="3.36" source="diamond_png" />
+		</e:Group>
+		<e:Image source="lobby_logo_png" horizontalCenter="-2.5" top="6" />
+	</e:Group>
+	<e:Group id="bottomGroup" left="-174" bottom="-65" right="-69">
+		<e:Image source="dibubg_png" y="37" left="0" />
+		<e:Image source="dibubg_png" scale9Grid="124,62,237,8" anchorOffsetX="0" width="821.61" y="37" right="0" />
+		<e:Group id="shareGroup" anchorOffsetY="0" width="165" height="69.97" anchorOffsetX="0" y="36.03" right="69">
+			<e:Image id="shareBtn" scaleX="1" scaleY="1" source="lobby_share_png" anchorOffsetX="51.67" anchorOffsetY="30"
+			         verticalCenter="-1.4849999999999994" horizontalCenter="0.5" />
+			<e:Image source="lobby_splite_line_png" scaleX="1" scaleY="1" y="28" right="1" />
+			<e:Image id="rewardImg" source="share_award_icon_png" y="-22.31" x="95.34" visible="false"/>
+		</e:Group>
+		<e:Group id="serviceGroup" anchorOffsetY="0" width="165" height="69.97" anchorOffsetX="0" y="36.03" right="236">
+			<e:Image id="serviceBtn" scaleX="1" scaleY="1" anchorOffsetX="49" anchorOffsetY="32.67"
+			         verticalCenter="-3.9849999999999994" horizontalCenter="0" source="kefu_png" />
+			<e:Image source="lobby_splite_line_png" scaleX="1" scaleY="1" y="28" right="1" />
+		</e:Group>
+		<e:Group id="identifyGroup" anchorOffsetY="0" width="165" height="69.97" anchorOffsetX="0" y="36.03" right="404">
+			<e:Image id="identifyBtn" scaleX="1" scaleY="1" anchorOffsetX="59.67" anchorOffsetY="23.33"
+			         verticalCenter="3.5150000000000006" horizontalCenter="0.5" source="shimin_png" />
+			<e:Image source="lobby_splite_line_png" scaleX="1" scaleY="1" y="28" right="1" />
+		</e:Group>
+		<e:Group id="helpGroup" anchorOffsetY="0" width="165" height="69.97" anchorOffsetX="0" y="36.03" right="571">
+			<e:Image id="helpBtn" scaleX="1" scaleY="1" anchorOffsetX="59.67" anchorOffsetY="23.33" verticalCenter="-1.9849999999999994" horizontalCenter="1" source="b1_png"/>
+			<e:Image source="lobby_splite_line_png" scaleX="1" scaleY="1" y="28" right="1"/>
+		</e:Group>
+		<e:Group id="mallGroup" anchorOffsetY="0" width="282.67" height="101" anchorOffsetX="0" y="0" left="176">
+			<e:Image id="mallBtn" scaleX="1" scaleY="1" source="mall_png" anchorOffsetX="89" anchorOffsetY="52"
+			         verticalCenter="0" horizontalCenter="0" />
+			<e:Image source="lobby_splite_line_png" scaleX="1" scaleY="1" y="0" right="1" />
+		</e:Group>
+	</e:Group>
+	<e:Group id="leftGroup" left="62" verticalCenter="11">
+		<e:Image source="clbg_png" x="0" y="0" />
+		<e:Scroller id="teaHouseScroller" width="266.67" height="324.24" x="12.08" y="53.03" anchorOffsetX="0"
+		            anchorOffsetY="0">
+			<e:DataGroup id="teaHouseDatagroup" anchorOffsetX="0" width="231.82" anchorOffsetY="0" height="295.45" />
+		</e:Scroller>
+	</e:Group>
+	<e:Group id="rightGroup" right="23" verticalCenter="17.5">
+		<e:Group x="0" y="-4.56">
+			<e:Image source="dibubg_png" x="0" y="0" />
+			<e:Group id="createTHGroup" x="6.82" y="8.06">
+				<e:Image id="createTHBtn" source="create_teahouse_png" x="125.36" y="57.12" anchorOffsetX="124.24"
+				         anchorOffsetY="57.58" />
+				<e:Image id="createTHText" source="create_teahouse_text_png" x="129.89" y="53.28" anchorOffsetX="95.45"
+				         anchorOffsetY="25.76" />
+			</e:Group>
+			<e:Group id="joinTHGroup" x="228.06" y="6.28">
+				<e:Image id="joinTHBtn" source="join_teahouse_png" x="112.13" y="57.59" anchorOffsetX="112.12" anchorOffsetY="57.58" />
+				<e:Image id="joinTHText" source="join_teahouse_text_png" x="111.25" y="58.11" anchorOffsetX="92.42"
+				         anchorOffsetY="25.76" />
+			</e:Group>
+		</e:Group>
+		<e:Group x="0.44" y="140.48">
+			<e:Image source="dibubg_png" x="0" y="0" />
+			<e:Group id="createGroup" x="7.9" y="4.59">
+				<e:Image id="createBtn" source="create_room_png" x="125.32" y="58.25" anchorOffsetX="124.24" anchorOffsetY="59.09" />
+				<e:Image id="createText" source="create_room_text_png" x="130.22" y="55.29" anchorOffsetX="98.48"
+				         anchorOffsetY="27.27" />
+			</e:Group>
+			<e:Group id="goldGroup" x="230.18" y="4">
+				<e:Image id="goldBtn" source="jinbichang_png" x="110.62" y="59.11" anchorOffsetX="110.61" anchorOffsetY="59.09" />
+				<e:Image id="goldText" source="jibiwz_png" x="114.72" y="58.81" anchorOffsetX="71.21" anchorOffsetY="27.27" />
+			</e:Group>
+		</e:Group>
+		<e:Group id="joinGroup" x="3.06" y="276.08" scaleX="1" scaleY="1">
+			<e:Image source="dibubg_png" y="11"/>
+			<e:Image id="joinBtn" source="join_room_png" x="238.11" y="69.67" anchorOffsetX="232.79" anchorOffsetY="72.33"/>
+		</e:Group>
+	</e:Group>
+
+</e:Skin>

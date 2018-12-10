@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:FL="FL.*"
+        class="skins.TeaHouseMgrSettingViewSkin" width="780" height="554">
+    <e:Label text="楼层名字:" top="226" fontFamily="Microsoft YaHei" left="20" size="38" textColor="0x8c5a00" />
+    <e:Label text="楼层公告:" top="295" fontFamily="Microsoft YaHei" left="20" size="38" textColor="0x8c5a00" />
+    <e:Label text="战绩重置时间:" top="162" fontFamily="Microsoft YaHei" left="20" size="38" textColor="0x8c5a00"  visible="false"/>
+    <e:Label text="茶楼审核:" fontFamily="Microsoft YaHei" size="38" textColor="0x8c5a00" top="20" right="166" />
+    <e:Label text="防封群" top="89" fontFamily="Microsoft YaHei" left="20" size="38" textColor="0x8c5a00"  width="236"/>
+	<e:Label text=":" top="89" fontFamily="Microsoft YaHei" left="20" size="38" textColor="0x8C5A00" textAlign="right" width="234"/>
+    <e:Label text="(禁止分享)" top="99" fontFamily="Microsoft YaHei" left="133" size="22" textColor="0x8c5a00"  width="113" textAlign="center"/>
+    <e:Label text="禁止坏表情:" top="93" fontFamily="Microsoft YaHei" size="38" textColor="0x8c5a00" right="166"  visible="false"/>
+    <e:Label text="同IP禁止同桌:" top="20" fontFamily="Microsoft YaHei" left="20" size="38" textColor="0x8c5a00" />
+    <e:Group anchorOffsetX="0" anchorOffsetY="0" top="283" bottom="99" left="202" right="85">
+        <e:Image anchorOffsetX="0" anchorOffsetY="0" scaleY="1.2" top="0" left="0" right="0" scale9Grid="19,18,4,6"
+                 bottom="-11"  source="th_compnent_png"/>
+        <e:Label id="teaHouseNotice" text="来啊来打来跳舞，你就像闪电锋利啦山大发送发送发送发送发送发一样，锋利啦山大发送发送发送发送发送发" textAlign="left" left="19"
+                 bottom="12" right="15" top="13" size="38" anchorOffsetY="0" anchorOffsetX="0" textColor="0xb26704"
+                 fontFamily="Microsoft YaHei" />
+    </e:Group>
+
+    <e:Group left="207" height="43" y="226" width="258">
+        <e:Image scale9Grid="11,11,20,20" anchorOffsetX="0" left="-5" top="-3" bottom="-3" right="-6"
+                  source="th_compnent_png"/>
+        <e:Label id="teaHouseName" text="最多有六个字嘛还" fontFamily="Microsoft YaHei" size="38" left="4" top="0" bottom="0"
+                 right="0" textColor="0xb26704" />
+    </e:Group>
+    <e:Group y="159.89" left="277" visible="false">
+        <e:Image scale9Grid="11,11,20,20" anchorOffsetX="0"  source="th_compnent_png" anchorOffsetY="0" height="46" left="0" top="1" right="1"/>
+        <e:Label id="resetTime" text="6" fontFamily="Microsoft YaHei" size="38" x="2.52" y="3.5" textAlign="center"
+                 rotation="0.11" anchorOffsetX="0" width="120.04" anchorOffsetY="0"  textColor="0xb26704" height="41"/>
+    </e:Group>
+    <e:CheckBox id="sameIPCheck" label="" left="273" top="33"  visible="false"/>
+    <e:CheckBox id="emoticonCheck" label="" top="90" right="101"  visible="false"/>
+    <e:CheckBox id="verifyCheck" label="" top="33" right="101"  visible="false"/>
+    <e:CheckBox id="shareCheck" label="" left="273" top="90"  visible="false"/>
+	<e:ToggleSwitch id="sameIP" label="ToggleButton" left="272" top="17"/>
+	<e:ToggleSwitch id="share" label="ToggleButton" left="272" top="92"/>
+	<e:ToggleSwitch id="verify" label="ToggleButton" right="25" top="17"/>
+	<e:ToggleSwitch id="emoticon" label="ToggleButton" right="25" top="92" visible="false"/>
+	<e:Group id="comfirmGroup" horizontalCenter="11.5" bottom="0">
+		<e:Group id="confirmBtn" anchorOffsetX="124" anchorOffsetY="36" x="124" y="36">
+			<e:Image source="th_green_btn_png" scale9Grid="52,37,1,1" width="247" x="0" y="0"/>
+			<e:Image source="th_confirm_png" x="75" y="16"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

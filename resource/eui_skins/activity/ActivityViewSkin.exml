@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.ActivityViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image x="17" y="96.55" anchorOffsetX="0" width="1090.88" anchorOffsetY="0" height="568.67" source="panel_bottom_blue_png" scale9Grid="40,36,30,32"/>
+	<e:Image source="panel_bottom_gray_png" x="40.58" y="114.42" anchorOffsetX="0" width="217.3" anchorOffsetY="0" height="522.48" scale9Grid="29,25,19,14"/>
+	<e:List id="btnList" width="224" height="513.33" x="48" y="120.67" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Group id="contentGroup" width="785.7" height="513.42" x="291.58" y="120.73" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Group id="closeGroup" width="78" height="82" x="959.06" y="88.36">
+		<e:Image id="closeBtn" source="close_png" x="38.98" y="37.94" scaleX="1" scaleY="1" anchorOffsetX="26.87" anchorOffsetY="28.88"/>
+	</e:Group>
+	<e:Group horizontalCenter="0" top="32">
+		<e:Image source="panel_title_lg_png" x="0" y="0" scale9Grid="54,27,15,26" anchorOffsetX="0" width="389.66" anchorOffsetY="0" height="69"/>
+		<e:Label text="精彩活动" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" fontFamily="Microsoft YaHei" textColor="0xB47819" left="0" top="5" bottom="0" right="0" verticalAlign="middle" size="36"/>
+	</e:Group>
+</e:Skin>

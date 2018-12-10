@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.RecordItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:FL="FL.*">
+	<e:Image x="10" y="43" anchorOffsetX="0" width="104" anchorOffsetY="0" height="98" source="common_bottom_png" scale9Grid="21,19,7,12"/>
+	<e:Image source="title_bottom_png" scale9Grid="56,3,4,19" top="0" width="900" height="30" anchorOffsetX="0" horizontalCenter="0"/>
+	<e:Label id="roomNumLabel" text="房间号:534654 2017-23-23 30:00:00(8局)" size="18" fontFamily="Microsoft YaHei" top="8" anchorOffsetX="0" width="430" textAlign="center" textColor="0xb95a00" horizontalCenter="7"/>
+	<e:Label id="name1" text="一二三四五六..." x="116" y="49" size="22" anchorOffsetX="0" width="173" verticalAlign="middle" textAlign="center" fontFamily="Microsoft YaHei" textColor="0x6e3700"/>
+	<e:Label id="playerID1" text="ID:123456" x="116" y="79" size="18" anchorOffsetX="0" width="173" verticalAlign="middle" textAlign="center" fontFamily="Microsoft YaHei" textColor="0xb95a00"/>
+	<e:Label id="score1" text="99" x="116" y="100" size="24" anchorOffsetX="0" width="173" anchorOffsetY="0" height="38" verticalAlign="middle" textAlign="center" fontFamily="Microsoft YaHei" textColor="0xd74646"/>
+	<e:Label id="name2" text="名字" x="288" y="49" size="22" anchorOffsetX="0" width="173" verticalAlign="middle" textAlign="center" fontFamily="Microsoft YaHei" textColor="0x6e3700"/>
+	<e:Label id="playerID2" text="ID:123456" x="288" y="79" size="18" anchorOffsetX="0" width="173" verticalAlign="middle" textAlign="center" fontFamily="Microsoft YaHei" textColor="0xB95A00"/>
+	<e:Label id="score2" text="99" x="291" y="100" size="24" anchorOffsetX="0" width="173" anchorOffsetY="0" height="38" verticalAlign="middle" textAlign="center" fontFamily="Microsoft YaHei" textColor="0xd74646"/>
+	<e:Label id="name3" text="名字" x="464" y="49" size="22" anchorOffsetX="0" width="173" verticalAlign="middle" textAlign="center" fontFamily="Microsoft YaHei" textColor="0x6E3700"/>
+	<e:Label id="playerID3" text="ID:123456" x="464" y="79" size="18" anchorOffsetX="0" width="173" verticalAlign="middle" textAlign="center" fontFamily="Microsoft YaHei" textColor="0xB95A00"/>
+	<e:Label id="score3" text="99" x="464" y="100" size="24" anchorOffsetX="0" width="173" anchorOffsetY="0" height="38" verticalAlign="middle" textAlign="center" fontFamily="Microsoft YaHei" textColor="0xd74646"/>
+	<e:Label id="name4" text="名字" x="638" y="49" size="22" anchorOffsetX="0" width="173" verticalAlign="middle" textAlign="center" fontFamily="Microsoft YaHei" textColor="0x6E3700"/>
+	<e:Label id="playerID4" text="ID:123456" x="638" y="79" size="18" anchorOffsetX="0" width="173" verticalAlign="middle" textAlign="center" fontFamily="Microsoft YaHei" textColor="0xB95A00"/>
+	<e:Label id="score4" text="99" x="638" y="100" size="24" anchorOffsetX="0" width="173" anchorOffsetY="0" height="38" verticalAlign="middle" textAlign="center" fontFamily="Microsoft YaHei" textColor="0xd74646"/>
+	<e:Label id="numLabel" text="10" x="22" y="64" size="60" width="81" verticalAlign="middle" textAlign="center" fontFamily="Microsoft YaHei" textColor="0x6E3700" anchorOffsetX="0"/>
+	<e:Image y="10" source="title_deco_png" horizontalCenter="270"/>
+	<e:Image y="23.63" source="title_deco_png" rotation="179.67" horizontalCenter="-258"/>
+	<e:Image x="290" y="54" anchorOffsetY="0" height="78" source="vertical_line_png"/>
+	<e:Image source="vertical_line_png" x="464" y="54" anchorOffsetY="0" height="78"/>
+	<e:Image source="vertical_line_png" x="638" y="54" anchorOffsetY="0" height="78"/>
+	<e:Image source="vertical_line_png" x="812" y="54" anchorOffsetY="0" height="78"/>
+	<FL:GameButton id="shareBtn" width="116" height="60" x="1075.96" y="92" skinName="skins.GameButtonSkin" label="分享" labelSize="22" anchorOffsetX="58" anchorOffsetY="30" imgName="btn_green_png"/>
+	<FL:GameButton id="playBtn" width="116.67" height="59" x="952.34" y="92.67" skinName="skins.GameButtonSkin" label="牌局回放" labelSize="22" anchorOffsetX="58.33" anchorOffsetY="30" imgName="btn_red_png"/>
+	<e:Group id="roomTypeGroup" x="9.12" y="0" visible="false">
+		<e:Image source="club_open_room_png" y="1.9999999999999896" scale9Grid="12,6,66,12" anchorOffsetY="0" height="30" width="110" x="0"/>
+		<e:Label id="roomTypeLabel" text="俱乐部开房" fontFamily="Microsoft YaHei" size="14" left="0" top="-2" bottom="0" right="0" textAlign="center" verticalAlign="middle"/>
+	</e:Group>
+	<e:Image source="chat_input_frame_png" x="835" y="61" scale9Grid="10,10,22,22" anchorOffsetX="0" width="146" anchorOffsetY="0" height="61.18" visible="false"/>
+	<FL:NumberInput id="input" width="52.67" height="50" x="829.37" y="64.67" skinName="skins.NumberInputSkin" anchorOffsetX="0"/>
+</e:Skin>

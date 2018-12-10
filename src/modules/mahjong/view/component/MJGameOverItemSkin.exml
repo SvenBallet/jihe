@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.MJGameOverItemSkin" width="1216" height="127" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="gos_item_bg_png" x="0" y="0" anchorOffsetX="0" width="1216" scale9Grid="57,127,75,0"/>
+	<e:Image source="headframeBg_png" x="8" y="4"/>
+	<e:Image id="headImg" source="head_null_png" x="22" y="15"/>
+	<e:Label id="playerName" text="玩家名五个." x="6" y="103" size="20" fontFamily="SimHei" textColor="0x194b78" anchorOffsetX="0" width="114"/>
+	<e:Label id="gameResultDesc" text="玩家名六个..." x="143" y="103" size="20" fontFamily="SimHei" textColor="0xd74646" textAlign="left"/>
+	<e:Group id="handCardGroup" x="126" y="29" width="630" height="68">
+        <e:layout>
+			<e:HorizontalLayout horizontalAlign="left" gap="0"/>
+		</e:layout>
+		<e:Image source="M_bamboo_1_png" x="0" y="0" width="45" height="68"/>
+		<e:Image source="M_bamboo_1_png" x="0" y="0" width="45" height="68"/>
+		<e:Image source="M_bamboo_1_png" x="10" y="10" width="45" height="68"/>
+		<e:Image source="M_bamboo_1_png" x="20" y="20" width="45" height="68"/>
+		<e:Image source="M_bamboo_1_png" x="30" y="30" width="45" height="68"/>
+		<e:Image source="M_bamboo_1_png" x="40" y="40" width="45" height="68"/>
+		<e:Image source="M_bamboo_1_png" x="50" y="50" width="45" height="68"/>
+		<e:Image source="M_bamboo_1_png" x="60" y="60" width="45" height="68"/>
+		<e:Image source="M_bamboo_1_png" x="70" y="70" width="45" height="68"/>
+		<e:Image source="M_bamboo_1_png" x="80" y="80" width="45" height="68"/>
+		<e:Image source="M_bamboo_1_png" x="90" y="90" width="45" height="68"/>
+		<e:Image source="M_bamboo_1_png" x="100" y="100" width="45" height="68"/>
+		<e:Image source="M_bamboo_1_png" x="110" y="110" width="45" height="68"/>
+		<e:Image source="M_bamboo_1_png" x="120" y="120" width="45" height="68"/>
+	</e:Group>
+	<e:Group id="huaCardGroupOne" width="200" x="846" y="3" anchorOffsetX="0" height="60">
+    <e:layout>
+			<e:HorizontalLayout horizontalAlign="left" gap="0"/>
+		</e:layout>
+		<e:Image source="M_bamboo_1_png" width="40" height="60"/>
+		<e:Image source="M_bamboo_1_png" width="40" height="60"/>
+		<e:Image source="M_bamboo_1_png" width="40" height="60"/>
+		<e:Image source="M_bamboo_1_png" width="40" height="60"/>
+		<e:Image source="M_bamboo_1_png" width="40" height="60"/>
+	</e:Group>
+	<e:Group id="huaCardGroupTwo" width="200" x="846" y="63" anchorOffsetX="0" height="60">
+		<e:layout>
+		<e:HorizontalLayout horizontalAlign="left" gap="0" />
+		</e:layout>
+		<e:Image source="M_bamboo_1_png" x="2" y="-7" width="40" height="60"/>
+		<e:Image source="M_bamboo_1_png" x="12" y="3" width="40" height="60"/>
+		<e:Image source="M_bamboo_1_png" x="22" y="13" width="40" height="60"/>
+		<e:Image source="M_bamboo_1_png" x="32" y="23" width="40" height="60"/>
+		<e:Image source="M_bamboo_1_png" x="42" y="33" width="40" height="60"/>
+		<e:Image source="M_bamboo_1_png" x="52" y="43" width="40" height="60"/>
+		<e:Image source="M_bamboo_1_png" x="62" y="53" width="40" height="60"/>
+		<e:Image source="M_bamboo_1_png" x="72" y="63" width="40" height="60"/>
+		<e:Image source="M_bamboo_1_png" x="82" y="73" width="40" height="60"/>
+	</e:Group>
+	<e:Group id="scoreGroup" width="160" height="51" y="36" x="1056">
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" gap="0" />
+		</e:layout>
+		<e:Image source="go_add_png" x="-3" y="4" scaleX="1" scaleY="1"/>
+		<e:Image source="go_num_8_png" x="34" y="4" scaleX="1" scaleY="1"/>
+		<e:Image source="go_num_8_png" x="74" y="4" scaleX="1" scaleY="1"/>
+		<e:Image source="go_num_8_png" x="113" y="4" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Image id="huCardImg" source="M_bamboo_1_png" x="778" y="29" width="45" height="68"/>
+	<e:Image id="huFlagImg" source="gos_hu_bt_png" x="780" y="13"/>
+	<e:Image id="dealerFlag" source="zhuang_jia_png" x="8" y="4"/>
+</e:Skin>

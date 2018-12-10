@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin xmlns:e="http://ns.egret.com/eui" xmlns:FL="FL.*" xmlns:w="http://ns.egret.com/wing" width="960" height="556" class="skins.AgentRebateMyProfileViewSkin">
+	<e:Label text="昵   称" x="383" y="77" size="24" fontFamily="Microsoft YaHei" textColor="0xb95a00"/>
+	<e:Label id="levelLabel" text="预备代理" x="177" y="208.11" size="24" fontFamily="Microsoft YaHei" textColor="0xb95a00" anchorOffsetX="0" width="101" textAlign="center"/>
+
+
+	<e:Label text="I      D" x="383" y="133" size="24" fontFamily="Microsoft YaHei" textColor="0xb95a00"/>
+	<e:Label text="钻   石" x="383" y="187" size="24" anchorOffsetY="0" height="-50.24" fontFamily="Microsoft YaHei" textColor="0xb95a00"/>
+
+
+	<e:TextInput id="nickname" width="206" height="40" x="464.33" y="69.13" anchorOffsetY="0" anchorOffsetX="0" skinName="skins.TextInputSkin" enabled="false"/>
+	<e:TextInput id="playerID" width="206" height="40" x="465.24" y="124.57" anchorOffsetY="0" anchorOffsetX="0" skinName="skins.TextInputSkin" enabled="false"/>
+	<e:TextInput id="diamondNum" width="206" height="40" x="465.24" y="180.11" anchorOffsetY="0" anchorOffsetX="0" skinName="skins.TextInputSkin" enabled="false"/>
+
+	<e:Group id="detailGroup" x="283" y="236.11">
+		<e:Label text="团队人数" x="19" y="7.889999999999986" size="24" fontFamily="Microsoft YaHei" textColor="0xb95a00" anchorOffsetX="0" width="150" textAlign="right"/>
+		<e:Label id="rebateLabel" text="返现金额" x="0" y="62.889999999999986" size="24" fontFamily="Microsoft YaHei" textColor="0xb95a00" anchorOffsetX="0" width="169" textAlign="right"/>
+		<e:TextInput id="memberNum" width="206" height="40" x="182.20999999999998" y="0" anchorOffsetY="0" anchorOffsetX="0" skinName="skins.TextInputSkin" enabled="false"/>
+		<e:TextInput id="rebate" width="206" height="40" x="182.20999999999998" y="56.539999999999964" anchorOffsetY="0" anchorOffsetX="0" skinName="skins.TextInputSkin" enabled="false"/>
+	</e:Group>
+	<FL:GameButton id="getRebateBtn" width="205" height="60" x="568.5" y="434" skinName="skins.GameButtonSkin" imgName="btn_blue_png" labelSize="30" label="领取返利" anchorOffsetX="102" anchorOffsetY="30"/>
+	<e:Group id="codeGroup" x="153" y="335.65" anchorOffsetX="0" width="154">
+		<e:Label text="邀请码" x="21" y="0" size="24" fontFamily="Microsoft YaHei" textColor="0xb95a00" anchorOffsetX="0" width="110" textAlign="center"/>
+		<e:Label id="inviteCode" text="123456" x="22" y="35" size="24" fontFamily="Microsoft YaHei" textColor="0xb95a00" anchorOffsetX="0" width="110" textAlign="center"/>
+		<FL:GameButton id="shareBtn" width="140" height="56" x="76.39" y="97.45" skinName="skins.GameButtonSkin" imgName="btn_green_png" labelSize="30" label="分享" anchorOffsetX="69.39" anchorOffsetY="27.45"/>
+	</e:Group>
+	<e:Group id="avatarGroup" x="179" y="74" width="96" height="97">
+
+		<e:Image x="0" y="0" source="avartar_box_png"/>
+		<e:Image id="avatarImg" source="" left="0" right="0" top="0" bottom="0"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.LobbyLeftTopViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="diamond_bg_png" x="281" y="13" width="185" height="46"/>
+	<e:Image source="diamond_bg_png" x="509" y="13" width="185" height="46"/>
+	<e:Label id="playerNameLabel" text="DerekWu" x="112" y="13" fontFamily="SimHei" textAlign="left" size="26"/>
+	<e:Label id="idLabel" text="ID：123456" x="110" y="48" fontFamily="SimHei" textAlign="left" size="26"/>
+	<e:Label id="goldNum" text="3000000" x="323" size="26" fontFamily="SimHei" verticalCenter="-40.5"/>
+	<e:Label id="diamondNum" text="3000000" x="555" size="26" fontFamily="SimHei" verticalCenter="-42.5"/>
+	<e:Group id="avatarGroup" y="0" width="110" height="110">
+		<e:Image id="avatarBtn" x="9" y="6" source="avartar_box_png"/>
+		<e:Image id="headImg" height="95" x="8" y="5" width="94" source=""/>
+	</e:Group>
+	<e:Group id="addGoldGroup" width="72" height="72" x="404" y="2" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image id="addGoldBtn" source="add_png" x="36" y="34" scaleX="1" scaleY="1" anchorOffsetX="22" anchorOffsetY="20"/>
+	</e:Group>
+	<e:Group id="addDiamondGroup" width="70" height="70" x="636.75" y="2" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image id="addDiamondBtn" source="add_png" x="35" y="35" scaleX="1" scaleY="1" anchorOffsetX="22" anchorOffsetY="23"/>
+	</e:Group>
+	<e:Image source="gold_png" x="282.5" y="16"/>
+	<e:Image source="diamond_png" x="509" y="18"/>
+	<e:Group id="inviteCodeGroup" height="35" x="1" y="115" anchorOffsetY="0" anchorOffsetX="0">
+		<e:Image anchorOffsetX="0" scaleX="1" scaleY="1" source="broadcast_bottom_png" width="194" x="0" height="35" y="0" scale9Grid="20,17,68,7"/>
+		<e:Label id="inviteCodeLabel" text="邀请码：123456" left="14" right="14" top="0" bottom="0" textAlign="center" verticalAlign="middle" fontFamily="Microsoft YaHei" size="22" anchorOffsetX="0"/>
+	</e:Group>
+</e:Skin>

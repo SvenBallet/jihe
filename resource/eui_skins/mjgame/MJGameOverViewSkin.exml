@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.MJGameOverViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:FL="FL.*">
+	<e:Image source="share_bg_jpg" left="0" top="0" right="0" bottom="0"/>
+	<e:Group width="1280" height="720" horizontalCenter="0" verticalCenter="0">
+		<e:Image scale9Grid="30,36,6,8" anchorOffsetY="0" width="1250" height="559.52" touchEnabled="false" scaleX="1" scaleY="1" anchorOffsetX="0" y="62" source="over_view_bg_png" horizontalCenter="0" x="15"/>
+		<e:Image id="titleBgImg" source="gos_red_bg_png" horizontalCenter="0" top="0" touchEnabled="false" x="347" y="0" scaleX="1" scaleY="1"/>
+		<e:Image id="titleDecorateLeft" source="gos_red_png" y="18" horizontalCenter="-104" touchEnabled="false" x="522" scaleX="1" scaleY="1"/>
+		<e:Image id="titleDecorateRight" source="gos_red_png" scaleX="-1" y="18" horizontalCenter="104" touchEnabled="false" x="758" scaleY="1"/>
+		<e:Image id="titleTextImg" source="gos_title_zm_png" y="13" x="531" touchEnabled="false" scaleX="1" scaleY="1"/>
+		<e:Group id="laiziFlag" width="37.5" height="56.5" x="1137" y="2" scaleX="1" scaleY="1">
+		</e:Group>
+		<e:Image id="backLobbyBtn" source="exit_png" y="32.74" anchorOffsetX="25" anchorOffsetY="25" x="1215.75" scaleX="1" scaleY="1"/>
+		<FL:GameButton id="continueBtn" width="234" height="74" skinName="skins.GameButtonSkin" label="继续" imgName="btn_red_png" x="1113.57" y="676.57" anchorOffsetX="117" anchorOffsetY="37" scaleX="1" scaleY="1"/>
+		<FL:GameButton id="shareBtn" width="234" height="74" skinName="skins.GameButtonSkin" label="分享" x="858.57" y="676.57" anchorOffsetX="117" anchorOffsetY="37" scaleX="1" scaleY="1"/>
+		<FL:GameButton id="viewDetailBtn" width="174" height="60" skinName="skins.GameButtonSkin" label="计分明细" imgName="game_over_detail_png" x="1025.52" y="34.44" anchorOffsetX="87" anchorOffsetY="30" scaleX="1" scaleY="1"/>
+		<FL:MJGameOverItem id="playerItemPos0" width="1216" height="127" x="32" y="89" skinName="skins.MJGameOverItemSkin" scaleX="1" scaleY="1"/>
+		<FL:MJGameOverItem id="playerItemPos1" width="1216" height="127" x="32" y="221" skinName="skins.MJGameOverItemSkin" scaleX="1" scaleY="1"/>
+		<FL:MJGameOverItem id="playerItemPos2" width="1216" height="127" x="32" y="353" skinName="skins.MJGameOverItemSkin" scaleX="1" scaleY="1"/>
+		<FL:MJGameOverItem id="playerItemPos3" width="1216" height="127" x="32" y="485" skinName="skins.MJGameOverItemSkin" scaleX="1" scaleY="1"/>
+		<e:Label id="wanfaLabal" text="南宁玩法 抓两个码" x="35" y="627" size="24" fontFamily="SimHei" touchEnabled="false" scaleX="1" scaleY="1" height="48" width="640" verticalAlign="middle" anchorOffsetX="0" textColor="0xffffff"/>
+		<e:Label id="timeAndRoomIdLabal" text="2017-12-06 14:27    房间号：256325" x="35" y="684.2" size="24" fontFamily="SimHei" touchEnabled="false" scaleX="1" scaleY="1" bold="false" textColor="0xffffff"/>
+		<e:Image source="roomover_line_h_png" y="217.15" horizontalCenter="0" x="22" scaleX="1" scaleY="1"/>
+		<e:Image source="roomover_line_h_png" y="349" horizontalCenter="0" x="22" scaleX="1" scaleY="1"/>
+		<e:Image source="roomover_line_h_png" y="480.81" horizontalCenter="0" x="22" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>

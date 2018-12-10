@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.RFHandCardItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:FL="FL.*"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Group x="0" y="0">
+		<e:Image id="bgImg" x="0" y="0" source="000_png"  width="138" height="193"/>
+		<e:Image id="numImg" x="4" y="13" source="C01_png"  scaleX="1.2" scaleY="1.2"/>
+		<e:Image id="iconSImg" x="13"  source="A01_png" scaleX="1.2" scaleY="1.2" y="79"/>
+		<e:Image id="iconLImg" x="59" y="115"  source="B01_png"/>
+		<e:Image id="shadeImg" source="card_shade_png" x="1" y="1" anchorOffsetX="0" width="135" anchorOffsetY="0" height="190" visible="false"/>
+		<e:Rect id="shadeRect" width="133" height="188" x="2" y="2" fillAlpha="0.2"/>
+	</e:Group>
+</e:Skin>

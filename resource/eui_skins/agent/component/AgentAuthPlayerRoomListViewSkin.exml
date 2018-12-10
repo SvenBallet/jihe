@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin width="860" height="556" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:FL="FL.*" class="skins.AgentAuthPlayerRoomListViewSkin">
+	<e:Image source="tab_bottom_png" x="150" y="5" scale9Grid="15,15,43,32" anchorOffsetX="0" width="543"/>
+	<e:Group id="roomGroup" width="270" height="60" x="150" y="6" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image id="roomBtn" source="tab_chosen_png" x="6" y="4" width="260" height="52"/>
+		<e:Label text="房间列表" x="72" y="13" fontFamily="Microsoft YaHei" textColor="0xb95a00"/>
+	</e:Group>
+	<e:Group id="getRoomGroup" width="270" height="60" x="422" y="6">
+		<e:Image id="getRoomBtn" x="6" y="4" width="260" height="52" source=""/>
+		<e:Label text="开房列表" x="74" y="13" fontFamily="Microsoft YaHei" textColor="0xb95a00"/>
+	</e:Group>
+
+
+
+
+	<e:Group id="leftGroup" width="90" height="68" x="24.55" y="463.41" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image id="leftBtn" source="pz_tc_png" x="14.6" y="3.19" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Group id="rightGroup" width="90" height="68" x="222.45" y="461.25" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image id="rightBtn" x="14.6" y="3.19" scaleX="1" scaleY="1" source="pz_tj_png"/>
+	</e:Group>
+	<e:Label id="currentPage" text="0" x="114.18" y="460.36" anchorOffsetX="0" width="50" anchorOffsetY="0" height="72" verticalAlign="middle" textAlign="center" textColor="0xb95a00" fontFamily="Microsoft YaHei"/>
+	<e:Label text="/" x="162.08" y="459.75" anchorOffsetX="0" width="10" anchorOffsetY="0" height="72" verticalAlign="middle" textAlign="center" textColor="0xb95a00" fontFamily="Microsoft YaHei"/>
+	<e:Label id="totalPage" text="0" x="173.57" y="460.66" anchorOffsetX="0" width="50" anchorOffsetY="0" height="72" verticalAlign="middle" textAlign="center" textColor="0xb95a00" fontFamily="Microsoft YaHei"/>
+	<e:Scroller id="contentSroller" width="860" height="314" x="1" y="124" scrollPolicyV="off" scrollPolicyH="off" anchorOffsetY="0">
+		<e:Group id="contentGroup" x="-89" y="-79" width="860">
+		</e:Group>
+	</e:Scroller>
+	<e:Label text="房号" x="20" y="86" anchorOffsetX="0" width="104" anchorOffsetY="0" height="24" fontFamily="Microsoft YaHei" textAlign="center" verticalAlign="middle" textColor="0xb95a00" size="24"/>
+	<e:Label text="玩法" x="124" y="86" anchorOffsetX="0" width="160" anchorOffsetY="0" height="24" fontFamily="Microsoft YaHei" textAlign="center" verticalAlign="middle" textColor="0xb95a00" size="24"/>
+	<e:Label text="局数" x="284" y="86" anchorOffsetX="0" width="100" anchorOffsetY="0" height="24" fontFamily="Microsoft YaHei" textAlign="center" verticalAlign="middle" textColor="0xb95a00" size="24"/>
+	<e:Label text="人数" x="384" y="86" anchorOffsetX="0" width="100" anchorOffsetY="0" height="24" fontFamily="Microsoft YaHei" textAlign="center" verticalAlign="middle" textColor="0xb95a00" size="24"/>
+	<e:Label id="diamondNum" text="预授权钻石数量：10" x="490" y="86" anchorOffsetX="0" width="370" anchorOffsetY="0" height="24" fontFamily="Microsoft YaHei" textAlign="center" verticalAlign="middle" textColor="0xb95a00" size="24"/>
+</e:Skin>

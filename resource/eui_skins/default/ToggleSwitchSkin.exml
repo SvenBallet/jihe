@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.ToggleSwitchSkin" states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected"
+        xmlns:e="http://ns.egret.com/eui">
+    <!--<e:Image source="checkbox_uncheck_png" source.up="checkbox_uncheck_png" source.down="checkbox_uncheck_png"
+                 source.disabled="checkbox_uncheck_png" />
+    <e:Image horizontalCenter="-18" horizontalCenter.upAndSelected="18" horizontalCenter.downAndSelected="18"
+             horizontalCenter.disabledAndSelected="18" verticalCenter="0" source="radio_chosen_png" />
+    -->
+    <e:Group width="132" height="44" x="0" y="0" anchorOffsetY="0" anchorOffsetX="0" includeIn="down,up">
+        <e:Image source="th_switch_off_png" x="4" y="1" scale9Grid="33,19,39,5" />
+        <e:Image source="th_switch_bar_png" x="95" y="24" anchorOffsetX="35" anchorOffsetY="35" />
+        <e:Label text="关" x="21" y="9" fontFamily="Microsoft YaHei" size="28" textColor="0xB26704" />
+    </e:Group>
+    <e:Group width="132" height="44" x="0" y="0" anchorOffsetY="0" anchorOffsetX="0" includeIn="downAndSelected,upAndSelected">
+        <e:Image x="4" y="1" scale9Grid="33,19,39,5" source="th_switch_on_png" />
+        <e:Image source="th_switch_bar_png" x="-5" y="-11" />
+        <e:Label text="开" x="74" y="9" fontFamily="Microsoft YaHei" size="28" textColor="0xFFFFFF" />
+    </e:Group>
+</e:Skin>

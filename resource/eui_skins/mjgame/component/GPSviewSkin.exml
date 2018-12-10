@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.GPSviewSkin" width="866" height="504" xmlns:e="http://ns.egret.com/eui" xmlns:FL="FL.*" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="160c5050c8f"/>
+
+
+	<e:Image source="panel_bottom_blue_png" left="37" right="45" top="58" bottom="-1" anchorOffsetY="0" scale9Grid="40,38,31,30" anchorOffsetX="0"/>
+	<e:Group horizontalCenter="0" top="-8" x="405" y="-62" scaleX="1" scaleY="1">
+		<e:Image source="panel_title_lg_png" x="0" y="0" scale9Grid="54,27,15,26" anchorOffsetX="0" width="317.66" anchorOffsetY="0" height="69"/>
+		<e:Label text="GPS定位" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" fontFamily="Microsoft YaHei" textColor="0xB47819" left="0" top="5" bottom="0" right="0" verticalAlign="middle" size="36"/>
+	</e:Group>
+	<e:Image id="closeBtn" source="close_png" anchorOffsetX="26" anchorOffsetY="32" x="753.5" y="91"/>
+
+
+
+	<e:Rect width="60" height="13" x="72" y="87" anchorOffsetX="0" anchorOffsetY="0" rotation="0" fillColor="0x565656" strokeAlpha="0"/>
+	<e:Rect width="60" height="13" x="72" y="111" anchorOffsetX="0" anchorOffsetY="0" rotation="0" strokeAlpha="0" fillColor="0xb92e27"/>
+	<e:Rect width="60" height="13" x="72" y="135" anchorOffsetX="0" anchorOffsetY="0" rotation="0" strokeAlpha="0" fillColor="0x61b738"/>
+	<e:Label text="未开启定位" x="149" y="82" size="18" textColor="0x326e87" fontFamily="Microsoft YaHei"/>
+
+	<e:Label text="距离过近" x="149" y="108" size="18" textColor="0x326E87" fontFamily="Microsoft YaHei"/>
+	<e:Label text="距离正常" x="149" y="132" size="18" textColor="0x326E87" fontFamily="Microsoft YaHei"/>
+	<e:Label id="tipLabel" text="暂未获取到GPS数据" size="22" textColor="0x326E87" fontFamily="Microsoft YaHei" bottom="26" horizontalCenter="-4.5"/>
+
+
+
+
+
+
+
+	<e:Group id="distance_0_2" x="427.5" y="125">
+		<e:Label id="dist_0_2" text="0km" x="9" y="157" textColor="0x326E87" rotation="0" size="18"/>
+		<e:Image source="2_line_png" x="0" y="0"/>
+		<e:Image source="2_line_png" x="0" y="146"/>
+	</e:Group>
+
+
+	<e:Group id="distance_2_3" x="153.98" y="274.28">
+		<e:Label id="dist_2_3" text="0km" x="108.7" y="58.49" textColor="0x326E87" rotation="23.96" size="18"/>
+		<e:Image source="2_line_png" x="133.02" y="62.38000000000005" rotation="295"/>
+		<e:Image source="2_line_png" x="0" y="0" rotation="295" anchorOffsetX="0" width="-8.75"/>
+	</e:Group>
+	<e:Group id="distance_1_2" x="441" y="275" width="263" height="122">
+		<e:Label id="dist_1_2" text="0km" x="103" y="40" textColor="0x326E87" rotation="336.77" size="18" scaleX="1" scaleY="1"/>
+		<e:Image source="2_line_png" x="261" y="-4" rotation="65"/>
+		<e:Image source="2_line_png" x="128" y="58" rotation="65"/>
+	</e:Group>
+	<e:Group id="distance_0_3" x="154" y="144" anchorOffsetX="0" width="263" height="122">
+		<e:Label id="dist_0_3" text="0km" x="90" y="50" textColor="0x326e87" rotation="336.2" size="18"/>
+		<e:Image source="2_line_png" x="131" y="59" rotation="65"/>
+		<e:Image source="2_line_png" x="264" y="-3" rotation="65"/>
+	</e:Group>
+
+	<e:Group id="distance_0_1" x="441.52" y="143.9">
+		<e:Label id="dist_0_1" text="0km" x="120" y="27" textColor="0x326E87" rotation="23.96" size="18"/>
+		<e:Image source="2_line_png" x="132.71000000000004" y="61.81999999999999" rotation="295"/>
+		<e:Image source="2_line_png" x="0" y="0" rotation="295" anchorOffsetX="0" width="-8.75"/>
+	</e:Group>
+
+	<e:Group id="distance_1_3" x="138" y="270.5">
+		<e:Label id="dist_1_3" text="0km" x="186" y="-29" textColor="0x326E87" rotation="0" size="18"/>
+		<e:Image source="2_line_png" x="0" y="0.5" rotation="270" scale9Grid="0,20,3,111"/>
+		<e:Image source="2_line_png" x="147" y="0.5" rotation="270" scale9Grid="0,20,3,111"/>
+		<e:Image source="2_line_png" x="294" y="0.5" rotation="270" scale9Grid="0,20,3,111"/>
+		<e:Image source="2_line_png" x="440" y="0" rotation="270" scale9Grid="0,20,3,111"/>
+	</e:Group>
+	<e:Group id="downGroup" x="399" y="356.15">
+		<e:Image id="downImg" source="gray_png" x="0" y="0"/>
+		<e:Image id="downHeader" x="9" y="9" width="42" height="42" source=""/>
+	</e:Group>
+	<e:Group id="rightGroup" x="692.5" y="238.5">
+		<e:Image id="rightImg" source="gray_png" x="0" y="0"/>
+		<e:Image id="rightHeader" x="9" y="9" width="42" height="42" source=""/>
+	</e:Group>
+	<e:Group id="upGroup" x="399" y="96">
+		<e:Image id="upImg" source="gray_png" x="0" y="0"/>
+		<e:Image id="upHeader" x="9" y="9" width="42" height="42" source=""/>
+	</e:Group>
+	<e:Group id="leftGroup" x="107.5" y="240">
+		<e:Image id="leftImg" source="gray_png" x="0" y="0"/>
+		<e:Image id="leftHeader" x="9" y="9" width="42" height="42" source=""/>
+	</e:Group>
+
+
+
+
+
+
+
+</e:Skin>

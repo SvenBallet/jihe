@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:FL="FL.*" class="skins.ClubApplyListViewItemSkin">
+    <e:Group width="807" height="59" anchorOffsetX="0" anchorOffsetY="0">
+        <e:Label id="memberName" text="一二三四..." scaleX="1" scaleY="1" size="22"
+                 fontFamily="Microsoft YaHei" textAlign="center"  width="114" height="22" verticalCenter="-0.5" horizontalCenter="-346.5" textColor="0xb95a00"/>
+        <e:Label id="memberID" text="123456" scaleX="1" scaleY="1" size="22"
+                 fontFamily="Microsoft YaHei"  horizontalCenter="-180.5" verticalCenter="-0.5" textColor="0xb95a00"/>
+
+        <e:Label id="applyTime" text="2018/03/08" scaleX="1" scaleY="1" size="22"
+                 fontFamily="Microsoft YaHei"  horizontalCenter="13" verticalCenter="-1.5" textColor="0xb95a00"/>
+
+
+        <FL:GameButton id="refuseBtn" xmlns:FL="FL.*" width="107" height="46" anchorOffsetX="53"
+                       anchorOffsetY="23" skinName="skins.GameButtonSkin" label="拒绝" labelSize="20"  imgName="btn_red_png" horizontalCenter="347" verticalCenter="1.5"/>
+			<FL:GameButton id="agreeBtn" width="107" height="46" anchorOffsetX="53" anchorOffsetY="23" skinName="skins.GameButtonSkin" label="同意" labelSize="20" horizontalCenter="212" verticalCenter="1.5"/>
+    </e:Group>
+	<e:Image source="share_line_png" right="0" bottom="0" left="0" scale9Grid="2,0,5,3"/>
+</e:Skin>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.TeaHouseMgrRsItemViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:FL="FL.*"
+        xmlns:w="http://ns.egret.com/wing">
+    <e:Group left="0" right="0" top="0" bottom="0">
+        <e:Image source="th_item_png" scale9Grid="228,52,1,1" anchorOffsetX="0"  left="0" top="0" bottom="10" right="0"/>
+        <e:Label id="dateLab" text="2018/05/05" fontFamily="Microsoft YaHei" size="36"
+                 textAlign="center"  textColor="0x8c5436" y="35" left="19"/>
+        <e:Label id="fstLab" text="99999999" size="36" fontFamily="Microsoft YaHei" textColor="0x8c5436"
+                 textAlign="center"  y="35" left="266"/>
+        <e:Label id="sndLab" text="99999999" fontFamily="Microsoft YaHei" size="36" textColor="0x8c5436"
+                 textAlign="center"  y="35" left="458"/>
+        <e:Label id="trdLab" text="99999999" fontFamily="Microsoft YaHei" size="36" textColor="0x8c5436"
+                 textAlign="center"  y="35" left="650"/>
+        <e:Label id="totalLab" text="99999999" fontFamily="Microsoft YaHei" size="36" textColor="0x8c5436"
+                 textAlign="center"  y="35" right="60"/>
+    </e:Group>
+</e:Skin>

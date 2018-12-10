@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.TalkTriggerSkin" width="78" height="78" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="talkImg" source="pz_mic_png" anchorOffsetX="39" anchorOffsetY="39" horizontalCenter="0" verticalCenter="0"/>
+</e:Skin>

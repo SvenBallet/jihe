@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.TeaHouseInivteViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:FL="FL.*" width="910" height="650">
+    <e:Group id="baseGroup" horizontalCenter="0" verticalCenter="0" anchorOffsetY="0" width="800" height="650">
+        <e:Image anchorOffsetX="0" anchorOffsetY="0"
+                 source="panel_bottom_blue_png" scale9Grid="42,40,28,24"  width="800" height="600" y="55" x="0"/>
+
+			<e:Group id="inviteGro" scaleX="1" scaleY="1" width="250" height="89" horizontalCenter="0" bottom="20">
+				<e:Group id="inviteBtn" anchorOffsetX="125" anchorOffsetY="45" horizontalCenter="0" verticalCenter="0" visible="false">
+				<e:Image anchorOffsetX="0" horizontalCenter="0" y="0" scale9Grid="52,37,1,4" source="th_refuse_btn_png"/>
+				<e:Image horizontalCenter="0" verticalCenter="-8" source="th_all_invite_color_png"/>
+				</e:Group>
+				<e:Group id="inviteBtnGray" anchorOffsetX="125" anchorOffsetY="45" horizontalCenter="0" verticalCenter="0">
+					<e:Image anchorOffsetX="0" horizontalCenter="0" y="0" scale9Grid="52,37,1,4" source="th_invite_dark_btn_png"/>
+					<e:Image horizontalCenter="0" verticalCenter="-8" source="th_all_invite_dark_png"/>
+				</e:Group>
+			</e:Group>
+			<e:Scroller width="700" height="430" y="91.15" horizontalCenter="0">
+				<e:Group>
+					<e:List id="playerList" width="700" itemRendererSkinName="skins.TeaHouseInviteItemSkin">
+						<e:ArrayCollection>
+							<e:Array>
+								<e:Object/>
+								<e:Object null=""/>
+								<e:Object null=""/>
+								<e:Object null=""/>
+								<e:Object null=""/>
+								<e:Object null=""/>
+								<e:Object null=""/>
+								<e:Object null=""/>
+								<e:Object null=""/>
+							</e:Array>
+						</e:ArrayCollection>
+					</e:List>
+				</e:Group>
+			</e:Scroller>
+			<e:Label id="noLab" text="暂无空闲茶楼成员" fontFamily="Microsoft YaHei" horizontalCenter="0" verticalCenter="0" size="38" textColor="0xbd5a11" visible="false"/>
+    </e:Group>
+	<e:Group horizontalCenter="-6" top="2" x="405" y="-62" scaleX="1" scaleY="1">
+		<e:Image scale9Grid="54,27,15,26" anchorOffsetX="0" anchorOffsetY="0" source="th_top_png"/>
+		<e:Label id="titleLab" text="茶楼邀请" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" fontFamily="Microsoft YaHei" verticalAlign="middle" size="34" horizontalCenter="0.5" y="15" textColor="0xbd5a11"/>
+	</e:Group>
+
+    <e:Group id="closeGroup" width="70" height="70" x="809" y="29">
+        <e:Image id="closeBtn" scaleX="1" scaleY="1" anchorOffsetX="26" anchorOffsetY="28"
+                 horizontalCenter="-1" verticalCenter="2"  source="th_close_png"/>
+    </e:Group>
+</e:Skin>

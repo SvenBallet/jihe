@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.TableBoardTimerViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="390" height="122">
+	<e:Image source="timer_bg_png" x="135" y="1"/>
+	<e:Image id="rightTextBg" source="timer_text_bg_png" scaleX="-1" x="384" y="37"/>
+	<e:Image id="upFlag" source="timer_up_bg_png" x="152" y="7"/>
+	<e:Image id="downFlag" source="timer_down_bg_png" x="152" y="83"/>
+	<e:Image id="leftFlag" source="timer_left_bg_png" x="142" y="17"/>
+	<e:Image id="rightFlag" source="timer_right_bg_png" x="218" y="17"/>
+	<e:Image id="upArrows" source="timer_up_png" x="180" y="7"/>
+	<e:Image id="downArrows" source="timer_down_png" x="180" y="84"/>
+	<e:Image id="leftArrows" source="timer_left_png" x="142" y="45"/>
+	<e:Image id="rightArrows" source="timer_right_png" x="218" y="45"/>
+	<e:Image id="timerTensDigit" x="173" y="43" source="0_png"/>
+	<e:Image id="timerUnitsDigit" source="0_png" x="195" y="43"/>
+	<e:Image id="rightShengImg" source="timer_sheng_png" x="272" y="48"/>
+	<e:Image id="rightZhangImg" source="timer_zhang_png" x="345" y="48"/>
+	<e:Group id="leftGroup" width="119" height="49" x="6" y="37">
+		<e:Image source="timer_text_bg_png" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Image source="timer_sheng_png" x="17" y="11"/>
+		<e:Image source="timer_ju_png" x="88" y="11"/>
+		<e:Label id="remainGameCount" text="999" fontFamily="SimHei" textAlign="center" anchorOffsetX="0" width="49" textColor="0x49c9d3" size="30" x="42" y="8" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Label id="remainCardsCount" text="999" fontFamily="SimHei" textAlign="center" anchorOffsetX="0" textColor="0x49C9D3" size="30" x="295" y="45" width="52"/>
+</e:Skin>

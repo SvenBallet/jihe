@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.TeaHouseTableDetailViewSkin_n" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:FL="FL.*" width="910" height="570">
+    <e:Group id="baseGroup" horizontalCenter="0" verticalCenter="0" anchorOffsetY="0">
+        <e:Image anchorOffsetX="0" anchorOffsetY="0"
+                 source="panel_bottom_blue_png" scale9Grid="42,40,28,24"  width="910" height="515" y="55" x="0"/>
+
+        <e:DataGroup id="dataGroup" width="840" anchorOffsetX="0" anchorOffsetY="0"  horizontalCenter="0" itemRendererSkinName="skins.TeaHouseTableDetailItemView_n" verticalCenter="-25">
+					<e:ArrayCollection>
+						<e:Array>
+							<e:Object null=""/>
+							<e:Object null=""/>
+							<e:Object null="null"/>
+						</e:Array>
+					</e:ArrayCollection>
+					<e:layout>
+						<e:TileLayout horizontalGap="12" paddingLeft="2" paddingRight="2" verticalGap="9"/>
+					</e:layout>
+				</e:DataGroup>
+			<e:Group id="btnGro" width="900" height="100" bottom="30" horizontalCenter="0">
+				<e:Group id="disGro" x="298" scaleX="1" scaleY="1" verticalCenter="0" width="250" height="89">
+					<e:Group id="dissBtn" anchorOffsetX="125" anchorOffsetY="45" horizontalCenter="0" verticalCenter="0">
+					<e:Image anchorOffsetX="0" horizontalCenter="0" y="0" scale9Grid="52,37,1,4" source="th_detail_dis_btn_png"/>
+					<e:Image source="th_detail_dis_png" horizontalCenter="0" verticalCenter="-10"/>
+					</e:Group>
+				</e:Group>
+				<e:Group id="joinGro" x="298" scaleX="1" scaleY="1" verticalCenter="0" width="250" height="89">
+					<e:Group id="joinBtn" anchorOffsetX="125" anchorOffsetY="45" horizontalCenter="0" verticalCenter="0">
+					<e:Image anchorOffsetX="0" horizontalCenter="0" y="0" scale9Grid="52,37,1,4" source="th_detail_green_btn_png"/>
+					<e:Image horizontalCenter="0" verticalCenter="-10" source="th_detail_join_png"/>
+					</e:Group>
+				</e:Group>
+				<e:Group id="inviteGro" x="298" scaleX="1" scaleY="1" verticalCenter="0" width="250" height="89">
+					<e:Group id="inviteBtn" anchorOffsetX="125" anchorOffsetY="45" horizontalCenter="0" verticalCenter="0">
+					<e:Image anchorOffsetX="0" horizontalCenter="0" y="0" scale9Grid="52,37,1,4" source="th_detail_green_btn_png"/>
+					<e:Image horizontalCenter="0" verticalCenter="-10" source="th_detail_state_invite_png"/>
+					</e:Group>
+				</e:Group>
+				<e:layout>
+					<e:HorizontalLayout horizontalAlign="center" verticalAlign="bottom" gap="50"/>
+				</e:layout>
+			</e:Group>
+    </e:Group>
+	<e:Group horizontalCenter="-6" top="2" x="405" y="-62" scaleX="1" scaleY="1">
+		<e:Image scale9Grid="54,27,15,26" anchorOffsetX="0" anchorOffsetY="0" source="th_top_png"/>
+        <e:Image id="titleImg" y="14" horizontalCenter="0" source="th_table_png"/>
+		<e:Label id="titleLab" text="牌桌ID:123456" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" fontFamily="Microsoft YaHei" verticalAlign="middle" size="34" horizontalCenter="0.5" y="15" textColor="0xbd5a11" visible="false"/>
+	</e:Group>
+
+    <e:Group id="closeGroup" width="70" height="70" x="863" y="21">
+        <e:Image id="closeBtn" scaleX="1" scaleY="1" anchorOffsetX="26" anchorOffsetY="28"
+                 horizontalCenter="0" verticalCenter="0"  source="th_close_png"/>
+    </e:Group>
+</e:Skin>

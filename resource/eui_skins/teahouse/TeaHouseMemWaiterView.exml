@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:FL="FL.*"
+        class="skins.TeaHouseMemWaiterViewSkin" width="780" height="554">
+    <e:Image anchorOffsetX="0" anchorOffsetY="0" scale9Grid="24,23,3,3" left="0" right="3"
+             top="60" bottom="84" x="0" y="0"  source="th_compnent_png"/>
+
+    <e:Scroller id="scroller" anchorOffsetX="0" anchorOffsetY="0" left="18" top="69" right="24" bottom="92">
+        <e:DataGroup id="dataGroup" anchorOffsetX="0" width="602" anchorOffsetY="0" height="370" />
+    </e:Scroller>
+	<e:Group id="addWaiterGroup" horizontalCenter="7.5" bottom="-2">
+		<e:Group id="addWaiterBtn" x="136" y="39" anchorOffsetX="136" anchorOffsetY="39">
+			<e:Image source="th_green_btn_png" scale9Grid="52,37,1,1" anchorOffsetX="0" width="273" x="0" y="0"/>
+			<e:Image source="th_addwaiter_png" x="48" y="16"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

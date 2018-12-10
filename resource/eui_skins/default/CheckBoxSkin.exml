@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.CheckBoxSkin" states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height.upAndSelected="50" height.down="50" height.up="50" height.downAndSelected="50" height.disabledAndSelected="50" width.disabledAndSelected="44" height.disabled="50" height="50">
+    <e:Group height="50" anchorOffsetX="0" height.down="50">
+        <e:layout>
+            <e:HorizontalLayout verticalAlign="middle"/>
+        </e:layout>
+			<e:Image source="checkbox_check_png" includeIn="disabledAndSelected" x="7" y="6"/>
+			<e:Image source="checkbox_check_png" includeIn="downAndSelected" x="3" y="6"/>
+			<e:Image id="checkboxBtnSelected" source="checkbox_check_png" includeIn="upAndSelected" y="2"/>
+			<e:Image source="checkbox_uncheck_png" x="-4" y="27" scaleX="1" scaleY="1" includeIn="up,down,disabled"/>
+        <e:Label id="labelDisplay" size="30"
+                 textAlign="center" verticalAlign="middle"
+                 fontFamily="Microsoft YaHei" y.up="19" size.up="30" size.down="30" height.down="50" height.upAndSelected="50" height.downAndSelected="50" height.disabledAndSelected="50" height.disabled="50" height.up="50" height="50" textColor="0xb95a00"/>
+    </e:Group>
+</e:Skin>

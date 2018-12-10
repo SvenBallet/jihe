@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:FL="FL.*"
+        class="skins.TeaHouseLogWinnerItemViewSkin" width="800" >
+	<e:Image source="th_item_png" scale9Grid="228,52,1,1" left="0" right="0" top="0" bottom="3" height="115"/>
+    <e:Label id="rankLab" text="1" scaleX="1" scaleY="1" size="26" fontFamily="Microsoft YaHei" textAlign="center"
+             anchorOffsetX="0"  x="363" y="46" textColor="0x8b5436" bold="true"/>
+
+    <e:Label id="playerID" text="ID：999999" scaleX="1" scaleY="1" size="22" fontFamily="Microsoft YaHei"
+             textAlign="center" anchorOffsetX="0"  x="160" y="68" textColor="0x8b5436"/>
+    <e:Label id="playerName" text="一二三四王麻子" scaleX="1" scaleY="1" size="22" fontFamily="Microsoft YaHei"
+             textAlign="center"  x="160" y="24" textColor="0x8b5436"/>
+
+    <e:Image scaleX="1" scaleY="1" source="avartar_box_png"  x="25" y="9"/>
+    <e:Image id="headImg" scaleX="1" scaleY="1" height="95" width="94" source=""  x="26" y="9"/>
+	<e:Group id="removeGroup" y="29" right="17">
+		<e:Group id="removeBtn" x="63" y="30" anchorOffsetX="63" anchorOffsetY="30">
+		<e:Image source="btn_green_1_png" scale9Grid="32,26,1,1" x="0" y="0" anchorOffsetX="0" width="125"/>
+		<e:Label text="清除" horizontalCenter="0.5" verticalCenter="-2.5" fontFamily="Microsoft YaHei"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

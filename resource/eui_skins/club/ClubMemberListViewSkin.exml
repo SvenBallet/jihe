@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.ClubMemberListViewSkin" width="869.33" height="501" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Group right="0" left="0" top="0" bottom="0">
+		<e:Image source="club_right_tab_bottom_png" anchorOffsetX="0" top="6" left="0" right="0" bottom="21"
+		         scale9Grid="18,66,5,11" anchorOffsetY="0" />
+		<e:Label text="名称" x="37" y="17" textColor="0x6E3700" size="28" fontFamily="Microsoft YaHei" />
+		<e:Label text="ID" x="147" y="17" textColor="0x6E3700" size="28" fontFamily="Microsoft YaHei" />
+		<e:Label text="职位" x="219" y="17" textColor="0x6E3700" size="28" fontFamily="Microsoft YaHei" />
+		<e:Label text="加入时间" x="318" y="17" textColor="0x6E3700" size="28" fontFamily="Microsoft YaHei" />
+		<e:Label text="积分" x="466" y="17" textColor="0x6E3700" size="28" fontFamily="Microsoft YaHei" />
+		<e:Label text="登录时间" x="561" y="17" textColor="0x6E3700" size="28" fontFamily="Microsoft YaHei" />
+		<e:Label text="操作" x="736" y="17" textColor="0x6E3700" size="28" fontFamily="Microsoft YaHei" />
+		<e:Scroller id="listScroller" anchorOffsetX="0" anchorOffsetY="0" top="63" left="7" bottom="28"
+		            right="9.330000000000041">
+			<e:DataGroup id="listGroup" anchorOffsetX="0" anchorOffsetY="0" x="-17"  y="0"/>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

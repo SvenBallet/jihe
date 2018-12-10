@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin width="860" height="556" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:FL="FL.*" class="skins.AgentAuthGetRoomViewSkin">
+	<FL:NumberInput id="userId" width="220" height="70" x="182" y="21" skinName="skins.NumberInputSkin"/>
+	<FL:GameButton id="authBtn" width="200" height="70" x="552" y="53" skinName="skins.GameButtonSkin" imgName="btn_blue_png" labelSize="30" label="授权" anchorOffsetX="100" anchorOffsetY="30"/>
+
+	<e:Label text="用户ID" x="0" y="113" anchorOffsetX="0" width="126" anchorOffsetY="0" height="65" fontFamily="Microsoft YaHei" textAlign="center" verticalAlign="middle" textColor="0xb95a00"/>
+	<e:Label text="用户昵称" x="146" y="113" anchorOffsetX="0" width="220" anchorOffsetY="0" height="65" fontFamily="Microsoft YaHei" textAlign="center" verticalAlign="middle" textColor="0xb95a00"/>
+	<e:Label text="操作" x="370" y="113" anchorOffsetX="0" width="490" anchorOffsetY="0" height="65" fontFamily="Microsoft YaHei" textAlign="center" verticalAlign="middle" textColor="0xb95a00"/>
+	<e:Scroller id="playerScroller" width="860" height="306" x="0" y="179" anchorOffsetY="0">
+		<e:Group id="playerGroup" x="38" y="-18" width="860" height="373">
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

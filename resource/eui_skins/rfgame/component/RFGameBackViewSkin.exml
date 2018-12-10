@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.RFGameBackViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:FL="FL.*">
+	<e:Rect id="fillBg" fillAlpha="0.01" top="0" left="0" right="0" bottom="0"/>
+	<e:Image source="diamond_bg_png" scale9Grid="11,11,39,7" width="650" height="350" horizontalCenter="0" verticalCenter="0"/>
+	<e:Scroller width="650" height="350" horizontalCenter="0" verticalCenter="0">
+		<e:Group id="listGro">
+			<e:Group id="rightCardGroup" anchorOffsetX="0" y="30" scaleX="1" scaleY="1" x="200">
+				<e:layout>
+					<e:HorizontalLayout gap="-30" paddingTop="0" horizontalAlign="left"/>
+				</e:layout>
+				<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin"/>
+				<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="10" y="10"/>
+				<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="20" y="20"/>
+				<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="30" y="30"/>
+				<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="40" y="40"/>
+				<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="50" y="50"/>
+				<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="60" y="60"/>
+				<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="70" y="70"/>
+				<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="80" y="80"/>
+				<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="90" y="90"/>
+				<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="100" y="100"/>
+				<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="110" y="110"/>
+				<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="120" y="120"/>
+				<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="130" y="130"/>
+				<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="140" y="140"/>
+				<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="150" y="150"/>
+			</e:Group>
+            <e:Group id="gro2" anchorOffsetX="0" y="130" scaleX="1" scaleY="1" x="200">
+				<e:layout>
+					<e:HorizontalLayout gap="-30" paddingTop="0" horizontalAlign="left"/>
+				</e:layout>
+				<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin"/>
+				<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="10" y="10"/>
+				<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="20" y="20"/>
+				<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="30" y="30"/>
+				<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="40" y="40"/>
+				<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="50" y="50"/>
+				<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="60" y="60"/>
+				<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="70" y="70"/>
+				<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="80" y="80"/>
+				<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="90" y="90"/>
+				<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="100" y="100"/>
+				<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="110" y="110"/>
+				<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="120" y="120"/>
+				<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="130" y="130"/>
+				<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="140" y="140"/>
+				<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="150" y="150"/>
+			</e:Group>
+			<e:Group id="gro3" anchorOffsetX="0" y="231" scaleX="1" scaleY="1" x="200">
+				<e:layout>
+					<e:HorizontalLayout gap="-30" paddingTop="0" horizontalAlign="left"/>
+				</e:layout>
+				<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin"/>
+				<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="10" y="10"/>
+				<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="20" y="20"/>
+				<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="30" y="30"/>
+				<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="40" y="40"/>
+				<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="50" y="50"/>
+				<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="60" y="60"/>
+				<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="70" y="70"/>
+				<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="80" y="80"/>
+				<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="90" y="90"/>
+				<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="100" y="100"/>
+				<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="110" y="110"/>
+				<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="120" y="120"/>
+				<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="130" y="130"/>
+				<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="140" y="140"/>
+				<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="150" y="150"/>
+			</e:Group>
+			<e:Label text="名字名字名字" y="60" fontFamily="Microsoft YaHei" size="24" x="10" width="180" textAlign="center"/>
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

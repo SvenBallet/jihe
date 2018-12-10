@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.DevLoginViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="loading_shade_bg_png" left="0" right="0" top="0" bottom="0" alpha="0.7"/>
+	<e:Group width="700" height="400" horizontalCenter="0" verticalCenter="0">
+		<e:Rect width="700" height="60" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" enabled="true" fillColor="0x1081ef" scaleX="1" scaleY="1"/>
+		<e:Rect width="700" height="340" x="0" y="60" anchorOffsetX="0" anchorOffsetY="0" fillColor="0xc7b8ed" scaleX="1" scaleY="1"/>
+		<e:Label text="游客登录界面" size="32" fontFamily="SimHei" horizontalCenter="0" top="14" x="206" y="14" scaleX="1" scaleY="1"/>
+		<e:Label text="账号：" x="133" y="165" textColor="0x000000" fontFamily="SimHei" scaleX="1" scaleY="1"/>
+		<e:TextInput id="accText" width="316" height="48" y="156" skinName="skins.TextInputSkin" anchorOffsetX="0" anchorOffsetY="0" prompt="请输入账号" x="223" scaleX="1" scaleY="1"/>
+		<e:TextInput id="accText0" width="316" height="48" y="86" skinName="skins.TextInputSkin" anchorOffsetX="0" anchorOffsetY="0" prompt="请输入uniOID" x="223" scaleX="1" scaleY="1"/>
+		<e:Group id="loginBtnGroup" width="220" height="70" horizontalCenter="0" bottom="45" x="240" y="285" scaleX="1" scaleY="1">
+			<e:Rect width="220" height="70" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" fillColor="0x0c4eb2"/>
+			<e:Label text="登录" scaleX="1" scaleY="1" fontFamily="SimHei" size="36" x="74" y="17"/>
+		</e:Group>
+		<e:Group id="closeGroup" width="60" height="50" x="665" y="29" anchorOffsetX="30" anchorOffsetY="25" scaleX="1" scaleY="1">
+			<e:Rect width="60" height="50" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" fillColor="0x0c4eb2"/>
+			<e:Label text="X" size="36" x="18" y="7"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

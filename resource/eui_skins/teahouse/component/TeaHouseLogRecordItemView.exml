@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:FL="FL.*"
+        class="skins.TeaHouseLogRecordItemViewSkin" width="930">
+	<e:Image source="th_logitem_png" left="0" top="0" right="0" bottom="10" anchorOffsetX="0" />
+	<e:Label id="playerInfo2" text="一二三四...：9999" scaleX="1" scaleY="1" size="22" fontFamily="Microsoft YaHei"
+	         textAlign="center" anchorOffsetX="0" x="400.01" y="52.34" textColor="0x912d00" visible="false" />
+	<e:Label id="playerInfo3" text="一二三四...：9999" scaleX="1" scaleY="1" size="22" fontFamily="Microsoft YaHei"
+	         textAlign="center" anchorOffsetX="0" x="105.01" y="84.34" textColor="0x912d00" visible="false" />
+	<e:Label id="playerInfo4" text="一二三四...：9999" scaleX="1" scaleY="1" size="22" fontFamily="Microsoft YaHei"
+	         textAlign="center" x="400.01" y="84.34" textColor="0x912d00" visible="false" />
+	<e:Label id="playerInfo1" text="一二三四...：9999" scaleX="1" scaleY="1" size="22" fontFamily="Microsoft YaHei"
+	         textAlign="center" x="105.01" y="52.34" textColor="0x912d00" visible="false" />
+	<e:Label id="indexLab" text="1" scaleX="1" scaleY="1" size="22" fontFamily="Microsoft YaHei" textAlign="center"
+	         anchorOffsetY="0" height="34" verticalAlign="middle" y="64.66" x="23.33" anchorOffsetX="0" width="58.33"
+	         textColor="0x912d00" />
+	<e:Group id="recordGroup" x="113" y="11" visible="false">
+		<e:Label id="recordID" text="战绩编号：99999999" scaleX="1" scaleY="1" size="22" fontFamily="Microsoft YaHei"
+		         textColor="0xB95A00" textAlign="center" anchorOffsetY="0" height="34" verticalAlign="middle" x="88.03" y="0"
+		         visible="false" />
+		<e:Label id="dateLab" text="2018/05/05 18:05:00" scaleX="1" scaleY="1" size="22" fontFamily="Microsoft YaHei"
+		         textColor="0xB95A00" textAlign="center" anchorOffsetY="0" height="34" verticalAlign="middle" x="458" y="0"
+		         visible="false" />
+	</e:Group>
+	<FL:GameButton id="replayBtn" width="140" height="51" anchorOffsetX="69.41" anchorOffsetY="25.5"
+	               skinName="skins.GameButtonSkin" label="查看详情" labelSize="24" imgName="btn_green_png" x="710.41" y="47.5"
+	               visible="false" />
+	<e:Label id="roomLab" text="房间号:121212 2018-06-06 18:00 (4局）" scaleX="1" scaleY="1" size="17"
+	         fontFamily="Microsoft YaHei" textAlign="center" anchorOffsetY="0" verticalAlign="middle" x="20" y="3.99"
+	         textColor="0x912d00" />
+	<e:Label id="wanfaLab" text="转转麻将，点炮胡，不扎鸟" scaleX="1" scaleY="1" size="17" fontFamily="Microsoft YaHei"
+	         textAlign="center" anchorOffsetY="0" verticalAlign="middle" x="20" y="23.31" textColor="0x912d00" />
+	<e:Label text="输入牌局" scaleX="1" scaleY="1" size="20" fontFamily="Microsoft YaHei" textAlign="center" anchorOffsetY="0"
+	         verticalAlign="middle" y="18" textColor="0x912D00" right="223"  visible="false"/>
+	<e:Image source="th_rank_png" x="21" y="48" />
+	<e:Group id="playerGroup1" width="130" height="60" x="91" y="49" anchorOffsetY="0" anchorOffsetX="0">
+		<e:Label id="playerName1" text="玩家名字五" size="23" fontFamily="Microsoft YaHei" textColor="0x912d00" textAlign="center"
+		         anchorOffsetX="0" y="0" left="0" right="0" />
+		<e:Label id="playerScore1" text="6" size="23" fontFamily="Microsoft YaHei" textAlign="center" anchorOffsetX="0" y="31"
+		         left="0" right="0" textColor="0x2d1b1a" />
+		<e:Image source="th_logseparator_png" y="2" right="0" />
+	</e:Group>
+	<e:Group id="playerGroup2" width="130" height="60" x="222" y="49" anchorOffsetY="0" anchorOffsetX="0">
+		<e:Label id="playerName2" text="玩家名字五" size="23" fontFamily="Microsoft YaHei" textColor="0x912D00" textAlign="center"
+		         anchorOffsetX="0" y="0" left="0" right="0" />
+		<e:Label id="playerScore2" text="6" size="23" fontFamily="Microsoft YaHei" textColor="0x2D1B1A" textAlign="center"
+		         anchorOffsetX="0" y="31" left="0" right="0" />
+		<e:Image source="th_logseparator_png" y="2" right="0" />
+	</e:Group>
+	<e:Group id="playerGroup3" width="130" height="60" x="352" y="49" anchorOffsetY="0" anchorOffsetX="0">
+		<e:Label id="playerName3" text="玩家名字五" size="23" fontFamily="Microsoft YaHei" textColor="0x912D00" textAlign="center"
+		         anchorOffsetX="0" y="0" left="0" right="0" />
+		<e:Label id="playerScore3" text="6" size="23" fontFamily="Microsoft YaHei" textColor="0x2D1B1A" textAlign="center"
+		         anchorOffsetX="0" y="31" left="0" right="0" />
+		<e:Image source="th_logseparator_png" y="2" right="0" />
+	</e:Group>
+	<e:Group id="playerGroup4" width="130" height="60" x="483" y="49" anchorOffsetY="0" anchorOffsetX="0">
+		<e:Label id="playerName4" text="玩家名字五" size="23" fontFamily="Microsoft YaHei" textColor="0x912D00" textAlign="center"
+		         anchorOffsetX="0" y="0" left="0" right="0" />
+		<e:Label id="playerScore4" text="6" size="23" fontFamily="Microsoft YaHei" textColor="0x2D1B1A" textAlign="center"
+		         anchorOffsetX="0" y="31" left="0" right="0" />
+		<e:Image source="th_logseparator_png" y="2" right="0" />
+	</e:Group>
+	<e:Group y="51" right="222">
+		<e:Image source="th_lognum_png" y="0" left="0" right="0" />
+		<e:Label id="numInput" text="{data}" textAlign="center" right="0" left="0" textColor="0x912d00"
+		         fontFamily="Microsoft YaHei" top="0" bottom="0" verticalAlign="middle" />
+	</e:Group>
+	<e:Group id="replayGroup" y="56" right="111" touchChildren="false">
+		<e:Group id="replay" anchorOffsetX="48" anchorOffsetY="25.33" x="48" y="25.33" touchEnabled="false">
+			<e:Image source="th_green_btn_s_png" scale9Grid="25,22,1,1" anchorOffsetX="49.33" width="98.01" x="49.33" y="26.67"
+			         anchorOffsetY="26.67" />
+			<e:Image source="th_replay_png" y="21.67" x="49.67" anchorOffsetX="46.67" anchorOffsetY="10.67" />
+		</e:Group>
+	</e:Group>
+	<e:Label text="分享" scaleX="1" scaleY="1" size="20" fontFamily="Microsoft YaHei" textAlign="center" anchorOffsetY="0"
+	         verticalAlign="middle" y="18" textColor="0x912D00" x="848" visible="false" />
+	<e:Group id="shareGroup" y="56" touchChildren="false" right="6">
+		<e:Group id="shareBtn" x="49.33" y="25.33" anchorOffsetX="49.33" anchorOffsetY="25.33" touchEnabled="false">
+			<e:Image scale9Grid="25,22,1,1" anchorOffsetX="0" width="98.01" x="0" y="0" source="th_yellow_btn_s_png" />
+			<e:Image source="th_share_png" x="28" y="12" />
+		</e:Group>
+	</e:Group>
+</e:Skin>

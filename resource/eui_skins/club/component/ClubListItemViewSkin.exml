@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.ClubListItemViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:FL="FL.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group left="0" right="0" top="0" bottom="0">
+		<e:Image source="share_line_png" left="0" right="0" bottom="0" scale9Grid="3,0,4,3"/>
+		<e:Image source="club_icon_png" x="17" y="2"/>
+		<e:Label id="clubTitle" text="俱乐部名称" x="115" y="26" fontFamily="Microsoft YaHei" size="28" textColor="0xb95a00"/>
+		<e:Label text="ID:" x="295" y="27" size="28" fontFamily="Microsoft YaHei" textColor="0xb95a00"/>
+		<e:Label id="clubID" text="123456" x="340" y="27" fontFamily="Microsoft YaHei" size="28" textColor="0xb95a00"/>
+		<e:Label id="clubMember" text="成员：1/100" x="473" y="26" fontFamily="Microsoft YaHei" size="28" textColor="0xb95a00"/>
+		<FL:GameButton id="enterBtn" width="146" height="62" x="741" y="40" skinName="skins.GameButtonSkin" anchorOffsetX="74" anchorOffsetY="28" label="进入" labelSize="28"/>
+	</e:Group>
+</e:Skin>

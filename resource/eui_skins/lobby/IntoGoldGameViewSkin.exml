@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.IntoGoldGameViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:FL="FL.*" xmlns:w="http://ns.egret.com/wing" width="800" height="500">
+	<e:Image left="48" right="48" top="69" bottom="8" source="panel_bottom_blue_png" scale9Grid="39,38,35,29"/>
+	<e:Group horizontalCenter="0.5" top="1" x="153" y="1" scaleX="1" scaleY="1">
+		<e:Image source="panel_title_lg_png" x="0" y="2.66" scale9Grid="54,27,15,26" anchorOffsetX="0" width="284.33" anchorOffsetY="0" height="69"/>
+		<e:Label text="金币场" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" fontFamily="Microsoft YaHei" textColor="0xB47819" left="0" top="5" bottom="0" right="0" verticalAlign="middle" size="36"/>
+	</e:Group>
+	<e:Group id="startGameGroup" width="234" height="74" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0" bottom="40">
+		<FL:GameButton id="startGameBtn" width="234" height="74" y="37" skinName="skins.GameButtonSkin" anchorOffsetX="117" anchorOffsetY="37" x="117" label="开始游戏" imgName="btn_red_png"/>
+	</e:Group>
+	<e:Group id="closeGroup" width="78" height="82" right="82" top="61">
+		<e:Image id="closeBtn" source="close_png" anchorOffsetX="26" anchorOffsetY="29" horizontalCenter="0" verticalCenter="0"/>
+	</e:Group>
+	<e:RadioButton id="zhuanzhuan" label="转转麻将" x="114" y="165" skinName="skins.RadioButtonSkin"/>
+	<e:RadioButton id="jingdianpaodekuai" label="经典跑得快" x="115" y="250" skinName="skins.RadioButtonSkin"/>
+	<e:RadioButton id="shiwuzhangpaodekuai" label="十五张跑得快" x="326" y="250" skinName="skins.RadioButtonSkin"/>
+	<e:RadioButton id="chagnsha" label="长沙麻将" x="326" y="165" skinName="skins.RadioButtonSkin"/>
+	<e:RadioButton id="hongzhong" label="红中麻将" x="529" y="165" skinName="skins.RadioButtonSkin"/>
+	<e:Label text="每局收取服务费10金币" y="345" fontFamily="Microsoft YaHei" size="20" textColor="0xff0000" horizontalCenter="0.5"/>
+	<e:Label text="选择玩法，点击确定进入金币场" y="101.07" horizontalCenter="0" fontFamily="Microsoft YaHei" size="26" textColor="0xb95a00"/>
+</e:Skin>

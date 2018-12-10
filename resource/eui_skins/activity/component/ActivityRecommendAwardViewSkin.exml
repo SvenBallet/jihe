@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin xmlns:e="http://ns.egret.com/eui" xmlns:FL="FL.*" xmlns:w="http://ns.egret.com/wing" class="skins.ActivityRecommendAwardViewSkin">
+	<e:Image source="recommend_jpg" x="1" y="0"/>
+	<e:Image source="invite_num_bg_png" x="0" y="344" scale9Grid="44,1,268,8" anchorOffsetY="0" height="50"/>
+	<e:Image source="right_char_bg_png" x="364" y="21" anchorOffsetX="0" width="370" scale9Grid="10,12,14,13" anchorOffsetY="0" height="374"/>
+	<FL:GameButton id="recommend" width="234" height="74" x="551" y="343" skinName="skins.GameButtonSkin" imgName="btn_red_png" label="向好友推荐" anchorOffsetX="117" anchorOffsetY="37"/>
+
+	<e:Image source="right_bg_png" x="380" y="39" scale9Grid="11,12,12,11" anchorOffsetX="0" width="338" anchorOffsetY="0" height="131"/>
+	<FL:GameButton id="confirm" width="138" height="59" x="671" y="463" skinName="skins.GameButtonSkin" imgName="btn_blue_png" label="确定" anchorOffsetX="69" anchorOffsetY="30"/>
+	<FL:GameButton id="copy" width="95" height="50" x="301" y="368" skinName="skins.GameButtonSkin" imgName="btn_green_png" label="复制" labelSize="24" anchorOffsetX="48" anchorOffsetY="20"/>
+	<e:Label text="请输入推荐人邀请码" x="15" y="450" fontFamily="Microsoft YaHei" size="22" textColor="0xe6faff"/>
+
+	<FL:NumberInput id="inviteCodeInput" x="233" y="438" anchorOffsetX="0" width="347" anchorOffsetY="0" height="46" skinName="skins.NumberInputSkin"/>
+	<e:Label text="我的邀请码：" x="24" y="358" size="22" fontFamily="Microsoft YaHei" textColor="0xb95a00"/>
+	<e:Label id="inviteCode" text="234321" x="162" y="358" size="22" fontFamily="Microsoft YaHei" textColor="0xd74646"/>
+	<e:Label id="diamondNum" text="已奖励钻石：0颗" x="374" y="106" size="28" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="348" textAlign="center" textColor="0x0073ff"/>
+	<e:Label id="recommendPerson" text="已推荐用户：0人" x="374" y="66" size="28" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="348" textAlign="center" textColor="0xff2800"/>
+	<e:Label id="detailLabel" lineSpacing="12" text="推荐新用户或3天以上未登录的老用户进入游戏可获得钻石奖励!当他在此界面输入你的邀请码时,你可以获得50颗钻石奖励(每人每天通过该活动最多可获得200颗钻石)。" x="376" y="183" anchorOffsetX="0" width="348" anchorOffsetY="0" height="113" size="18" fontFamily="Microsoft YaHei" textColor="0xb95a00"/>
+
+</e:Skin>

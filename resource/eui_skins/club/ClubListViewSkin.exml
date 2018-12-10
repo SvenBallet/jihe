@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.ClubListViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:FL="FL.*">
+	<e:Group id="baseGroup" left="20" right="20" top="10" bottom="10" height="720" width="1200">
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" left="16" right="17" top="80" bottom="21" source="panel_bottom_blue_png" scale9Grid="49,46,13,13"/>
+		<e:Image source="right_line_png" x="222.6" y="673.47" rotation="269.92" anchorOffsetX="0" width="565"/>
+		<FL:GameButton id="createBtn" width="174" height="92" skinName="skins.GameButtonSkin" anchorOffsetX="87" anchorOffsetY="46" left="50" top="210" label="创建俱乐部" imgName="btn_red_png"/>
+		<FL:GameButton id="searchBtn" width="174" height="92" skinName="skins.GameButtonSkin" label="搜索" left="50" top="408" anchorOffsetY="46" anchorOffsetX="87"/>
+		<e:Scroller id="clubScroller" anchorOffsetY="0" left="280" right="60" top="122" bottom="123">
+			<e:Group id="clubGroup" x="38" y="-18"/>
+		</e:Scroller>
+		<e:Label text="*温馨提示：每个用户最多加入五个俱乐部，只有代理才可创建俱乐部" width="860" textColor="0xf0290e" textAlign="center" fontFamily="Microsoft YaHei" size="26" bottom="63" horizontalCenter="110"/>
+		<FL:NumberInput id="searchContent" width="150" height="75" x="62" y="394.5" anchorOffsetX="0" anchorOffsetY="0" skinName="skins.NumberInputSkin" visible="false"/>
+	</e:Group>
+	<e:Group horizontalCenter="0" top="24" x="405" y="-62" scaleX="1" scaleY="1">
+		<e:Image source="panel_title_lg_png" x="0" y="0" scale9Grid="54,27,15,26" anchorOffsetX="0" width="389.66" anchorOffsetY="0" height="69"/>
+		<e:Label text="俱乐部" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" fontFamily="Microsoft YaHei" textColor="0xB47819" left="0" top="5" bottom="0" right="0" verticalAlign="middle" size="36"/>
+	</e:Group>
+	<e:Group id="closeGroup" width="78" height="82" top="81" right="84">
+		<e:Image id="closeBtn" source="close_png" scaleX="1" scaleY="1" anchorOffsetX="26.88" anchorOffsetY="31.91" horizontalCenter="0" verticalCenter="0"/>
+	</e:Group>
+</e:Skin>

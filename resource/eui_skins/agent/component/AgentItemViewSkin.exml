@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.AgentItemViewSkin" currentState="up" xmlns:e="http://ns.egret.com/eui" states="up,down">
+    <e:Image source="btn_left_unchosen_png" includeIn="up" verticalCenter="0" scale9Grid="56,41,3,1" anchorOffsetX="0"
+             width="220" horizontalCenter="0" />
+    <e:Image source="btn_left_chosen_png" includeIn="down" horizontalCenter="1" verticalCenter="0.5"
+             scale9Grid="56,41,3,1" anchorOffsetX="0" width="220" />
+    <e:Label text="{data}" horizontalCenter="-11" verticalCenter="-2" fontFamily="Microsoft YaHei" textAlign="center"
+             verticalAlign="middle" anchorOffsetX="0" width="198" height="94" includeIn="down" textColor="0xffffff" />
+    <e:Label text="{data}" horizontalCenter="0" verticalCenter="-2" fontFamily="Microsoft YaHei" textColor.up="0x9b6e0f"
+             textAlign.up="center" verticalAlign.up="middle" anchorOffsetX.up="0" horizontalCenter.up="-11"
+             verticalCenter.up="-2" width.up="198" height.up="94" horizontalCenter.down="-5" verticalCenter.down="-1.5"
+             textColor.down="0xffffff" includeIn="up"  textColor="0x824b00"/>
+</e:Skin>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.TeaHouseInviteItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="700" height="130">
+	<e:Image source="th_detail_item_bg_png" anchorOffsetX="0" width="700" scale9Grid="51,19,309,119" height="130"/>
+	<e:Image source="th_detail_head_png" x="30" verticalCenter="0" width="100" height="100"/>
+	<e:Image id="headIcon" source="th_detail_head_png" x="30" width="100" height="100" verticalCenter="0"/>
+	<e:Image id="headIconMask" source="th_detail_head_png" x="30" verticalCenter="0" width="100" height="100"/>
+	<e:Label id="nameLab" text="我是名字我是" x="160" textColor="0x96731e" size="28" fontFamily="Microsoft YaHei" verticalCenter="-23"/>
+	<e:Label id="idLab" text="ID:123456" x="160" textColor="0x96731E" size="28" fontFamily="Microsoft YaHei" verticalCenter="23"/>
+	<e:Group id="inviteGro" scaleX="1" scaleY="1" width="250" height="89" horizontalCenter="210" verticalCenter="0">
+		<e:Group id="inviteBtn" anchorOffsetX="90" anchorOffsetY="35" horizontalCenter="0" verticalCenter="0">
+		<e:Image anchorOffsetX="0" horizontalCenter="0" y="0" scale9Grid="52,37,1,4" source="th_agree_btn_png" width="180" height="70"/>
+		<e:Image horizontalCenter="0" verticalCenter="-8" source="th_invite_cha_png"/>
+		</e:Group>
+		<e:Group id="inviteBtnGray" anchorOffsetX="90" anchorOffsetY="35" horizontalCenter="0" verticalCenter="0" visible="false">
+			<e:Image anchorOffsetX="0" horizontalCenter="0" y="0" scale9Grid="52,37,1,4" source="th_invite_dark_btn_png" width="180" height="70"/>
+			<e:Image horizontalCenter="0" verticalCenter="-8" source="th_invit_ed_cha_png"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

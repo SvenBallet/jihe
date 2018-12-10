@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.MJGameOverDetailViewSkinN" height="620" xmlns:e="http://ns.egret.com/eui" xmlns:FL="FL.*" xmlns:w="http://ns.egret.com/wing" minWidth="400">
+	<e:Group horizontalCenter="0" verticalCenter="0"/>
+	<e:Image scale9Grid="39,38,11,10" left="-1" top="92" bottom="0" right="13" touchEnabled="false" source="panel_bottom_blue_png" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Group horizontalCenter="0.5" top="25" x="405" y="-62" scaleX="1" scaleY="1">
+		<e:Image source="panel_title_lg_png" x="0" y="0" scale9Grid="54,27,15,26" anchorOffsetX="0" width="317.66" anchorOffsetY="0" height="69"/>
+		<e:Label text="计分明细" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" fontFamily="Microsoft YaHei" textColor="0xB47819" left="0" top="5" bottom="0" right="0" verticalAlign="middle" size="36"/>
+	</e:Group>
+	<e:Image source="hu_card_text_png" x="85" y="143" touchEnabled="false"/>
+	<e:Group id="huCard" width="55" height="84" x="95" y="188">
+	</e:Group>
+	<e:Group id="baseItemGro" y="135" left="248" right="55" touchChildren="false" touchEnabled="false" minWidth="160" width="483" anchorOffsetY="0">
+		<e:layout>
+		<e:VerticalLayout gap="0"/>
+		</e:layout>
+		<FL:MJGameOverDetailItem id="nameItem" x="0" y="0" scaleX="1" scaleY="1" skinName="skins.MJGameOverDetailItemSkinN"/>
+		<FL:MJGameOverDetailItem id="idItem" x="0" y="0" scaleX="1" scaleY="1" skinName="skins.MJGameOverDetailItemSkinN"/>
+		<FL:MJGameOverDetailItem id="zhuangItem" x="10" y="10" scaleX="1" scaleY="1" skinName="skins.MJGameOverDetailItemSkinN"/>
+	</e:Group>
+	<e:Scroller id="detailScro" height="200" anchorOffsetX="0" anchorOffsetY="0" left="248" right="55" bottom="47" scrollPolicyH="off">
+		<e:Group id="detailItemGroup" y="135">
+		<e:layout>
+			<e:VerticalLayout gap="0"/>
+		</e:layout>
+	</e:Group>
+	</e:Scroller>
+	<e:Group id="closeBtnGroup" width="82" height="82" right="41" top="84">
+		<e:Image id="closeBtn" source="close_png" anchorOffsetX="26" anchorOffsetY="32" x="41" y="41"/>
+	</e:Group>
+	<e:Scroller id="wanfaScr" width="208" height="248" bottom="42" left="36" anchorOffsetY="0">
+		<e:Group>
+			<e:Label id="wanfaDesc" text="\n\n\n\n\n\n\n第2局\n房间号：1222222" size="24" textColor="0x323232" fontFamily="SimHei" verticalAlign="bottom" textAlign="left" width="208" anchorOffsetY="0" lineSpacing="4" anchorOffsetX="0" touchEnabled="false" y="0" scaleX="1" scaleY="1" x="0"/>
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

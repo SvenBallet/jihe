@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin width="620" height="421" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:FL="FL.*" class="skins.ClubAddDiamondViewSkin">
+
+	<e:Image source="panel_bottom_blue_png" top="67" bottom="10" left="0" right="0" scale9Grid="41,38,31,27" anchorOffsetY="0" anchorOffsetX="0"/>
+
+	<e:Group id="cancelGroup" width="234" height="74" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="-140" bottom="53">
+		<FL:GameButton id="cancelBtn" xmlns:FL="FL.*" width="234" height="74" y="37" skinName="skins.GameButtonSkin" anchorOffsetX="117" anchorOffsetY="37" x="117" imgName="btn_red_png" label="取出"/>
+	</e:Group>
+	<e:Group id="confirmGroup" width="234" height="74" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="140" bottom="53" x="10" y="10">
+		<FL:GameButton id="confirmBtn" xmlns:FL="FL.*" width="234" height="74" y="37" skinName="skins.GameButtonSkin" anchorOffsetX="117" anchorOffsetY="37" x="117" label="增加" imgName="btn_blue_png"/>
+	</e:Group>
+	<e:Label id="reminderInfo" anchorOffsetX="0" width="520" anchorOffsetY="0" textAlign="center" text="俱乐部剩余钻石：0" verticalCenter="0" horizontalCenter="0" fontFamily="Microsoft YaHei" size="30" textColor="0xb95a00"/>
+	<FL:NumberInput id="diamondNum" width="340" height="60" x="138" y="104" skinName="skins.NumberInputSkin" anchorOffsetX="0"/>
+
+	<e:Image source="share_line_png" x="62" y="266"/>
+	<e:Group id="closeGroup" width="78" height="82" top="60" right="31">
+		<e:Image id="closeBtn" source="close_png" x="39" y="38" scaleX="1" scaleY="1" anchorOffsetX="26" anchorOffsetY="29"/>
+	</e:Group>
+	<e:Group horizontalCenter="0.5" top="1">
+		<e:Image source="panel_title_lg_png" x="0" y="0" scale9Grid="54,27,15,26" anchorOffsetX="0" width="295" anchorOffsetY="0" height="69"/>
+		<e:Label text="增加钻石" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" fontFamily="Microsoft YaHei" textColor="0xB47819" left="0" top="5" bottom="0" right="0" verticalAlign="middle" size="36"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.ClubBtnListItemViewSkin" xmlns:e="http://ns.egret.com/eui">
+    <e:Image id="icon" source="btn_left_chosen_png" horizontalCenter="1" verticalCenter="0.5" scale9Grid="56,41,3,1"
+             anchorOffsetX="0" width="220" />
+    <e:Label id="label" text="{data}" horizontalCenter="-11" verticalCenter="-2" fontFamily="Microsoft YaHei"
+             textAlign="center" verticalAlign="middle" anchorOffsetX="0" width="198" height="94" textColor="0xffffff" />
+</e:Skin> 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.FreeDiamondViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:FL="FL.*" xmlns:w="http://ns.egret.com/wing" width="700" height="400">
+	<e:Image left="48" right="48" top="65" bottom="3" source="panel_bottom_blue_png" scale9Grid="46,43,21,19" anchorOffsetY="0"/>
+	<e:Group id="leftBtnGroup" width="234" height="74" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="-140" bottom="40">
+		<FL:GameButton id="leftBtn" width="234" height="74" y="37" skinName="skins.GameButtonSkin" anchorOffsetX="117" anchorOffsetY="37" x="117" imgName="btn_green_lg_png" label="取消"/>
+	</e:Group>
+	<e:Group id="rightBtnGroup" width="234" height="74" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="140" bottom="40" x="10" y="10">
+		<FL:GameButton id="rightBtn" width="234" height="74" y="37" skinName="skins.GameButtonSkin" anchorOffsetX="117" anchorOffsetY="37" x="117" label="确定" imgName="btn_red_lg_png"/>
+	</e:Group>
+	<e:Image y="7" horizontalCenter="0.5" source="free_diamond_title_png"/>
+	<e:Image source="share_line_png" horizontalCenter="0" top="260"/>
+	<e:Group id="closeGroup" width="78" height="82" x="540" y="57">
+		<e:Image id="closeBtn" source="close_png" anchorOffsetX="26" anchorOffsetY="31" horizontalCenter="0" verticalCenter="0"/>
+	</e:Group>
+	<e:Label id="reminderLabel" text="d" fontFamily="SimHei" horizontalCenter="0" size="30" textColor="0x3c96be" width="520" verticalCenter="-30" textAlign="center"/>
+	<e:Group horizontalCenter="-6" top="9" x="405" y="-62" scaleX="1" scaleY="1">
+		<e:Image source="panel_title_lg_png" x="0" y="-0.32" scale9Grid="54,27,15,26" anchorOffsetX="0" width="257.66" anchorOffsetY="0" height="61"/>
+		<e:Label text="提示" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" fontFamily="Microsoft YaHei" textColor="0xB47819" left="0" top="5" bottom="0" right="0" verticalAlign="middle" size="36"/>
+	</e:Group>
+</e:Skin>

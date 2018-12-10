@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.ClubLogRecordItemViewSkin" width="773" height="92" xmlns:e="http://ns.egret.com/eui"
+        xmlns:FL="FL.*" xmlns:w="http://ns.egret.com/wing">
+    <e:Image source="share_line_png" width="760"  horizontalCenter="3.5" verticalCenter="31.5" scale9Grid="1,0,7,3"/>
+    <e:Label id="clubDetail" text="阿三达啊啥大事发生发声方法烦烦烦烦烦烦烦烦烦啊深华发生发声方法烦烦烦烦烦烦烦烦烦啊深华发神话神话深化" anchorOffsetX="0" anchorOffsetY="0"
+             fontFamily="Microsoft YaHei" left="10" bottom="0" top="0" size="24"  textAlign="left" right="10" verticalAlign="middle" textColor="0xb95a00"/>
+
+</e:Skin>

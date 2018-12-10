@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.NoticeViewSkin" width="986" height="624" xmlns:e="http://ns.egret.com/eui" xmlns:FL="FL.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="base" width="986" height="624" horizontalCenter="0" verticalCenter="0">
+		<e:Group id="aniPanel" width="0" height="0" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+		<e:Label id="contentLabel" text="手动阀手动阀手动阀" top="96" textAlign="left" anchorOffsetX="0" width="813" anchorOffsetY="0" height="474" horizontalCenter="6.5" verticalAlign="top" textColor="0x5b1902" size="36"/>
+		<e:Group id="closeBtn" width="80" height="168" right="-20" top="0"/>
+	</e:Group>
+</e:Skin>

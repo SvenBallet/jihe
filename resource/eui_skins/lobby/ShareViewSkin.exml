@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.ShareViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:FL="FL.*" xmlns:w="http://ns.egret.com/wing" width="700" height="400">
+	<e:Image left="48" right="48" top="65" bottom="12" source="panel_bottom_blue_png" scale9Grid="45,42,25,20"/>
+	<e:Group id="closeGroup" width="78" height="82" x="583" y="60">
+		<e:Image id="closeBtn" source="close_png" x="39" y="41" anchorOffsetX="39" anchorOffsetY="41"/>
+	</e:Group>
+	<e:Label id="reminderLabel" text="分享到【微信】【朋友圈】或【闲聊】" fontFamily="SimHei" horizontalCenter="0" top="321" size="30" textColor="0x3c96be" width="600" textAlign="center"/>
+	<e:Group id="shareGro" width="460" height="212" y="90" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" visible="false">
+		<e:Image id="shareFriendsBtn" top="25" horizontalCenter="-169" source="common_bottom_png" scale9Grid="21,18,5,11" anchorOffsetX="0" width="130" anchorOffsetY="0" height="130" x="27" y="15" scaleX="1" scaleY="1"/>
+		<e:Image source="share_friends_png" horizontalCenter="-169.5" top="50" touchEnabled="false" x="45" y="40" scaleX="1" scaleY="1"/>
+		<e:Label text="好友/群" fontFamily="SimHei" textColor="0x326e87" horizontalCenter="-170" top="160" size="26" bold="true" x="44" y="150" scaleX="1" scaleY="1"/>
+		<e:Image id="shareCircleOfFriendsBtn" horizontalCenter="0" top="25" source="common_bottom_png" scale9Grid="21,21,8,8" width="130" height="130" x="196" y="15" scaleX="1" scaleY="1"/>
+		<e:Image source="share_circle_of_friends_png" horizontalCenter="0.5" top="50" touchEnabled="false" x="215" y="40" scaleX="1" scaleY="1"/>
+		<e:Image id="awardIcon" source="share_award_icon_png" y="11.36" scaleX="1" scaleY="1" horizontalCenter="53"/>
+		<e:Label text="朋友圈" fontFamily="SimHei" textColor="0x326E87" horizontalCenter="-1" top="160" size="26" bold="true" x="220" y="150" scaleX="1" scaleY="1"/>
+		<e:Image id="shareXlBtn" top="25" horizontalCenter="163" source="common_bottom_png" scale9Grid="21,18,5,11" anchorOffsetX="0" width="130" anchorOffsetY="0" height="130" x="359" y="15" scaleX="1" scaleY="1"/>
+		<e:Image horizontalCenter="163" top="45" touchEnabled="false" source="share_xl_friends_png" x="379" y="35" scaleX="1" scaleY="1"/>
+		<e:Label text="闲聊" fontFamily="SimHei" textColor="0x326E87" horizontalCenter="162" top="160" size="26" bold="true" x="396" y="150" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Group id="shareGroTH" width="460" height="212" y="90" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+		<e:Image id="shareFriendsBtnTH" top="25" horizontalCenter="-169" source="common_bottom_png" scale9Grid="21,18,5,11" anchorOffsetX="0" width="130" anchorOffsetY="0" height="130" x="27" y="15" scaleX="1" scaleY="1"/>
+		<e:Image source="share_friends_png" horizontalCenter="-169.5" top="50" touchEnabled="false" x="45" y="40" scaleX="1" scaleY="1"/>
+		<e:Label text="好友/群" fontFamily="SimHei" textColor="0x326E87" horizontalCenter="-170" top="160" size="26" bold="true" x="44" y="150" scaleX="1" scaleY="1"/>
+		<e:Image id="shareXlBtnTH" horizontalCenter="0" top="25" source="common_bottom_png" scale9Grid="21,21,8,8" width="130" height="130" x="196" y="15" scaleX="1" scaleY="1"/>
+		<e:Image horizontalCenter="1" top="45" touchEnabled="false" x="215" y="40" scaleX="1" scaleY="1" source="share_xl_friends_png"/>
+		<e:Label text="闲聊" fontFamily="SimHei" textColor="0x326E87" horizontalCenter="-1" top="160" size="26" bold="true" x="220" y="150" scaleX="1" scaleY="1"/>
+		<e:Image id="teahouseBtn" top="25" horizontalCenter="163" source="common_bottom_png" scale9Grid="21,18,5,11" anchorOffsetX="0" width="130" anchorOffsetY="0" height="130" x="359" y="15" scaleX="1" scaleY="1"/>
+		<e:Image horizontalCenter="165.5" top="56" touchEnabled="false" x="379" y="35" scaleX="0.25" scaleY="0.25" source="th_share_choose_png"/>
+		<e:Label text="茶楼邀请" fontFamily="SimHei" textColor="0x326E87" horizontalCenter="162" top="160" size="26" bold="true" x="396" y="150" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Group id="openGro" width="460" height="212" y="90" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" visible="false">
+		<e:Image id="openFriend" top="25" horizontalCenter="-119" source="common_bottom_png" scale9Grid="21,18,5,11" anchorOffsetX="0" width="130" anchorOffsetY="0" height="130" x="27" y="-65" scaleX="1" scaleY="1"/>
+		<e:Image source="share_friends_png" horizontalCenter="-119.5" top="50" touchEnabled="false" x="45" y="-40" scaleX="1" scaleY="1"/>
+		<e:Label text="好友/群" fontFamily="SimHei" textColor="0x326E87" horizontalCenter="-120" top="160" size="26" bold="true" x="44" y="70" scaleX="1" scaleY="1"/>
+		<e:Image id="openXLBtn" top="25" horizontalCenter="113" source="common_bottom_png" scale9Grid="21,18,5,11" anchorOffsetX="0" width="130" anchorOffsetY="0" height="130" x="359" y="25" scaleX="1" scaleY="1"/>
+		<e:Image horizontalCenter="113" top="45" touchEnabled="false" source="share_xl_friends_png" x="379" y="45" scaleX="1" scaleY="1"/>
+		<e:Label text="闲聊" fontFamily="SimHei" textColor="0x326E87" horizontalCenter="112" top="160" size="26" bold="true" x="396" y="160" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>

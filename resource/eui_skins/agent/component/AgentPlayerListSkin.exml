@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin width="860" height="84" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:FL="FL.*" class="skins.AgentPlayerListSkin">
+	<e:Label id="playerID" x="3" anchorOffsetX="0" width="121" textAlign="center" textColor="0xb95a00" verticalCenter="0" text="128710" fontFamily="Microsoft YaHei"/>
+	<e:Label id="playerName" x="146" anchorOffsetX="0" width="220" textAlign="center" textColor="0xb95a00" verticalCenter="-17" text="nickname" fontFamily="Microsoft YaHei" size="22"/>
+	<e:Label id="authDiamondNum" x="144" anchorOffsetX="0" width="220" textAlign="center" verticalCenter="19" text="已授权钻石数：100" fontFamily="Microsoft YaHei" textColor="0xee6655" size="18"/>
+	<FL:GameButton id="authDiamondBtn" width="140" height="60" x="466" y="42" skinName="skins.GameButtonSkin" imgName="btn_red_png" labelSize="28" label="授权钻石" anchorOffsetX="70" anchorOffsetY="30"/>
+	<FL:GameButton id="cancelAuthBtn" width="140" height="60" x="619" y="42" imgName="btn_blue_png" label="取消授权" labelSize="28" skinName="skins.GameButtonSkin" anchorOffsetX="70" anchorOffsetY="30"/>
+	<FL:GameButton id="recordBtn" width="140" height="60" x="772" y="42" skinName="skins.GameButtonSkin" imgName="btn_green_png" labelSize="28" label="开房记录" anchorOffsetX="70" anchorOffsetY="30"/>
+
+
+
+</e:Skin>

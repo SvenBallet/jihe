@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.DissolveRoomItemSkin" width="220" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="195">
+	<e:Image source="avartar_box_png" horizontalCenter="0" top="13"/>
+	<e:Label id="playerName" text="玩家名字七个字.." width="216" textAlign="center" size="26" fontFamily="SimHei" x="2" y="121" textColor="0x326e87"/>
+	<e:Label id="stateLabel" text="等待中..." fontFamily="SimHei" size="30" x="65" y="155" textColor="0x00927b"/>
+	<e:Image id="headImg" width="94" height="95" horizontalCenter="-1" top="12" source=""/>
+</e:Skin>

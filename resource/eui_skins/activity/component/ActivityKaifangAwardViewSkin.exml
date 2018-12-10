@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.ActivityKaifangAwardViewSkin" width="766" height="471" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:FL="FL.*">
+	<e:ProgressBar id="progress" width="677" height="15" x="30" skinName="skins.ActivityProgressBarSkin" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="-111"/>
+	<e:Image source="char_bg_png" x="30" y="2" scale9Grid="47,0,67,6" anchorOffsetY="0" height="28"/>
+	<e:Image source="char_bg_png" x="30" y="213.5" scale9Grid="47,0,67,6" anchorOffsetY="0" height="28"/>
+	<e:Image source="rule_desc_bg_png" x="30" y="255" anchorOffsetX="0" width="703" height="128" scale9Grid="8,9,14,13"/>
+	<FL:GameButton id="getAward" width="234" height="74" x="225" y="435" skinName="skins.GameButtonSkin" label="领取奖励" imgName="btn_red_png" anchorOffsetX="117" anchorOffsetY="37"/>
+	<e:Group x="79" y="52">
+		<e:Image id="img1" source="diamond1_gray_png" x="0" y="21"/>
+		<e:Label id="award1" text="第3次" x="0" y="0" size="20" fontFamily="Microsoft YaHei" textColor="0xb95a00" width="91" textAlign="center"/>
+		<e:Label id="diamond1" text="20钻石" x="0" y="123" size="20" fontFamily="Microsoft YaHei" textColor="0xd74646" width="91" textAlign="center"/>
+		<e:Image id="getedFlag1" x="-14" y="52.5" source="yilingqu_png" visible="false"/>
+	</e:Group>
+	<e:Group x="219" y="52">
+		<e:Image id="img2" x="0" y="21" source="diamond2_gray_png"/>
+		<e:Label id="award2" text="第7次" x="0" y="0" size="20" fontFamily="Microsoft YaHei" textColor="0xb95a00" width="91" textAlign="center"/>
+		<e:Label id="diamond2" text="30钻石" x="0" y="123" size="20" fontFamily="Microsoft YaHei" textColor="0xD74646" width="91" textAlign="center"/>
+		<e:Image id="getedFlag2" source="yilingqu_png" x="-14" y="52.5" visible="false"/>
+	</e:Group>
+	<e:Group x="359" y="52">
+		<e:Image id="img3" x="0" y="21" source="diamond3_gray_png"/>
+		<e:Label id="award3" text="第12次" x="0" y="0" size="20" fontFamily="Microsoft YaHei" textColor="0xb95a00" width="91" textAlign="center"/>
+		<e:Label id="diamond3" text="40钻石" x="0" y="123" size="20" fontFamily="Microsoft YaHei" textColor="0xD74646" width="91" textAlign="center"/>
+		<e:Image id="getedFlag3" source="yilingqu_png" x="-13" y="52.5" visible="false"/>
+	</e:Group>
+	<e:Group x="499" y="52">
+		<e:Image id="img4" x="0" y="21" source="diamond4_gray_png"/>
+		<e:Label id="award4" text="第20次" x="0" y="0" size="20" fontFamily="Microsoft YaHei" textColor="0xb95a00" width="91" textAlign="center"/>
+		<e:Label id="diamond4" text="50钻石" x="0" y="123" size="20" fontFamily="Microsoft YaHei" textColor="0xD74646" width="91" textAlign="center"/>
+		<e:Image id="getedFlag4" source="yilingqu_png" x="-14" y="52.5" visible="false"/>
+	</e:Group>
+	<e:Group x="639" y="51">
+		<e:Image id="img5" x="0" y="21" source="diamond4_gray_png"/>
+		<e:Label id="award5" text="第30次" x="0" y="0" size="20" fontFamily="Microsoft YaHei" textColor="0xb95a00" width="91" textAlign="center"/>
+		<e:Label id="diamond5" text="50钻石" x="0" y="123" size="20" fontFamily="Microsoft YaHei" textColor="0xD74646" width="91" textAlign="center"/>
+		<e:Image id="getedFlag5" source="yilingqu_png" x="-14" y="53.5" visible="false"/>
+	</e:Group>
+	<e:Label id="openNum" text="20" x="224" y="6" size="20" fontFamily="Microsoft YaHei" textColor="0xD74646"/>
+	<FL:GameButton id="createRoom" width="234" height="74" x="532" y="435" skinName="skins.GameButtonSkin" label="去开房" anchorOffsetY="37" anchorOffsetX="117"/>
+	<e:Label text="当前开房次数：" x="73" y="5" size="22" textColor="0xb95a00" fontFamily="Microsoft YaHei"/>
+	<e:Label text="规则说明" x="73" y="217" size="22" textColor="0xb95a00" fontFamily="Microsoft YaHei"/>
+	<e:Label text="活动时间：长期有效\n活动说明：活动期间，凡当天满足成功开房次数的玩家(房费均摊除外)均可获得钻石奖励。\n次数计算：成功开房次数可累加(至少进行一局以上的牌局)，当日有效次日清零。" lineSpacing="10" x="55" y="265" size="18" textColor="0xb95a00" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="655" anchorOffsetY="0" height="110" verticalAlign="middle"/>
+	<e:Image source="char_deco_png" x="49" y="9"/>
+	<e:Image source="char_deco_png" x="49" y="220.5"/>
+</e:Skin>

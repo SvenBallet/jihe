@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin width="860" height="84" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:FL="FL.*" class="skins.AgentRoomListViewSkin">
+	<e:Label id="roomID" x="20" anchorOffsetX="0" width="104" textAlign="center" textColor="0xb95a00" verticalCenter="0" text="807742" fontFamily="Microsoft YaHei" size="24"/>
+	<e:Label id="playMethod" x="124" anchorOffsetX="0" width="160" textAlign="center" textColor="0xb95a00" verticalCenter="0" text="宿州玩法" fontFamily="Microsoft YaHei" size="22"/>
+	<e:Label id="gameNum" x="284" anchorOffsetX="0" width="100" textAlign="center" textColor="0xb95a00" verticalCenter="2" text="2" fontFamily="Microsoft YaHei" size="24"/>
+	<e:Label id="playerNum" x="384" anchorOffsetX="0" width="100" textAlign="center" textColor="0xb95a00" verticalCenter="2" text="0/2" fontFamily="Microsoft YaHei" size="24"/>
+	<FL:GameButton id="inviteBtn" width="140" height="60" x="595" y="43" imgName="btn_blue_png" label="邀请" labelSize="28" skinName="skins.GameButtonSkin" anchorOffsetX="70" anchorOffsetY="30"/>
+	<FL:GameButton id="dismissBtn" width="140" height="60" x="763" y="43" skinName="skins.GameButtonSkin" imgName="btn_red_png" labelSize="28" label="解散" anchorOffsetX="70" anchorOffsetY="30"/>
+
+
+</e:Skin>

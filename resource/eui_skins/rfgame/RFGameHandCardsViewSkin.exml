@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.RFGameHandCardsViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:FL="FL.*"
+        xmlns:w="http://ns.egret.com/wing" minHeight="720" minWidth="1280" width="1280" height="720">
+
+    <e:Group id="myHandGroup" width="1280" height="420" anchorOffsetX="0" bottom="0"
+             touchChildren="true" touchThrough="true" anchorOffsetY="0"  horizontalCenter="0">
+		</e:Group>
+	<e:Group id="leftHandGroup" anchorOffsetX="0" anchorOffsetY="0" left="127" verticalCenter="-120" touchEnabled="false">
+
+		<e:Group left="0" verticalCenter="0">
+			<e:Image source="card_png" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="leftCardsNum" text="20" textAlign="center" horizontalCenter="-1.1" verticalCenter="0"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="restCardGroup" anchorOffsetX="0" anchorOffsetY="0" left="67" touchEnabled="false" verticalCenter="-97">
+		<e:Image source="card_png" scaleX="1" scaleY="1"/>
+		<e:Label id="restCardNum" text="剩余牌数:20" textAlign="center" verticalCenter="37" left="-59"/>
+	</e:Group>
+	<e:Group id="upHandGroup" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" right="147" verticalCenter="-120">
+
+		<e:Group verticalCenter="0" right="0">
+			<e:Image source="card_png" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="upCardsNum" text="15" textAlign="center" scaleX="1" scaleY="1" horizontalCenter="-1.1" verticalCenter="0"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="rightHandGroup" anchorOffsetX="0" anchorOffsetY="0" right="147" verticalCenter="-120" touchEnabled="false">
+
+		<e:Group right="0" verticalCenter="0">
+			<e:Image source="card_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="rightCardsNum" text="0" textAlign="center" scaleX="1" scaleY="1" verticalCenter="0" horizontalCenter="-1.1"/>
+		</e:Group>
+	</e:Group>
+
+
+	<e:Group id="timerGroup" x="425" y="344" touchEnabled="false">
+		<e:Image source="dissolve_time_bg_png" x="0" y="0" touchEnabled="false"/>
+		<e:Image id="timerTens" source="0_png" x="28" y="36"/>
+		<e:Image id="timerUnits" x="50" y="36" source="0_png"/>
+	</e:Group>
+	<e:Group id="leftCardsGroup" width="96" height="390" anchorOffsetX="0" anchorOffsetY="0" left="180" verticalCenter="-129" touchEnabled="false"/>
+	<e:Group id="rightCardsGroup" width="96" height="390" anchorOffsetX="0" anchorOffsetY="0" right="198" verticalCenter="-127" touchEnabled="false"/>
+	<e:Group id="upCardsGroup" width="96" height="390" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" right="198" verticalCenter="-127"/>
+	<e:Group id="restViewGroup" width="390" height="96" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" y="192" x="445"/>
+
+</e:Skin>

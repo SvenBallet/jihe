@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin width="860" height="556" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:FL="FL.*" class="skins.AgentSystemViewSkin">
+	<e:Label text="输入代理玩家的ID" x="80.28" y="23.73" size="24" fontFamily="Microsoft YaHei" textColor="0xb95a00"/>
+	<FL:NumberInput id="playerID" width="340" height="70" x="80" y="64" skinName="skins.NumberInputSkin"/>
+	<FL:GameButton id="resetBtn" width="120" height="70" x="585" y="95" imgName="btn_blue_png"  labelSize="24" label="密码重置" skinName="skins.GameButtonSkin" anchorOffsetX="60" anchorOffsetY="30"/>
+	<FL:GameButton id="todaySumBtn" width="120" height="70" x="723" y="95" imgName="btn_blue_png"  labelSize="24" label="今日结算" skinName="skins.GameButtonSkin" anchorOffsetX="60" anchorOffsetY="30"/>
+
+
+	<e:Label text="输入（授权代理/扣钻/上级/查询）玩家ID" x="79.28" y="169.73" size="24" fontFamily="Microsoft YaHei" textColor="0xb95a00"/>
+	<e:Label text="类型" x="78.28" y="235.73" size="24" fontFamily="Microsoft YaHei" textColor="0xb95a00"/>
+	<FL:NumberInput id="textType" width="100" height="70" x="138" y="212" skinName="skins.NumberInputSkin"/>
+	<FL:NumberInput id="inputID" width="170" height="70" x="248" y="212" skinName="skins.NumberInputSkin"/>
+	<FL:GameButton id="authBtn" width="120" height="70" x="584" y="241" imgName="btn_blue_png"  labelSize="24" label="确认授权" skinName="skins.GameButtonSkin" anchorOffsetX="60" anchorOffsetY="30"/>
+	<FL:GameButton id="cancelAgentBtn" width="120" height="70" x="724" y="240" imgName="btn_blue_png"  labelSize="24" label="取消代理" skinName="skins.GameButtonSkin" anchorOffsetX="60" anchorOffsetY="30"/>
+
+
+	<e:Label text="输入（房间号/扣钻数量/下级玩家ID）" x="81.28" y="322.73" size="24" fontFamily="Microsoft YaHei" textColor="0xb95a00"/>
+	<FL:NumberInput id="inputNum" width="340" height="70" x="81" y="366" skinName="skins.NumberInputSkin"/>
+	<FL:GameButton id="cancelRoomBtn" width="120" height="70" x="585" y="395" imgName="btn_blue_png"  labelSize="24" label="确认解散" skinName="skins.GameButtonSkin" anchorOffsetX="60" anchorOffsetY="30"/>
+	<FL:GameButton id="deDiamondBtn" width="120" height="70" x="723" y="394" imgName="btn_blue_png"  labelSize="24" label="扣除钻石" skinName="skins.GameButtonSkin" anchorOffsetX="60" anchorOffsetY="30"/>
+	<FL:GameButton id="subAgentBtn" width="120" height="70" x="585" y="479" imgName="btn_blue_png"  labelSize="24" label="挂入下级" skinName="skins.GameButtonSkin" anchorOffsetX="60" anchorOffsetY="30"/>
+	<FL:GameButton id="searchInfoBtn" width="120" height="70" x="723" y="478" imgName="btn_blue_png"  labelSize="24" label="查询信息" skinName="skins.GameButtonSkin" anchorOffsetX="60" anchorOffsetY="30"/>
+
+
+
+
+</e:Skin>

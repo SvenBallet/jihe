@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.DissolveRoomViewSkin" width="866" height="530" xmlns:e="http://ns.egret.com/eui" xmlns:FL="FL.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image left="22" right="22" top="57" bottom="20" source="panel_bottom_blue_png" scale9Grid="55,54,8,7" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Group horizontalCenter="0" top="-9" x="405" y="-62" scaleX="1" scaleY="1">
+		<e:Image source="panel_title_lg_png" x="0" y="0" scale9Grid="54,27,15,26" anchorOffsetX="0" width="317.66" anchorOffsetY="0" height="69"/>
+		<e:Label text="解散房间" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" fontFamily="Microsoft YaHei" textColor="0xB47819" left="0" top="5" bottom="0" right="0" verticalAlign="middle" size="36"/>
+	</e:Group>
+	<e:Group id="closeGroup" width="76" height="81" x="747" y="47" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image id="closeBtn" source="close_png" anchorOffsetX="26" anchorOffsetY="32" x="38" y="41" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Group id="playerInfoGroup" height="195" touchChildren="false" touchEnabled="false" width="756" y="192" horizontalCenter="0">
+        <e:layout>
+			<e:HorizontalLayout horizontalAlign="center" gap="10"/>
+		</e:layout>
+		<FL:DissolveRoomItem id="firstPlayerItem" width="220" height="195" x="357" y="10" skinName="skins.DissolveRoomItemSkin" scaleX="1" scaleY="1"/>
+		<e:Image id="firstLine" source="dissolve_line_png" x="523" y="21"/>
+		<FL:DissolveRoomItem id="secondPlayerItem" width="220" height="195" x="367" y="20" skinName="skins.DissolveRoomItemSkin" scaleX="1" scaleY="1"/>
+		<e:Image id="secondLine" source="dissolve_line_png" x="533" y="31"/>
+		<FL:DissolveRoomItem id="thirdPlayerItem" width="220" height="195" x="377" y="30" skinName="skins.DissolveRoomItemSkin" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<FL:GameButton id="agreeBtn" width="234" height="74" skinName="skins.GameButtonSkin" imgName="btn_red_png" label="同意" anchorOffsetX="117" anchorOffsetY="37" x="273" y="447"/>
+	<FL:GameButton id="rejectBtn" width="234" height="74" skinName="skins.GameButtonSkin" label="拒绝" anchorOffsetX="117" anchorOffsetY="37" x="593" y="447"/>
+	<e:Label id="dissolveDesc" text="名字打发斯申请解散房间，等待其他玩家选择，超过[300]秒未做选择，则默认同意！" size="22" textColor="0x326e87" width="610" horizontalCenter="-77" verticalCenter="-133" textAlign="left" fontFamily="SimHei" anchorOffsetX="0" touchEnabled="false" anchorOffsetY="0" height="94" verticalAlign="middle"/>
+	<e:Image source="dissolve_time_bg_png" x="662" y="78"/>
+	<e:Label id="timeLabel" text="299" x="680" y="116" textColor="0x00927b" anchorOffsetX="0" width="65" textAlign="center"/>
+</e:Skin>

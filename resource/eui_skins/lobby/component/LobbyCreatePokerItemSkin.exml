@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.LobbyCreatePokerItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="920" height="135">
+	<w:Config id="1633ebef99c" height="60" verticalAlign="middle"/>
+	<e:Label text="人数：" x="0" y="0" textColor="0x6e3700" fontFamily="Microsoft YaHei" size="32" height="60" verticalAlign="middle"/>
+	<e:Label text="局数：" x="1" y="70" textColor="0x6e3700" fontFamily="Microsoft YaHei" size="32" height="60" verticalAlign="middle"/>
+	<e:Group id="personNumGroup" x="146" y="2">
+		<e:RadioButton id="threePerson" label="3人" x="1.37" y="0" skinName="skins.RadioButtonSkin"/>
+		<e:RadioButton id="twoPerson" label="2人" x="290" y="0" skinName="skins.RadioButtonSkin"/>
+	</e:Group>
+	<e:Group id="gameGroup" x="146.33999999999997" y="71.33">
+		<e:RadioButton id="tenGames" label="10局" x="0" y="0" skinName="skins.RadioButtonSkin"/>
+		<e:RadioButton id="twentyGames" label="20局" x="290" y="0" skinName="skins.RadioButtonSkin"/>
+	</e:Group>
+	<e:CheckBox id="averageBill" label="房费均摊" x="706" y="73.65" skinName="skins.CheckBoxSkin"/>
+	<e:Image source="right_split_line_png" left="0" right="0" anchorOffsetY="0" height="3" y="64"/>
+	<e:Image source="right_split_line_png" left="0" right="0" anchorOffsetY="0" height="3" y="132"/>
+	<e:Label id="diamondNumTenGames" text="(20钻)" x="257" y="87.99" textColor="0xff7d00" size="26"/>
+	<e:Label id="diamondNumTwentyGames" text="(30钻)" x="545.67" y="87.97" textColor="0xff7d00" size="26"/>
+</e:Skin>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:FL="FL.*"
+        class="skins.TeaHouseMemAddWaiterItemViewSkin" width="498">
+    <e:Image source="th_item_png" scale9Grid="228,52,1,1"  left="0" top="0" right="0" bottom="6" height="111"/>
+    <e:Label id="memberName" text="一二三四..." scaleX="1" scaleY="1" size="22" fontFamily="Microsoft YaHei"
+             textAlign="center" textColor="0x8c5436" anchorOffsetX="0" x="138" y="65" />
+    <e:Label id="memberID" text="ID:123456" scaleX="1" scaleY="1" size="22" fontFamily="Microsoft YaHei"
+             textAlign="center" x="143" y="24" textColor="0x8c5436" />
+
+    <e:Image scaleX="1" scaleY="1" source="avartar_box_png" x="20" y="6" />
+    <e:Image id="headImg" scaleX="1" scaleY="1" height="95" width="94" source="" x="21" y="6" />
+    <e:Group id="addGroup" y="29" right="23">
+        <e:Group id="addBtn" x="63" y="30" anchorOffsetX="63" anchorOffsetY="30">
+            <e:Image source="btn_green_1_png" scale9Grid="32,26,1,1" x="0" y="0" anchorOffsetX="0" width="125" />
+            <e:Label text="添加" horizontalCenter="0.5" verticalCenter="-2.5" fontFamily="Microsoft YaHei" />
+        </e:Group>
+    </e:Group>
+</e:Skin>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.RadioButtonSkinColor" states="up,down,upAndSelected,downAndSelected,disabledAndSelected" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="60">
+    <e:Group height.downAndSelected="60" height.upAndSelected="60" height.down="60" height.up="60" anchorOffsetY.disabledAndSelected="0" x.disabledAndSelected="0" y.disabledAndSelected="0" anchorOffsetX.disabledAndSelected="0" width.disabledAndSelected="36" height.disabledAndSelected="60" width.up="36" anchorOffsetX.up="0" width.down="36" width.upAndSelected="36" width.downAndSelected="36" verticalCenter="0" horizontalCenter="0" height="60">
+        <e:layout>
+            <e:HorizontalLayout verticalAlign="middle"/>
+        </e:layout>
+			<e:Image source="radio_chosen_png" includeIn="disabledAndSelected" x="2" y="-1"/>
+			<e:Image source="radio_chosen_png" includeIn="downAndSelected" x="-3" y="7"/>
+			<e:Image id="radioBtnSelected" source="radio_chosen_png" includeIn="upAndSelected" x="3" y="5"/>
+			<e:Image id="radioBtn" source="radio_unchosen_png" x="-3" y="59" includeIn="up,down" x.up="1"/>
+        <e:Label id="labelDisplay" size="30"
+                 textAlign="center" verticalAlign="middle"
+                 fontFamily="Microsoft YaHei" textColor.disabledAndSelected="0x6e3700" fontFamily.disabledAndSelected="Microsoft YaHei" size.disabledAndSelected="34" height.upAndSelected="60" height="60" textColor="0x326e87"/>
+    </e:Group>
+</e:Skin>

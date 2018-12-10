@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin xmlns:e="http://ns.egret.com/eui" xmlns:FL="FL.*" xmlns:w="http://ns.egret.com/wing" width="1280" class="skins.MJGameChooseXiaMaSkin" height="216">
+	<e:Group id="xiaMaGroup" left="210" right="192" bottom="0" anchorOffsetY="0" anchorOffsetX="0" height="216">
+		<e:Image source="wanfa_bg_png" alpha="0.5" height="216" touchEnabled="false" width="876" anchorOffsetX="0" x="0" anchorOffsetY="0" y="0"/>
+		<FL:GameButton id="xiaMaBtn" width="234" height="74" skinName="skins.GameButtonSkin" anchorOffsetX="117" anchorOffsetY="37" scaleX="1" scaleY="1" label="下码" touchEnabled="true" y="108" horizontalCenter="-200"/>
+
+		<FL:GameButton id="buXiaMaBtn" width="234" height="74" skinName="skins.GameButtonSkin" anchorOffsetX="117" anchorOffsetY="37" scaleX="1" scaleY="1" label="不下码" touchEnabled="true" y="108" horizontalCenter="200"/>
+
+
+
+
+
+
+
+
+	</e:Group>
+	<e:Image source="dissolve_time_bg_png" x="56" y="51"/>
+	<e:Label id="timeLabel" text="99" x="73.5" y="88.5" textColor="0x00927B" anchorOffsetX="0" width="65" textAlign="center" fontFamily="SimHei" size="30"/>
+</e:Skin>

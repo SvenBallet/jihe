@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.TeaHouseBaseSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:FL="FL.*" minHeight="720" minWidth="1280" width="1280" height="720">
+	<e:Image id="bgImg" anchorOffsetY="0" height="720" right="0" top="0" bottom="0" left="0"  source="th_lobby_bg_jpg"/>
+	<e:Image touchEnabled="false" top="0"  width="357" source="th_lobby_back_bg_png" left="0"/>
+	<e:Image bottom="0" left="0" right="0"  source="th_lobby_bottom_bg_png"/>
+
+
+	<e:Group id="playerGroup" left="8" bottom="-17">
+		<e:Group x="100.88" y="61.26">
+			<e:Image x="0" y="7.6" width="185" height="46" scaleX="1" scaleY="1" source="broadcast_bottom_png" visible="false" />
+			<e:Label id="diamondNum" text="3000000" x="50.46" size="22" fontFamily="SimHei" y="22.08" textAlign="left" />
+			<e:Group id="addDiamondGroup" width="70" height="70" x="124.71" y="-1.52" anchorOffsetX="0" anchorOffsetY="0"
+			         visible="false">
+				<e:Image id="addDiamondBtn" source="add_png" x="30.47" y="35.03" scaleX="1" scaleY="1" anchorOffsetX="11.39"
+				         anchorOffsetY="12.39" />
+			</e:Group>
+			<e:Image source="diamond_png" x="-3.04" y="12.96" />
+		</e:Group>
+		<e:Group x="100.88" y="45.94">
+			<e:Image x="0" y="0" width="185" height="46" scaleX="1" scaleY="1" source="broadcast_bottom_png" visible="false" />
+			<e:Label id="playerNameLabel" text="DerekWu" fontFamily="SimHei" textAlign="left" size="22" x="9.55" y="7.88" />
+		</e:Group>
+		<e:Group id="avatarGroup" y="18.19" width="110" height="110" x="-4.56">
+			<e:Image id="avatarBtn" x="20" y="20" source="avartar_circle_png" />
+			<e:Image source="th_avatar_png" x="27" y="28"/>
+			<e:Image id="headImg" height="72" x="20.5" y="20.5" width="72" source="" />
+		</e:Group>
+	</e:Group>
+
+	<e:Group id="shareGroup" width="100" height="80" anchorOffsetX="50" anchorOffsetY="40" top="10" right="200">
+		<e:Image id="shareBtn" anchorOffsetX="33" anchorOffsetY="37.5"  source="th_lobby_share_png" horizontalCenter="0" verticalCenter="0"/>
+	</e:Group>
+	<e:Group id="wanfaGroup" width="100" height="80" anchorOffsetX="50" anchorOffsetY="40" right="100" top="10">
+		<e:Image id="wanfaBtn" anchorOffsetX="33" anchorOffsetY="38"  source="th_lobby_wf_png" horizontalCenter="0" verticalCenter="0"/>
+	</e:Group>
+	<e:Group id="settingGroup" width="100" height="80" anchorOffsetX="50" anchorOffsetY="40" top="10" right="0">
+		<e:Image id="settingBtn" anchorOffsetX="33" anchorOffsetY="38"  source="th_lobby_music_png" horizontalCenter="0" verticalCenter="0"/>
+	</e:Group>
+	<e:Label id="titleLab" text="经典跑得快" anchorOffsetX="0" anchorOffsetY="0" textAlign="center"
+	         top="12" borderColor="0x000000" strokeColor="0x803900" fontFamily="Microsoft YaHei"  textColor="0xffffff" size="26" x="130"/>
+	<e:Label id="titleIDshadow" text="ID:(121231231)" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" top="52" fontFamily="Microsoft YaHei" size="24" textColor="0x553302" x="104"/>
+	<e:Label id="titleID" text="ID:(121231231)" anchorOffsetX="0" anchorOffsetY="0" textAlign="center"
+	         top="50" fontFamily="Microsoft YaHei" size="24"  x="104"/>
+	<e:Group id="closeGroup" width="128.34" height="82" anchorOffsetX="61.99" anchorOffsetY="41.91" touchEnabled="true" left="0" top="0">
+		<e:Image id="closeBtn" x="70.71" y="45.34" anchorOffsetX="55" anchorOffsetY="29"  touchEnabled="false" source="th_lobby_back_png"/>
+	</e:Group>
+
+	<e:DataGroup id="tableGroup1" anchorOffsetX="0" anchorOffsetY="0"
+	              height="460" width="1130" verticalCenter="0" horizontalCenter="0"/>
+	<e:DataGroup id="tableGroup0" anchorOffsetX="0" anchorOffsetY="0"
+	              height="460" width="1130" verticalCenter="0" horizontalCenter="0"/>
+	<e:Group id="bottomGroup" width="950" height="64" anchorOffsetX="0" anchorOffsetY="0" right="0" bottom="0">
+		<e:Group id="manageGroup" x="100" width="160" height="58" anchorOffsetX="0" verticalCenter="0">
+
+			<e:Image id="manageBtn" anchorOffsetX="52.5" anchorOffsetY="22" scaleX="1" scaleY="1"
+			         horizontalCenter="0"  source="th_lobby_gl_png" verticalCenter="0"/>
+			<e:Image source="th_lobby_bottom_cut_png" x="0" scaleX="1" scaleY="1" verticalCenter="0"/>
+		</e:Group>
+		<e:Group id="memberGroup" x="269" anchorOffsetY="0" height="58" anchorOffsetX="0" width="160" y="3">
+			<e:Image id="memberBtn" anchorOffsetX="51" anchorOffsetY="20.5" scaleX="1" scaleY="1" horizontalCenter="0" source="th_lobby_cy_png" verticalCenter="0"/>
+			<e:Image source="th_lobby_bottom_cut_png" x="0" scaleX="1" scaleY="1" verticalCenter="0" y="17"/>
+		</e:Group>
+		<e:Group id="recordGroup" x="437" width="160" height="58" y="3">
+			<e:Image id="recordBtn" anchorOffsetX="52" anchorOffsetY="20.5" scaleX="1" scaleY="1" horizontalCenter="0" source="th_lobby_zj_png" verticalCenter="0"/>
+			<e:Image source="th_lobby_bottom_cut_png" x="0" scaleX="1" scaleY="1" verticalCenter="0" y="17"/>
+		</e:Group>
+		<e:Group id="layoutGroup" x="606" width="160" height="58" verticalCenter="0">
+
+			<e:Image id="layoutBtn" anchorOffsetX="50" anchorOffsetY="19.5" scaleX="1" scaleY="1" horizontalCenter="0"
+			          source="th_lobby_bj_png" verticalCenter="0"/>
+			<e:Image source="th_lobby_bottom_cut_png" x="0" scaleX="1" scaleY="1" verticalCenter="0" y="17"/>
+		</e:Group>
+		<e:Group id="quickGro" bottom="0" right="0" width="189" height="77">
+			<e:Image id="quickImg" source="th_lobby_quick_join_png" scaleX="1" scaleY="1" anchorOffsetX="95" anchorOffsetY="38.5" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+
+
+
+	</e:Group>
+
+	<e:Scroller id="noticeScroller" width="696" height="30" anchorOffsetX="0" horizontalCenter="9" bottom="66">
+		<e:Group>
+			<e:Label id="msgLabel" text="滚动公告" fontFamily="Microsoft YaHei" size="20" scaleX="1" scaleY="1" x="300"  verticalCenter="0"/>
+		</e:Group>
+	</e:Scroller>
+	<e:Group id="rightGroup" width="129.33" height="122.67" anchorOffsetY="0" anchorOffsetX="0" right="6"
+	         verticalCenter="168.5" touchEnabled="true" touchChildren="false">
+		<e:Image id="rightBtn" source="th_jiantou_png" anchorOffsetX="16.67" anchorOffsetY="25.03" x="104.73" y="58.38"
+		         scaleX="-1" />
+	</e:Group>
+	<e:Group id="leftGroup" width="129.33" height="122.67" anchorOffsetY="0" anchorOffsetX="0" verticalCenter="168.5"
+	         left="-1" touchEnabled="true" touchChildren="false">
+		<e:Image id="leftBtn" source="th_jiantou_png" anchorOffsetX="16.67" anchorOffsetY="27.52" scaleX="1" scaleY="1"
+		         x="27.31" y="60.84" />
+	</e:Group>
+	<e:Group width="60" height="200" verticalCenter="0" horizontalCenter="-600">
+		<e:Image source="th_lobby_floor_bg_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Label id="floorLab" text="1" y="73.5" size="24" fontFamily="Microsoft YaHei" textColor="0xffdf71" horizontalCenter="0.5"/>
+		<e:Label text="楼" y="99" horizontalCenter="0" size="24" fontFamily="Microsoft YaHei" textColor="0xFFDF71"/>
+		<e:Group id="downstairsGroup" anchorOffsetX="0" anchorOffsetY="0" y="143" scaleX="1" scaleY="1" width="50" height="50" horizontalCenter="0">
+			<e:Image id="downstairsBtn" anchorOffsetX="25" anchorOffsetY="25" source="th_lobby_down_png" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Group id="upstairsGroup" width="50" height="50" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="0" y="7">
+			<e:Image id="upstairsBtn" anchorOffsetX="25.76" anchorOffsetY="42.43" horizontalCenter="0" verticalCenter="0" source="th_lobby_up_png"/>
+		</e:Group>
+	</e:Group>
+
+
+</e:Skin>

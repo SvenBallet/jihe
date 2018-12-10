@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.TeaHouseReInviteView" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:FL="FL.*" width="910" height="650">
+    <e:Group id="baseGroup" horizontalCenter="0" verticalCenter="0" anchorOffsetY="0" width="800" height="500">
+        <e:Image anchorOffsetX="0" anchorOffsetY="0"
+                 source="panel_bottom_blue_png" scale9Grid="42,40,28,24"  width="800" height="450" y="50" x="0"/>
+			<e:Label id="inviteLab" text="啦啦啦茶楼谁谁谁邀请你来玩" y="110" fontFamily="Microsoft YaHei" width="600" horizontalCenter="0" textColor="0x000000" lineSpacing="7"/>
+			<e:Label id="playLab" text="玩法：布拉布拉布拉布拉布拉布拉布拉布拉布拉布拉布拉布拉布拉布拉布拉布拉布拉布拉布拉布拉布拉布拉布拉布拉布拉布拉布拉布拉布拉布拉" y="200" fontFamily="Microsoft YaHei" width="600" horizontalCenter="0" lineSpacing="7" textColor="0x000000"/>
+
+			<e:Group id="agreeGro" scaleX="1" scaleY="1" width="250" height="89" horizontalCenter="-170" bottom="40">
+				<e:Group id="agreeBtn" anchorOffsetX="125" anchorOffsetY="45" horizontalCenter="0" verticalCenter="0">
+				<e:Image anchorOffsetX="0" horizontalCenter="0" y="0" scale9Grid="52,37,1,4" source="th_detail_green_btn_png"/>
+				<e:Image horizontalCenter="0" verticalCenter="-10" source="th_agree_cha_png"/>
+				</e:Group>
+			</e:Group>
+			<e:Group id="refuseGro" scaleX="1" scaleY="1" width="250" height="89" horizontalCenter="170" bottom="40">
+				<e:Group id="refuseBtn" anchorOffsetX="125" anchorOffsetY="45" horizontalCenter="0" verticalCenter="0">
+				<e:Image anchorOffsetX="0" horizontalCenter="0" y="0" scale9Grid="52,37,1,4" source="th_refuse_btn_png"/>
+				<e:Image horizontalCenter="0" verticalCenter="-10" source="th_refuse_cha_png"/>
+				</e:Group>
+			</e:Group>
+    </e:Group>
+	<e:Group horizontalCenter="-5.5" top="78" x="405" y="-62" scaleX="1" scaleY="1">
+		<e:Image scale9Grid="54,27,15,26" anchorOffsetX="0" anchorOffsetY="0" source="th_top_png"/>
+		<e:Label id="titleLab" text="茶楼邀请" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" fontFamily="Microsoft YaHei" verticalAlign="middle" size="34" horizontalCenter="0.5" y="15" textColor="0xbd5a11"/>
+	</e:Group>
+
+    <e:Group id="closeGroup" width="70" height="70" x="809" y="102.3">
+        <e:Image id="closeBtn" scaleX="1" scaleY="1" anchorOffsetX="26" anchorOffsetY="28"
+                 horizontalCenter="-1" verticalCenter="2"  source="th_close_png"/>
+    </e:Group>
+</e:Skin>

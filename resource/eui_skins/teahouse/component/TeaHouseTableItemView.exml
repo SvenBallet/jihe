@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.TeaHouseTableItemViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:FL="FL.*"
+        xmlns:w="http://ns.egret.com/wing" height="270">
+	<e:Image id="bgImg" x="168" y="118" anchorOffsetX="168" anchorOffsetY="118"  source="th_table_4_png"/>
+	<e:Image source="th_lobby_table_numbg_png" y="97.88" horizontalCenter="0" touchEnabled="false"/>
+	<e:Label id="indexLab" text="3" y="101.2" size="18" fontFamily="Microsoft YaHei" width="50" textAlign="center" horizontalCenter="0.5" textColor="0xf6e0a6" touchEnabled="false"/>
+	<e:DataGroup id="playerGroup" width="290" height="200" y="-7" touchThrough="true" anchorOffsetX="0"
+	             anchorOffsetY="0"  horizontalCenter="-1.5"/>
+
+
+	<e:Group id="tableDetail" y="73" horizontalCenter="0.5">
+
+		<e:Group width="110" height="24" y="0" horizontalCenter="0">
+			<e:Image id="tableStateImg" source="th_wkj_png" y="0.5" horizontalCenter="0"/>
+			<e:Label id="tableState" text="第3/8局" y="2.28" size="20" touchEnabled="false" fontFamily="Microsoft YaHei" bold="false" border="false" stroke="1" strokeColor="0x803900" scaleX="1" scaleY="1" horizontalCenter="0.5" textColor="0xf9e668" visible="false"/>
+		</e:Group>
+
+	</e:Group>
+
+	<e:Group width="290" height="200" y="-7" horizontalCenter="-1.5" visible="false">
+		<e:Image source="th_avatar_png" x="10" y="83" width="96" height="96"/>
+		<e:Image source="th_avatar_png" y="5" x="186"/>
+		<e:Image source="th_avatar_png" y="5" x="186"/>
+		<e:Image source="th_avatar_png" y="5" x="186"/>
+		<e:layout>
+			<e:TileLayout requestedRowCount="2" requestedColumnCount="2" columnAlign="justifyUsingGap"/>
+		</e:layout>
+
+	</e:Group>
+	<e:Image id="xiangqingImg" y="164.02" horizontalCenter="0" anchorOffsetX="39.5" anchorOffsetY="16.5" source="th_lobby_xq_png"/>
+</e:Skin>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.TableBoardBaseViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:FL="FL.*"
+        xmlns:w="http://ns.egret.com/wing" minHeight="720" minWidth="1280">
+	<e:Image id="pzBg" right="0" top="0" bottom="0" left="0" source="pz_bg_blue_jpg" />
+	<FL:PZHeadAreaView id="headViewUp" width="430" height="178" skinName="skins.PZHeadAreaViewSkin" touchEnabled="false"
+	                   x="425"  y="50"/>
+	<FL:PZHeadAreaView id="headViewDown" width="430" height="178" skinName="skins.PZHeadAreaViewSkin" bottom="26"
+	                   horizontalCenter="0" touchEnabled="false" />
+	<FL:PZHeadAreaView id="headViewLeft" width="430" height="178" skinName="skins.PZHeadAreaViewSkin" touchEnabled="false"
+	                   x="61" y="289" />
+	<FL:PZHeadAreaView id="headViewRight" width="430" height="178" skinName="skins.PZHeadAreaViewSkin" touchEnabled="false"
+	                   x="789"  y="289"/>
+	<e:Group id="middleGroup" horizontalCenter="0" verticalCenter="-44" width="274" height="218" touchEnabled="false">
+		<e:Label id="waitingLabel" text="请稍等，牌局马上开始..." size="22" fontFamily="SimHei" width="255" textAlign="left" x="10"
+		         scaleX="1" scaleY="1" touchEnabled="false" verticalCenter="-62" />
+		<e:Image id="inviteFriend" source="invite_png" x="135.68" y="111.67" anchorOffsetX="154.67" anchorOffsetY="41.33" />
+		<e:Image id="copyRoomId" source="room_share_png" x="134.68" y="210" anchorOffsetX="152.67" anchorOffsetY="47" />
+	</e:Group>
+	<e:Group scaleX="0.7" scaleY="0.7" bottom="100" horizontalCenter="240">
+		<e:Image id="readyBtn" source="ready_png" anchorOffsetX="95" anchorOffsetY="42.5" scaleX="1" scaleY="1" x="95" y="52" visible="false"/>
+	</e:Group>
+</e:Skin>

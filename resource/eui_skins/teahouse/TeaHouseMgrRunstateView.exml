@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:FL="FL.*"
+        class="skins.TeaHouseMgrRunstateViewSkin" width="780" height="554">
+    <e:Image anchorOffsetX="0" anchorOffsetY="0" scale9Grid="24,23,3,3" left="0" right="3"
+             top="0" bottom="0" x="0" y="0"  source="th_compnent_png"/>
+	<e:Label text="日期" fontFamily="Microsoft YaHei" size="28" textAlign="center" height="28" textColor="0xf46d05" y="32" left="68" x="120"/>
+	<e:Label text="总局" fontFamily="Microsoft YaHei" size="28" textColor="0xf46d05" textAlign="center" height="28" y="32" right="71" x="580"/>
+	<e:Label text="三楼" fontFamily="Microsoft YaHei" size="28" textColor="0xf46d05" textAlign="center" height="28" y="32" left="641" x="641"/>
+	<e:Label text="二楼" fontFamily="Microsoft YaHei" size="28" textColor="0xf46d05" textAlign="center" height="28" y="32" left="456" x="475"/>
+	<e:Label text="一楼" fontFamily="Microsoft YaHei" size="28" textAlign="center" height="28" textColor="0xf46d05" y="32" left="270" x="311"/>
+
+    <e:Scroller id="scroller" anchorOffsetX="0" anchorOffsetY="0" left="13" top="77" right="13" bottom="36">
+        <e:DataGroup id="dataGroup" anchorOffsetX="0" width="602" anchorOffsetY="0" height="370" />
+    </e:Scroller>
+</e:Skin>

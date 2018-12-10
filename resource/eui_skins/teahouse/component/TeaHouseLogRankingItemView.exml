@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:FL="FL.*"
+        class="skins.TeaHouseLogRankingItemViewSkin" >
+	<e:Image source="th_item_png" scale9Grid="228,52,1,1" left="0" right="0" top="0" bottom="3" height="118"/>
+    <e:Label id="winLab" text="今日大赢家次数：9999" scaleX="1" scaleY="1" size="20" fontFamily="Microsoft YaHei"
+             textAlign="center" anchorOffsetX="0"  x="387" y="47" textColor="0x8b5436"/>
+    <e:Label id="date" text="2018/05/05 18:00:00" scaleX="1" scaleY="1" size="22" fontFamily="Microsoft YaHei"
+             textAlign="center" anchorOffsetX="0"  y="68" textColor="0x8b5436" right="10"/>
+    <e:Label text="更新时间" scaleX="1" scaleY="1" size="22" fontFamily="Microsoft YaHei" textAlign="center"
+             anchorOffsetX="0"  y="24" textColor="0x8b5436" right="67"/>
+    <e:Label id="playerID" text="ID：999999" scaleX="1" scaleY="1" size="22" fontFamily="Microsoft YaHei"
+             textAlign="center" anchorOffsetX="0"  x="180" y="68" textColor="0x8b5436"/>
+    <e:Label id="scoreLab" text="积分总和：9999" scaleX="1" scaleY="1" size="20" fontFamily="Microsoft YaHei"
+             textAlign="center"  x="387" y="80" textColor="0x8b5436"/>
+	<e:Label id="totalLab" text="今日总场次：9999" scaleX="1" scaleY="1" size="20" fontFamily="Microsoft YaHei" textAlign="center" x="387" y="14" textColor="0x8B5436"/>
+    <e:Label id="playerName" text="一二三四王麻子" scaleX="1" scaleY="1" size="22" fontFamily="Microsoft YaHei"
+             textAlign="center"  x="180" y="24" textColor="0x8b5436"/>
+    <e:Label id="indexLab" text="1" scaleX="1" scaleY="1" size="22" fontFamily="Microsoft YaHei"
+             textAlign="center" anchorOffsetY="0" height="34" verticalAlign="middle"  x="31" y="35" textColor="0x8b5436"/>
+
+    <e:Image scaleX="1" scaleY="1" source="avartar_box_png"  x="61" y="10"/>
+    <e:Image id="headImg" scaleX="1" scaleY="1" height="95" width="94" source=""  x="62" y="10"/>
+</e:Skin>

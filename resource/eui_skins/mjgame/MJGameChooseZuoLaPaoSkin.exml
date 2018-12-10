@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin xmlns:e="http://ns.egret.com/eui" xmlns:FL="FL.*" xmlns:w="http://ns.egret.com/wing" width="1280" class="skins.MJGameChooseZuoLaPaoSkin" height="216">
+	<e:Group id="zuoLaPaoGroup" left="210" right="192" bottom="0" anchorOffsetY="0" anchorOffsetX="0" height="216">
+		<e:Image source="wanfa_bg_png" alpha="0.5" height="216" touchEnabled="false" width="876" anchorOffsetX="0" x="0" anchorOffsetY="0" y="0"/>
+		<FL:GameButton id="buZuoBtn" width="234" height="74" y="62" skinName="skins.GameButtonSkin" anchorOffsetX="117" anchorOffsetY="37" x="170" scaleX="1" scaleY="1" imgName="btn_green_lg_png" label="不坐" touchEnabled="true"/>
+		<FL:GameButton id="zuoBtn1" width="234" height="74" y="62" skinName="skins.GameButtonSkin" anchorOffsetX="117" anchorOffsetY="37" x="441.18" scaleX="1" scaleY="1" imgName="btn_yellow_lg_png" label="坐一" touchEnabled="true"/>
+		<FL:GameButton id="zuoBtn2" width="234" height="74" y="62" skinName="skins.GameButtonSkin" anchorOffsetX="117" anchorOffsetY="37" x="712.41" scaleX="1" scaleY="1" imgName="btn_yellow_lg_png" label="坐二" touchEnabled="true"/>
+		<FL:GameButton id="buLaBtn" width="234" height="74" y="62" skinName="skins.GameButtonSkin" anchorOffsetX="117" anchorOffsetY="37" x="170" scaleX="1" scaleY="1" imgName="btn_green_lg_png" label="不拉" touchEnabled="true"/>
+		<FL:GameButton id="laBtn1" width="234" height="74" y="62" skinName="skins.GameButtonSkin" anchorOffsetX="117" anchorOffsetY="37" x="441.18" scaleX="1" scaleY="1" imgName="btn_yellow_lg_png" label="拉一" touchEnabled="true"/>
+		<FL:GameButton id="laBtn2" width="234" height="74" y="62" skinName="skins.GameButtonSkin" anchorOffsetX="117" anchorOffsetY="37" x="712.41" scaleX="1" scaleY="1" imgName="btn_yellow_lg_png" label="拉二" touchEnabled="true"/>
+		<FL:GameButton id="buPaoBtn" width="234" height="74" y="160" skinName="skins.GameButtonSkin" anchorOffsetX="117" anchorOffsetY="37" x="170" scaleX="1" scaleY="1" imgName="btn_green_lg_png" label="不跑" touchEnabled="true"/>
+
+		<FL:GameButton id="paoBtn1" width="234" height="74" y="160" skinName="skins.GameButtonSkin" anchorOffsetX="117" anchorOffsetY="37" x="441.18" scaleX="1" scaleY="1" imgName="btn_yellow_lg_png" label="跑一" touchEnabled="true"/>
+
+		<FL:GameButton id="paoBtn2" width="234" height="74" y="160" skinName="skins.GameButtonSkin" anchorOffsetX="117" anchorOffsetY="37" x="712.41" scaleX="1" scaleY="1" imgName="btn_yellow_lg_png" label="跑二" touchEnabled="true"/>
+	</e:Group>
+	<e:Image source="dissolve_time_bg_png" x="56" y="51"/>
+	<e:Label id="timeLabel" text="99" x="73.5" y="88.5" textColor="0x00927B" anchorOffsetX="0" width="65" textAlign="center" fontFamily="SimHei" size="30"/>
+</e:Skin>

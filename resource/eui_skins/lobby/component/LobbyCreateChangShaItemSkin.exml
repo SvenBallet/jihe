@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.LobbyCreateChangShaItemSkin" width="910" height="314" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label text="玩法：" x="0" y="0" textColor="0x6E3700" fontFamily="Microsoft YaHei" size="32" height="60" verticalAlign="middle"/>
+	<e:Group id="isZhuaNiaoGroup" x="101.5" y="200">
+		<e:RadioButton id="buZhua" label="不抓鸟" x="0" y="0" skinName="skins.RadioButtonSkin"/>
+		<e:RadioButton id="zhongNiaoJiaFen" label="中鸟加分" x="206" y="0" skinName="skins.RadioButtonSkin"/>
+		<e:RadioButton id="zhongNiaoFanBei" label="中鸟翻倍" x="397" y="0" skinName="skins.RadioButtonSkin"/>
+	</e:Group>
+	<e:Label text="抓鸟：" x="0" y="198" textColor="0x6E3700" fontFamily="Microsoft YaHei" size="32" height="60" verticalAlign="middle"/>
+	<e:Group id="visibleGroup" x="102" y="259">
+		<e:Group id="zhuaNiaoGroup" x="2" y="0">
+		<e:RadioButton id="zhua2Niao" label="抓2鸟" x="0" y="0" skinName="skins.RadioButtonSkin"/>
+		<e:RadioButton id="zhua4Niao" label="抓4鸟" x="206" y="0" skinName="skins.RadioButtonSkin"/>
+		<e:RadioButton id="zhua6Niao" label="抓6鸟" x="395" y="0" skinName="skins.RadioButtonSkin"/>
+		</e:Group>
+		<e:Group id="JiaBeiZhuaNiaoGroup" x="0" y="0">
+		<e:RadioButton id="zhua1Niao" label="抓1鸟" x="2" y="-1" skinName="skins.RadioButtonSkin"/>
+		<e:RadioButton id="zhua2Niao1" label="抓2鸟" x="397" y="-1" skinName="skins.RadioButtonSkin"/>
+		</e:Group>
+	</e:Group>
+	<e:CheckBox id="zhuangXian" label="庄闲" x="104" y="1" skinName="skins.CheckBoxSkin"/>
+	<e:CheckBox id="piaoFen" label="飘分" x="307" y="1" skinName="skins.CheckBoxSkin"/>
+	<e:CheckBox id="liuLiuShun" label="六六顺" x="500" y="1" skinName="skins.CheckBoxSkin"/>
+	<e:CheckBox id="queYiSe" label="缺一色" x="693" y="1" skinName="skins.CheckBoxSkin"/>
+	<e:CheckBox id="banBanHu" label="板板胡" x="104" y="71" skinName="skins.CheckBoxSkin"/>
+	<e:CheckBox id="daSiXi" label="大四喜" x="307" y="71" skinName="skins.CheckBoxSkin"/>
+	<e:CheckBox id="jieJieGao" label="节节高" x="500" y="71" skinName="skins.CheckBoxSkin"/>
+	<e:CheckBox id="sanTong" label="三同" x="693" y="71" skinName="skins.CheckBoxSkin"/>
+	<e:CheckBox id="yiZhiHua" label="一枝花" x="104" y="141" skinName="skins.CheckBoxSkin"/>
+	<e:CheckBox id="zhongTuSiXi" label="中途四喜" x="307" y="141" skinName="skins.CheckBoxSkin"/>
+	<e:Image source="right_split_line_png" left="0" right="0" height="3" y="196"/>
+</e:Skin>

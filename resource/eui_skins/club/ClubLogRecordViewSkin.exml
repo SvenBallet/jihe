@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.ClubLogRecordViewSkin" width="869.33" height="501" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group top="0" left="0" right="0" bottom="0">
+		<e:Image source="club_right_tab_bottom_png" anchorOffsetX="0" top="6" left="0" right="0" bottom="21" scale9Grid="18,66,5,11" anchorOffsetY="0"/>
+		<e:Label text="日志" size="28" fontFamily="Microsoft YaHei" x="407" y="15" textColor="0x6e3700"/>
+		<e:Scroller id="listScroller" anchorOffsetX="0" anchorOffsetY="0" top="63" bottom="28" right="36.33000000000004" left="33">
+			<e:DataGroup id="listGroup" anchorOffsetX="0" width="800" anchorOffsetY="0" height="356.6" x="51.52"/>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

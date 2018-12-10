@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.MJGameReplayHandleViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="108" width="423">
+	<e:Image source="replay_bg_png" verticalCenter="0" horizontalCenter="0"/>
+	<e:Group id="pauseOrReplayBtnGroup" width="80" height="80" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="pauseOrReplayBtn" source="pause_png" x="40" y="40" scaleX="1" scaleY="1" anchorOffsetX="40" anchorOffsetY="40" width="80" height="80"/>
+	</e:Group>
+	<e:Group id="changeSpeedBtnGroup" height="80" scaleX="1" scaleY="1" width="80" verticalCenter="0" right="0">
+		<e:Image id="changeSpeedBtn" y="40" scaleX="1" scaleY="1" anchorOffsetX="40" anchorOffsetY="40" source="fast_png" width="80" height="80" x="40"/>
+	</e:Group>
+	<e:Group id="changeSpeedBtnGroupS" height="80" scaleX="1" scaleY="1" width="80" verticalCenter="0" left="0">
+		<e:Image id="changeSpeedBtnS" x="40" y="40" scaleX="1" scaleY="1" anchorOffsetX="40" anchorOffsetY="40" width="80" height="80" source="slow_png"/>
+	</e:Group>
+</e:Skin>

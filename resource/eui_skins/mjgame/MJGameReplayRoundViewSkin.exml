@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.MJGameReplayRoundViewSkin" width="160" height="350" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="nextBtn" width="153" height="70" right="0" top="0">
+		<e:Image id="nextImg" source="replay_xiayiju_png" anchorOffsetX="76.5" anchorOffsetY="35" height="70" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+	</e:Group>
+	<e:Group id="lastBtn" width="153" height="70" right="0" bottom="180">
+		<e:Image id="lastImg" anchorOffsetX="76.5" anchorOffsetY="35" height="70" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" source="replay_shangyiju_png"/>
+	</e:Group>
+	<e:Label id="roundLabel" text="Label" y="72.5" size="24" horizontalCenter="0.5" fontFamily="Microsoft YaHei" textColor="0xfdf0a6"/>
+</e:Skin>

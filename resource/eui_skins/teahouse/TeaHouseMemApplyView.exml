@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:FL="FL.*"
+        class="skins.TeaHouseMemApplyViewSkin" width="780" height="554">
+    <e:Image anchorOffsetX="0" anchorOffsetY="0" scale9Grid="24,23,3,3" left="0" right="3"
+             top="83" bottom="87" x="0" y="0"  source="th_compnent_png"/>
+	<e:Group left="79" top="11">
+		<e:Group id="searchGroup" width="154.55" height="65.15" x="247.26" y="0" anchorOffsetY="0" anchorOffsetX="0">
+			<e:Group id="searchBtn" x="75" y="35" anchorOffsetX="69" anchorOffsetY="25" scaleX="1" scaleY="1">
+				<e:Image source="th_search_bottom_png" x="0" y="0" anchorOffsetX="0" width="138" scale9Grid="19,18,15,13"/>
+				<e:Image source="th_search_png" x="23.4" y="8.56"/>
+				<e:Label text="搜索" x="57" y="9" size="28" fontFamily="Microsoft YaHei" textColor="0x8C5436"/>
+			</e:Group>
+
+		</e:Group>
+
+
+		<e:TextInput id="searchInput" width="238.18" height="57.88" x="5.52" y="4.44" anchorOffsetX="0" anchorOffsetY="0" prompt="输入玩家昵称或ID"/>
+	</e:Group>
+
+
+    <e:Scroller id="scroller" anchorOffsetX="0" anchorOffsetY="0" left="8" top="89" right="46" bottom="93">
+        <e:DataGroup id="dataGroup" anchorOffsetX="0" width="602" anchorOffsetY="0" height="395.55" />
+    </e:Scroller>
+	<e:Group id="paginationGroup" horizontalCenter="0" bottom="19">
+		<e:Image x="57.34" y="-3" anchorOffsetX="0" width="108.67" scaleX="1" scaleY="1" scale9Grid="33,26,7,3" source="th_compnent_png"/>
+		<e:Label id="pageLab" text="1" x="59.33" y="1.63" anchorOffsetY="0" height="46" verticalAlign="middle" anchorOffsetX="0" width="104.67" textAlign="center" size="26" fontFamily="Microsoft YaHei" textColor="0x8C5436"/>
+		<e:Group id="leftGroup" width="55.34" height="52" x="-7.99" y="0" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image id="leftBtn" x="27.01" y="29.35" scaleX="1" scaleY="1" anchorOffsetX="32.33" anchorOffsetY="34.67" source="th_page_png"/>
+		</e:Group>
+		<e:Group id="rightGroup" width="55.33" height="53.33" x="177.35" y="0" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image id="rightBtn" x="27.01" y="28.01" scaleX="-1" scaleY="1" anchorOffsetX="32.33" anchorOffsetY="33.33" source="th_page_png"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="removeAllGroup" right="64" top="8">
+		<e:Group id="removeAllBtn" x="0" y="0">
+			<e:Image source="th_yellow_btn_png" scale9Grid="53,32,1,1" anchorOffsetX="0" width="218" x="0" y="0"/>
+			<e:Image source="th_removeall_png" x="46" y="16"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.SetViewSkin" width="846" height="510" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:FL="FL.*">
+	<e:Image width="830" height="433" x="8" y="65" source="panel_bottom_blue_png" scale9Grid="50,46,14,12"/>
+	<e:Group id="avatarGroup" left="99" top="188" width="96" height="97">
+		<e:Image source="avartar_box_png" x="0" y="0"/>
+		<e:Image id="headImg" source="" left="0" right="0" top="0" bottom="0"/>
+	</e:Group>
+	<e:HSlider id="soundEffectSld" width="324" height="48" x="400" y="199" skinName="skins.SetSliderSkin" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:HSlider id="musicSld" width="324" height="48" x="397" y="294" skinName="skins.SetSliderSkin" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Image id="effectBtn" source="sound_open_png" x="768" y="222" anchorOffsetX="26" anchorOffsetY="29"/>
+	<e:Image id="musicBtn" source="music_open_png" x="768" y="317" anchorOffsetX="26" anchorOffsetY="29"/>
+	<e:Image source="set_split_line_png" x="269" y="103"/>
+	<e:Label id="nameLabel" text="一二三四五六七八..." x="29" y="312" size="24" verticalAlign="justify" anchorOffsetX="2.42" fontFamily="Microsoft YaHei" width="233" textAlign="center" textColor="0xb95a00"/>
+	<e:Label text="音效：" x="311" y="206" fontFamily="Microsoft YaHei" size="26" textColor="0xB95A00"/>
+	<e:Label text="音乐：" x="310" y="301" fontFamily="Microsoft YaHei" size="26" textColor="0xB95A00"/>
+	<e:Group id="closeGroup" width="78" anchorOffsetX="0" anchorOffsetY="0" right="69" height="82" top="57">
+		<e:Image id="closeBtn" source="close_png" scaleX="1" scaleY="1" anchorOffsetX="25" anchorOffsetY="33" horizontalCenter="0" verticalCenter="0"/>
+	</e:Group>
+	<e:Group horizontalCenter="0" top="0" x="405" y="-62" scaleX="1" scaleY="1">
+		<e:Image source="panel_title_lg_png" x="0" y="0" scale9Grid="54,27,15,26" anchorOffsetX="0" width="317.66" anchorOffsetY="0" height="69"/>
+		<e:Label text="设置" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" fontFamily="Microsoft YaHei" textColor="0xB47819" left="0" top="5" bottom="0" right="0" verticalAlign="middle" size="36"/>
+	</e:Group>
+	<e:Label id="versionLabel" text="vn_12345" y="450.92" fontFamily="Microsoft YaHei" size="16" textAlign="right" right="40" textColor="0xa5a3a0"/>
+	<e:Group width="300" height="100" x="42" y="340" scaleX="0.7" scaleY="0.7">
+		<FL:GameButton id="changeBtn" width="234" height="74" y="42.74" skinName="skins.GameButtonSkin" anchorOffsetX="117" anchorOffsetY="37" x="140.88" imgName="btn_red_png" label="切换账号" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Group width="200" height="50" y="418" horizontalCenter="-279">
+		<e:Label id="healthLab" text="健康须知" verticalCenter="0" size="24" fontFamily="Microsoft YaHei" horizontalCenter="0" textColor="0xb95a00"/>
+	</e:Group>
+</e:Skin>

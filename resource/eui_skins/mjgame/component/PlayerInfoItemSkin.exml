@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" class="skins.PlayerInfoItemSkin">
+
+
+
+
+
+
+
+
+
+
+	<e:Group id="baseGroup" left="0" top="-1" right="0" bottom="1">
+
+
+
+
+
+
+
+
+
+
+
+		<e:Group id="detailGroup" x="0" y="0">
+			<e:Image x="0" y="0" scale9Grid="33,31,20,18" anchorOffsetX="0" width="566" anchorOffsetY="0" height="348" source="panel_bottom_blue_png"/>
+
+			<e:Scroller id="contentSroller" width="505" height="116" x="32" y="194" scrollPolicyV="off" scrollPolicyH="on" anchorOffsetY="0" anchorOffsetX="0">
+				<e:Group id="contentGroup" x="-1" y="-2" width="720" height="116" anchorOffsetY="0" anchorOffsetX="0">
+				<e:Group id="roseGroup" name="0" x="8" y="8" scaleX="1" scaleY="1">
+					<e:Image source="pi_item_bg_png" x="0" y="0"/>
+					<e:Image x="6" y="6" source="flower_png"/>
+				</e:Group>
+				<e:Group id="eggGroup" name="1" x="128" y="8" scaleX="1" scaleY="1">
+					<e:Image source="pi_item_bg_png" x="0" y="0"/>
+					<e:Image x="6" y="6" source="egg_png"/>
+				</e:Group>
+				<e:Group id="kissGroup" name="2" x="248" y="8" scaleX="1" scaleY="1">
+					<e:Image source="pi_item_bg_png" x="0" y="0"/>
+					<e:Image x="6" y="6" source="kiss_png"/>
+				</e:Group>
+				<e:Group id="shoesGroup" name="3" x="368" y="8" scaleX="1" scaleY="1">
+					<e:Image source="pi_item_bg_png" x="0" y="0"/>
+					<e:Image x="6" y="6" source="shoe_png"/>
+				</e:Group>
+				<e:Group id="cheerGroup" name="4" x="488" y="8" scaleX="1" scaleY="1">
+					<e:Image source="pi_item_bg_png" x="0" y="0"/>
+					<e:Image x="6" y="6" source="cheers_png"/>
+				</e:Group>
+				<e:Group id="boomGroup" name="5" x="608" y="8" scaleX="1" scaleY="1">
+					<e:Image source="pi_item_bg_png" x="0" y="0"/>
+					<e:Image source="bomb_png" x="6" y="6"/>
+				</e:Group>
+				</e:Group>
+			</e:Scroller>
+			<e:Group id="avatarGroup" x="32" y="32" width="98" height="99">
+				<e:Image id="avatarBtn" x="2" y="2" source="avartar_box_png"/>
+				<e:Image id="headImg" source="" left="0" right="0" top="0" bottom="0"/>
+
+			</e:Group>
+
+			<e:Label id="playerName" text="一二三四五六七八九十一二三..." x="167" y="40" textColor="0x326e87" size="26" anchorOffsetX="0" width="359" fontFamily="Microsoft YaHei"/>
+			<e:Label id="playerID" text="ID:128724" x="167" y="87" textColor="0x326E87" size="26" anchorOffsetX="0" width="126"/>
+			<e:Label id="playerIP" text="IP:127.111.111.222" x="307" y="87" textColor="0x326E87" size="26" anchorOffsetX="0" width="226"/>
+			<e:Label id="playerAddress" text="未知地址" x="167" y="133" textColor="0x326E87" size="26" anchorOffsetX="0" width="371.33" verticalAlign="middle" fontFamily="Microsoft YaHei"/>
+
+
+
+
+
+
+		</e:Group>
+	</e:Group>
+</e:Skin>

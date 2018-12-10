@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.ActivityLoginAwardViewSkin" width="766" height="471" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:FL="FL.*">
+	<e:Group id="group1" width="148" height="183" x="35" y="2" name="group1">
+		<e:Image id="bgImg1" source="daily_award_bg_png" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="21,45,28,29" left="0" right="0" top="0" bottom="0"/>
+		<e:Label id="titleLabel1" text="第一天" x="1" y="4" size="20" anchorOffsetX="0" width="146" anchorOffsetY="0" height="42" verticalAlign="middle" textAlign="center" fontFamily="SimHei"/>
+		<e:Label id="rewardLabel1" text="X1000" x="1" y="137" size="26" anchorOffsetX="0" width="146" anchorOffsetY="0" height="42" verticalAlign="middle" textAlign="center" fontFamily="SimHei" textColor="0xd74646"/>
+		<e:Image id="iconImg1" anchorOffsetX="0" anchorOffsetY="0" source="gold3_png" x="7" y="38.5" width="134" height="108"/>
+		<e:Image id="passImg1" source="expire_png" x="2.5" y="53.5" visible="false"/>
+		<e:Image id="getImg1" source="yilingqu_png" x="14.5" y="65"/>
+	</e:Group>
+	<e:Group id="group2" width="148" height="183" x="220" y="2" name="group2">
+		<e:Image id="bgImg2" source="daily_award_bg_png" scale9Grid="21,45,28,29" anchorOffsetX="0" anchorOffsetY="0" left="0" right="0" top="0" bottom="0"/>
+		<e:Label text="第一天" x="1" y="4" size="20" anchorOffsetX="0" width="146" anchorOffsetY="0" height="42" verticalAlign="middle" textAlign="center" fontFamily="SimHei" id="titleLabel2"/>
+		<e:Label text="X1000" x="1" y="137" size="26" anchorOffsetX="0" width="146" anchorOffsetY="0" height="42" verticalAlign="middle" textAlign="center" fontFamily="SimHei" textColor="0xD74646" id="rewardLabel2"/>
+		<e:Image id="iconImg2" x="7" y="38.5" width="134" height="108" source="gold3_png"/>
+		<e:Image id="passImg2" source="expire_png" x="2.5" y="53.5" visible="false"/>
+		<e:Image id="getImg2" source="yilingqu_png" x="14.5" y="65" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Group id="group3" width="148" height="183" x="404" y="2" name="group3">
+		<e:Image id="bgImg3" source="daily_award_bg_png" scale9Grid="21,45,28,29" anchorOffsetX="0" anchorOffsetY="0" left="0" right="0" top="0" bottom="0"/>
+		<e:Label text="第一天" x="1" y="4" size="20" anchorOffsetX="0" width="146" anchorOffsetY="0" height="42" verticalAlign="middle" textAlign="center" fontFamily="SimHei" id="titleLabel3"/>
+		<e:Label text="X2000" x="1" y="137" size="26" anchorOffsetX="0" width="146" anchorOffsetY="0" height="42" verticalAlign="middle" textAlign="center" fontFamily="SimHei" textColor="0xD74646" id="rewardLabel3"/>
+		<e:Image id="iconImg3" x="7" y="38.5" width="134" height="108" source="gold4_png"/>
+		<e:Image id="passImg3" source="expire_png" x="2.5" y="53.5" visible="false"/>
+		<e:Image id="getImg3" source="yilingqu_png" x="14.5" y="65" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Group id="group4" width="148" height="183" x="588.5" y="2" name="group4">
+		<e:Image id="bgImg4" source="daily_award_bg_png" scale9Grid="21,45,28,29" anchorOffsetX="0" anchorOffsetY="0" left="0" right="0" top="0" bottom="0"/>
+		<e:Label text="第一天" x="1" y="4" size="20" anchorOffsetX="0" width="146" anchorOffsetY="0" height="42" verticalAlign="middle" textAlign="center" fontFamily="SimHei" id="titleLabel4"/>
+		<e:Label text="X2000" x="1" y="137" size="26" anchorOffsetX="0" width="146" anchorOffsetY="0" height="42" verticalAlign="middle" textAlign="center" fontFamily="SimHei" textColor="0xD74646" id="rewardLabel4"/>
+		<e:Image id="iconImg4" x="7" y="38.5" width="134" height="108" source="gold4_png"/>
+		<e:Image id="passImg4" source="expire_png" x="2.5" y="53.5" visible="false"/>
+		<e:Image id="getImg4" source="yilingqu_png" x="14.5" y="65" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Group id="group5" width="148" height="183" x="35" y="201" name="group5">
+		<e:Image id="bgImg5" source="daily_award_bg_png" scale9Grid="21,45,28,29" anchorOffsetX="0" anchorOffsetY="0" left="0" right="0" top="0" bottom="0"/>
+		<e:Label text="第一天" x="1" y="4" size="20" anchorOffsetX="0" width="146" anchorOffsetY="0" height="42" verticalAlign="middle" textAlign="center" fontFamily="SimHei" id="titleLabel5"/>
+		<e:Label text="X10" x="1" y="137" size="26" anchorOffsetX="0" width="146" anchorOffsetY="0" height="42" verticalAlign="middle" textAlign="center" fontFamily="SimHei" textColor="0xD74646" id="rewardLabel5"/>
+		<e:Image id="iconImg5" x="7" y="38.5" width="134" height="108" source="zuanshi2_png"/>
+		<e:Image id="passImg5" source="expire_png" x="2.5" y="53.5" visible="false"/>
+		<e:Image id="getImg5" source="yilingqu_png" x="14.5" y="71.5" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Group id="group6" width="148" height="183" x="220" y="201" name="group6">
+		<e:Image id="bgImg6" source="daily_award_bg_png" scale9Grid="21,45,28,29" anchorOffsetX="0" anchorOffsetY="0" left="0" right="0" top="0" bottom="0"/>
+		<e:Label text="第一天" x="1" y="4" size="20" anchorOffsetX="0" width="146" anchorOffsetY="0" height="42" verticalAlign="middle" textAlign="center" fontFamily="SimHei" id="titleLabel6"/>
+		<e:Label text="X10" x="1" y="137" size="26" anchorOffsetX="0" width="146" anchorOffsetY="0" height="42" verticalAlign="middle" textAlign="center" fontFamily="SimHei" textColor="0xD74646" id="rewardLabel6"/>
+		<e:Image id="iconImg6" x="7" y="38.5" width="134" height="108" source="zuanshi2_png"/>
+		<e:Image id="passImg6" source="expire_png" x="2.5" y="53.5" visible="false"/>
+		<e:Image id="getImg6" source="yilingqu_png" x="14.5" y="71.5" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Group id="group7" width="312" height="183" x="416" y="200" anchorOffsetX="0" name="group7">
+		<e:Image id="bgImg7" source="daily_award_bg_png" scale9Grid="21,45,28,29" anchorOffsetX="0" anchorOffsetY="0" left="0" right="0" top="0" bottom="0"/>
+		<e:Label text="第七天" x="1" y="4" size="20" anchorOffsetX="0" width="315" anchorOffsetY="0" height="42" verticalAlign="middle" textAlign="center" fontFamily="SimHei" id="titleLabel7"/>
+		<e:Label text="X20" x="180.5" y="87.5" size="26" anchorOffsetX="0" width="107" anchorOffsetY="0" height="42" verticalAlign="middle" textAlign="center" fontFamily="SimHei" textColor="0xD74646" id="rewardLabel7"/>
+		<e:Image id="iconImg7" x="52.5" y="45" width="134" height="108" source="zuanshi4_png"/>
+		<e:Image id="passImg7" source="expire_png" x="89" y="61" visible="false"/>
+		<e:Image id="getImg7" source="yilingqu_png" x="108" y="84.5" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Label id="timeLabel" text="活动时间：" x="34" y="406" textColor="0xb95a00" size="22" fontFamily="SimHei"/>
+	<e:Label text="活动期间连续登陆七天即可获得相应奖励" x="34" y="441" textColor="0xb95a00" size="22" fontFamily="SimHei"/>
+	<FL:GameButton id="getBtn" width="234" height="74" x="620" y="433" skinName="skins.GameButtonSkin" anchorOffsetX="117" anchorOffsetY="37" imgName="btn_red_png" label="领取奖励"/>
+</e:Skin>

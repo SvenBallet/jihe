@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.MahjongActionCardSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image anchorOffsetX="0" anchorOffsetY="0" left="0" right="0" top="0" bottom="0" source="hubg_png" height="102" scale9Grid="26,33,19,31"/>
+	<e:Group id="cardList" anchorOffsetX="0" anchorOffsetY="0" left="12" top="12" height="80" right="12">
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="left" gap="0"/>
+		</e:layout>
+		<e:Image source="M_bamboo_9_png" anchorOffsetX="0" width="54" anchorOffsetY="0" height="80" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Image source="M_bamboo_9_png" anchorOffsetX="0" width="54" anchorOffsetY="0" height="80" x="10" y="10" scaleX="1" scaleY="1"/>
+		<e:Image source="M_bamboo_9_png" anchorOffsetX="0" width="54" anchorOffsetY="0" height="80" x="20" y="20" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>

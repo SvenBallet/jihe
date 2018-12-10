@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="skins.GameButtonSkin" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+    <e:Image id="buttonImg" source="btn_blue_png" anchorOffsetX="0" anchorOffsetY="0" left="0" right="0" top="0" bottom="0" scale9Grid="32,13,2,22"/>
+    <e:Label id="labelDisplay" top="0" bottom="12" left="8" right="8" text="确定" style="buttonText" bold="true" verticalAlign="middle" textAlign="center" fontFamily="Microsoft YaHei" size="30"/>
+</e:Skin>

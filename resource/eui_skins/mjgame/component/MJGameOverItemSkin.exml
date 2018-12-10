@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.MJGameOverItemSkin" width="1216" height="127" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="roomover_line_v_png" x="893.35" verticalCenter="0.5"/>
+	<e:Group id="playerInfoGroup" width="1216" height="127" x="0" y="0">
+		<e:Image x="15" y="6" scaleX="1" scaleY="1" source="room_over_headcircle_png"/>
+		<e:Image id="headImg" x="15" y="6" scaleX="1" scaleY="1" height="95" width="95" source=""/>
+		<e:Label id="playerName" text="玩家名五个." x="6" y="103" size="20" fontFamily="SimHei" anchorOffsetX="0" width="114" textAlign="center" scaleX="1" scaleY="1" textColor="0xffff80"/>
+		<e:Label id="gameResultDesc" text="玩家名六个..." x="150.01" y="103" size="20" fontFamily="SimHei" textAlign="left" scaleX="1" scaleY="1" textColor="0x53ffb8"/>
+		<e:Group id="handCardGroup" x="150" y="26.34" width="630" height="68" scaleX="1" scaleY="1"/>
+		<e:Group id="huaCardGroupOne" width="140" x="907" y="3" anchorOffsetX="0" height="60" scaleX="1" scaleY="1">
+		</e:Group>
+		<e:Group id="huaCardGroupTwo" width="140" x="907" y="63" anchorOffsetX="0" height="60" scaleX="1" scaleY="1"/>
+		<e:Group id="scoreGroup" width="160" height="51" y="36" x="1051.44" scaleX="1" scaleY="1">
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="center" gap="0" />
+			</e:layout>
+		</e:Group>
+		<e:Group id="huCardImg" width="45" height="68" x="787.66" y="26.34">
+			<e:Image x="0" y="0" width="45" height="68" scaleX="1" scaleY="1" source=""/>
+		</e:Group>
+		<e:Group id="huCardImg0" width="45" height="68" x="839.66" y="26.34">
+			<e:Image x="0" y="0" width="45" height="68" scaleX="1" scaleY="1" source=""/>
+		</e:Group>
+		<e:Image id="huFlagImg" source="gos_hu_bt_png" x="812.66" y="14.9" scaleX="1" scaleY="1"/>
+		<e:Image id="dealerFlag" source="zhuang_jia_png" x="10" y="2.48" scaleX="1" scaleY="1"/>
+		<e:Image id="roomOwnerIcon" x="10" y="61.44" source="fangzhu_png"/>
+	</e:Group>
+</e:Skin>

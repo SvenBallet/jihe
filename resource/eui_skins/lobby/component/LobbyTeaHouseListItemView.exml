@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" class="skins.LobbyTeaHouseListItemViewSkin">
+    <e:Image source="liebiaobg_png" />
+    <e:Group id="avatarGroup" y="-16.16" width="110" height="97" x="-14" anchorOffsetY="0">
+        <e:Image id="avatarBtn" x="20" y="20" source="avartar_circle_png" />
+        <e:Image id="headImg" height="72" x="20.5" y="20.5" width="72" source="" />
+    </e:Group>
+    <e:Label id="thNameID" text="经典跑得快..(1212121)" x="84" y="18.34" anchorOffsetX="0" textColor="0x963d06" size="18"
+             anchorOffsetY="0" height="20" />
+    <e:Label id="thCreatorName" text="你看我名字长不长" x="84" y="46.34" anchorOffsetX="0" textColor="0x963D06" size="18"
+             anchorOffsetY="0" height="20" />
+</e:Skin>

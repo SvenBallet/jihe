@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin width="860" height="590" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:FL="FL.*" class="skins.AgentGiveDiamondViewSkin">
+	<e:Label text="赠送内容" x="138" y="96" size="30" fontFamily="Microsoft YaHei" textColor="0xb95a00"/>
+	<e:Label text="钻石" x="374.31" y="96" size="30" fontFamily="Microsoft YaHei" textColor="0xb95a00" anchorOffsetX="0" width="247" textAlign="center"/>
+	<e:Label text="赠送数量" x="138" y="192" size="30" fontFamily="Microsoft YaHei" textColor="0xb95a00"/>
+	<e:Label text="对方游戏ID" x="138" y="294.73" size="30" fontFamily="Microsoft YaHei" textColor="0xb95a00"/>
+	<e:Label text="我的密码" x="138" y="390.73" size="30" fontFamily="Microsoft YaHei" textColor="0xb95a00"/>
+
+	<e:TextInput id="password" width="352" height="70" x="345" y="375" anchorOffsetY="0" anchorOffsetX="0" skinName="skins.TextInputSkin"/>
+	<e:Label text="赠送玩家钻石" x="1.28" y="16.73" size="32" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="860" textAlign="center" textColor="0xb95a00"/>
+
+	<FL:GameButton id="confirmBtn" width="234" height="74" x="460" imgName="btn_blue_png" label="确定" labelSize="30" anchorOffsetX="116" anchorOffsetY="37" bottom="37" skinName="skins.GameButtonSkin"/>
+
+	<e:Group id="addGroup" width="70" height="70" x="343" y="168" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image id="addBtn" source="jia_png" x="10" y="11" anchorOffsetX="0" width="50" anchorOffsetY="0" height="50"/>
+	</e:Group>
+	<e:Group id="minusGroup" width="70" height="70" x="627" y="168">
+		<e:Image id="minusBtn" source="jian_png" x="10" width="50" height="50" y="12"/>
+	</e:Group>
+	<FL:NumberInput id="giveNum" text="Label" x="441" y="172" anchorOffsetX="0" width="160" anchorOffsetY="0" height="66" skinName="skins.NumberInputSkin"/>
+	<FL:NumberInput id="playerId" text="" x="345" y="277" width="352" height="70" skinName="skins.NumberInputSkin"/>
+</e:Skin>

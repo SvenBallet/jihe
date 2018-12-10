@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin width="860" height="556" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:FL="FL.*" class="skins.AgentSearchRecordViewSkin">
+	<e:Image source="tab_bottom_png" x="162" y="6" scale9Grid="15,15,43,32" anchorOffsetX="0" width="544" height="62"/>
+	<e:Group id="sumGroup" width="130" height="60" x="168" y="7" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image id="sumBtn" source="tab_chosen_png" x="0" y="4" width="130" height="52"/>
+		<e:Label text="总流水" x="-1" y="15" fontFamily="Microsoft YaHei" textColor="0xb95a00" width="130" textAlign="center"/>
+	</e:Group>
+	<e:Group id="expandGroup" width="130" height="60" x="301" y="7">
+		<e:Image id="expandBtn" x="0" y="4" width="130" height="52" source=""/>
+		<e:Label text="支出" x="1" y="14" fontFamily="Microsoft YaHei" textColor="0xb95a00" width="130" textAlign="center"/>
+	</e:Group>
+	<e:Group id="revenueGroup" width="130" height="60" x="435" y="7">
+		<e:Image id="revenueBtn" x="0" y="4" width="130" height="52" source=""/>
+		<e:Label text="收入" x="1" y="14" fontFamily="Microsoft YaHei" textColor="0xb95a00" width="130" textAlign="center"/>
+	</e:Group>
+	<e:Group id="mySubGroup" width="130" height="60" x="569" y="7">
+		<e:Image id="mySubBtn" x="0" y="4" width="130" height="52" source=""/>
+		<e:Label text="我的下级" x="1" y="14" fontFamily="Microsoft YaHei" textColor="0xb95a00" width="130" textAlign="center"/>
+	</e:Group>
+	<FL:GameButton id="searchBtn" width="160" height="60" x="694" y="499" skinName="skins.GameButtonSkin" imgName="btn_blue_png" labelSize="30" label="查询信息" anchorOffsetX="80" anchorOffsetY="30"/>
+
+	<FL:NumberInput id="searchContent" width="170" height="70" x="416" y="462" skinName="skins.NumberInputSkin"/>
+	<e:Group id="leftGroup" width="90" height="68" x="41.55" y="465.41" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image id="leftBtn" source="pz_tc_png" x="14.6" y="3.19" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Group id="rightGroup" width="90" height="68" x="239.45" y="463.25" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image id="rightBtn" x="14.6" y="3.19" scaleX="1" scaleY="1" source="pz_tj_png"/>
+	</e:Group>
+	<e:Label id="currentPage" text="1" x="131.18" y="462.36" anchorOffsetX="0" width="50" anchorOffsetY="0" height="72" verticalAlign="middle" textAlign="center" textColor="0xb95a00" fontFamily="Microsoft YaHei"/>
+	<e:Label text="/" x="179.08" y="461.75" anchorOffsetX="0" width="10" anchorOffsetY="0" height="72" verticalAlign="middle" textAlign="center" textColor="0xb95a00" fontFamily="Microsoft YaHei"/>
+	<e:Label id="totalPage" text="1" x="190.57" y="462.66" anchorOffsetX="0" width="50" anchorOffsetY="0" height="72" verticalAlign="middle" textAlign="center" textColor="0xb95a00" fontFamily="Microsoft YaHei"/>
+	<e:Scroller id="contentScroller" width="860" height="360" x="1" y="82" scrollPolicyV="on" scrollPolicyH="off">
+		<e:Group id="contentGroup" x="-89" y="-79" width="860" height="360">
+		<e:List id="contentList" width="860" x="0" y="0" scaleX="1" scaleY="1"/>
+		</e:Group>
+	</e:Scroller>
+
+</e:Skin>

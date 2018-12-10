@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:FL="FL.*"
+        class="skins.TeaHouseMemApplyItemViewSkin" width="800">
+	<e:Image source="th_item_png" scale9Grid="228,52,1,1" left="0" top="0" right="0" bottom="3" height="117"/>
+    <e:Label id="memberName" text="一二三四..." scaleX="1" scaleY="1" size="22" fontFamily="Microsoft YaHei"
+             textAlign="center" anchorOffsetX="0"
+              x="124" y="69" textColor="0x8b5436"/>
+    <e:Label id="memberID" text="ID:123456" scaleX="1" scaleY="1" size="22" fontFamily="Microsoft YaHei"
+             textAlign="center"  x="130" y="28" textColor="0x8b5436"/>
+
+
+
+    <e:Image scaleX="1" scaleY="1" source="avartar_box_png"  x="14" y="9"/>
+    <e:Image id="headImg" scaleX="1" scaleY="1" height="95" width="94" source=""
+              x="15" y="9"/>
+	<e:Group id="rejectGroup" y="32" right="18">
+		<e:Group id="rejectBtn" x="63" y="30" anchorOffsetX="63" anchorOffsetY="30">
+		<e:Image scale9Grid="32,26,1,1" x="0" y="0" anchorOffsetX="0" width="125" source="btn_orange_1_png"/>
+		<e:Label text="拒绝" horizontalCenter="0.5" verticalCenter="-2.5" fontFamily="Microsoft YaHei"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="agreeGroup" y="32" right="187">
+		<e:Group id="agreeBtn" x="63" y="30" anchorOffsetX="63" anchorOffsetY="30">
+		<e:Image scale9Grid="32,26,1,1" x="0" y="0" anchorOffsetX="0" width="125" source="btn_green_1_png"/>
+		<e:Label text="同意" horizontalCenter="0.5" verticalCenter="-2.5" fontFamily="Microsoft YaHei"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

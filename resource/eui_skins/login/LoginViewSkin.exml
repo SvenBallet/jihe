@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.LoginViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" minHeight="720" minWidth="1280">
+	<e:Image id="bgImg" left="0" right="0" top="0" bottom="0" source="bg_jpg"/>
+	<e:Image source="login_xy_bg_png" width="299" height="52" horizontalCenter="0.5" bottom="90"/>
+	<e:Image id="selectCheckBox" source="login_check_agree_png" bottom="95" horizontalCenter="-122" width="40" height="40"/>
+	<e:Image height="80" bottom="0" left="0" right="0" source="login_fcm_bg_png"/>
+	<e:Image source="login_logo_png" horizontalCenter="0" verticalCenter="-135"/>
+	<e:Group id="loginButtonGroup" width="305" height="107" horizontalCenter="223" bottom="150">
+		<e:Image id="loginButton" anchorOffsetX="152" anchorOffsetY="53" scaleX="1" scaleY="1" source="login_weixin_png" x="152" y="53"/>
+	</e:Group>
+	<e:Group id="loginButtonGroup0" width="305" height="107" horizontalCenter="-223" bottom="150">
+		<e:Image id="loginButton0" anchorOffsetX="152" anchorOffsetY="53" scaleX="1" scaleY="1" x="152" y="53" source="login_xianliao_png"/>
+	</e:Group>
+	<e:Group id="loginBtnGroup" width="220" height="70" horizontalCenter="0" bottom="165" x="240" y="285" scaleX="1" scaleY="1" visible="false">
+		<e:Rect width="220" height="70" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" fillColor="0x0C4EB2"/>
+		<e:Label text="登录" scaleX="1" scaleY="1" fontFamily="SimHei" size="36" x="74" y="17"/>
+	</e:Group>
+	<e:Group id="testGro" width="468.18" height="377.27" x="806" y="102.73" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+		<e:Image id="loginButtonL" anchorOffsetX="152" anchorOffsetY="53" scaleX="1" scaleY="1" source="login_weixin_png" x="207.63" y="103.62"/>
+		<e:Image id="loginButtonB" anchorOffsetX="152" anchorOffsetY="53" scaleX="1" scaleY="1" source="login_weixin_png" x="207.63" y="263.77"/>
+	</e:Group>
+	<e:Label id="agreeLabel" text="同意使用用户协议" size="26" fontFamily="SimHei" verticalAlign="middle" textAlign="left" bottom="90" horizontalCenter="31" height="50" anchorOffsetX="0" width="232"/>
+	<e:Label id="versionLabel" text="版本:2101911" size="22" fontFamily="SimHei" verticalAlign="middle" textAlign="right" right="10" textColor="0xffffff" top="5"/>
+	<e:Label text="软著登记号：2018SR785555；浙网文[2017]6485-420号浙B2-20170767；著作权人：深圳市天天爱科技有限公司\n运营单位：杭州然趣网络技术有限公司；适龄提醒：适合十八周岁以上用户使用\n抵制不良游戏，拒绝盗版游戏。注意自我保护，谨防受骗上当。适度游戏益脑，沉迷游戏伤身。合理安排时间，享受健康生活" size="18" fontFamily="SimHei" verticalAlign="middle" textAlign="center" horizontalCenter="0" bottom="6" textColor="0xc3c3c3" lineSpacing="5"/>
+</e:Skin>

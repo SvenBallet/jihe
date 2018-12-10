@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:FL="FL.*"
+        class="skins.TeaHouseLogRankingView" width="1000" height="554">
+    <e:Image anchorOffsetX="0" anchorOffsetY="0" left="0" right="0"
+             top="76" bottom="73" x="0" y="0"  source="th_rank_bg_png" scale9Grid="24,67,14,243"/>
+
+	<e:Group horizontalCenter="0" height="60" width="946" y="8">
+		<e:Image anchorOffsetX="0" left="0" right="0" top="0" bottom="-2" source="th_rank_tab_bg_png" scale9Grid="53,12,67,33"/>
+		<e:Group left="0" top="0" bottom="0" right="0">
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="center" gap="8" verticalAlign="middle"/>
+			</e:layout>
+			<e:Group id="todayTapGroup" width="171" height="54" x="95" verticalCenter="0" y="7" scaleX="1" scaleY="1">
+				<e:Image id="todayTapImg" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0" source="th_rank_tab_btn_png"/>
+				<e:Label id="todayTapLabel" text="今日排行" y="0" width="171" horizontalCenter="0" textAlign="center" verticalAlign="middle" height="52" size="28" fontFamily="SimHei"/>
+			</e:Group>
+			<e:Image x="185" y="5" scaleX="1" scaleY="1" source="th_rank_tab_line_png"/>
+			<e:Group id="yesterdayTapGroup" width="171" height="54" x="105" verticalCenter="0" y="17" scaleX="1" scaleY="1">
+				<e:Image id="yesterdayTapImg" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0" source="th_rank_tab_btn_png"/>
+				<e:Label id="yesterdayTapLabel" text="昨日排行" y="0" width="171" horizontalCenter="0" textAlign="center" verticalAlign="middle" height="52" size="28" fontFamily="SimHei" textColor="0xdf6227"/>
+			</e:Group>
+			<e:Image x="195" y="15" scaleX="1" scaleY="1" source="th_rank_tab_line_png"/>
+			<e:Group id="thisWeekTapGroup" width="171" height="54" x="115" verticalCenter="0" y="27" scaleX="1" scaleY="1">
+				<e:Image id="thisWeekTapImg" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0" source="th_rank_tab_btn_png"/>
+				<e:Label id="thisWeekTapLabel" text="本周排行" y="0" width="171" horizontalCenter="0" textAlign="center" verticalAlign="middle" height="52" size="28" fontFamily="SimHei"/>
+			</e:Group>
+			<e:Image x="205" y="25" scaleX="1" scaleY="1" source="th_rank_tab_line_png"/>
+			<e:Group id="lastWeekTapGroup" width="171" height="54" x="125" verticalCenter="0" y="37" scaleX="1" scaleY="1">
+				<e:Image id="lastWeekTapImg" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0" source="th_rank_tab_btn_png"/>
+				<e:Label id="lastWeekTapLabel" text="上周排行" y="0" width="171" horizontalCenter="0" textAlign="center" verticalAlign="middle" height="52" size="28" fontFamily="SimHei"/>
+			</e:Group>
+			<e:Image x="215" y="35" scaleX="1" scaleY="1" source="th_rank_tab_line_png"/>
+			<e:Group id="thisMonthTapGroup" width="171" height="54" x="135" verticalCenter="0" y="47" scaleX="1" scaleY="1">
+				<e:Image id="thisMonthTapImg" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0" source="th_rank_tab_btn_png"/>
+				<e:Label id="thisMonthTapLabel" text="本月排行" y="0" width="171" horizontalCenter="0" textAlign="center" verticalAlign="middle" height="52" size="28" fontFamily="SimHei"/>
+			</e:Group>
+		</e:Group>
+
+
+	</e:Group>
+
+
+    <e:Scroller id="scroller" anchorOffsetX="0" anchorOffsetY="0" left="8" top="128" right="8" bottom="76">
+			<e:DataGroup id="dataGroup" anchorOffsetY="0" itemRendererSkinName="skins.TeaHouseLogRankingItemNewViewSkin" itemRenderer="FL.TeaHouseLogRankingItemNewView" y="-1"/>
+
+    </e:Scroller>
+	<e:Group scaleX="1" scaleY="1" right="10" height="60" bottom="0" width="600">
+		<e:Label id="consumeDiamondNum" text="钻石消耗量:999999" size="28" fontFamily="SimHei" textColor="0x977420" right="240" bottom="18" width="260" textAlign="center"/>
+		<e:Label id="changCiHeJiLabel" text="场次合计:99999" size="28" fontFamily="SimHei" textColor="0x977420" right="20" bottom="18" width="210" textAlign="center"/>
+
+	</e:Group>
+
+
+
+	<e:Group height="37" y="83" anchorOffsetY="0" anchorOffsetX="0" right="8" left="8">
+		<e:Label text="排名" size="28" fontFamily="SimHei" textColor="0x977420" width="144" textAlign="center" anchorOffsetX="0" scaleX="1" scaleY="1" y="5" left="8"/>
+		<e:Label text="昵称" size="28" fontFamily="SimHei" textColor="0x977420" width="280" textAlign="center" anchorOffsetX="0" scaleX="1" scaleY="1" left="170" y="5"/>
+		<e:Label text="ID" size="28" fontFamily="SimHei" textColor="0x977420" width="144" textAlign="center" anchorOffsetX="0" scaleX="1" scaleY="1" y="5" left="484"/>
+		<e:Label id="scoreTitleLabel" text="分数" size="28" fontFamily="SimHei" textColor="0x977420" textAlign="center" anchorOffsetX="0" scaleX="1" scaleY="1" y="5" right="250" width="100"/>
+		<e:Label text="场数" size="28" fontFamily="SimHei" textColor="0x977420" textAlign="center" anchorOffsetX="0" scaleX="1" scaleY="1" y="5" right="144" width="100"/>
+		<e:Label id="bigWinCountTitle" text="大赢家" size="28" fontFamily="SimHei" textColor="0x977420" textAlign="center" anchorOffsetX="0" scaleX="1" scaleY="1" y="5" right="28" width="100"/>
+	</e:Group>
+	<e:Group id="paginationGroup" bottom="4" left="50" anchorOffsetX="0" width="270">
+		<e:Image y="-3" anchorOffsetX="0" width="144" scaleX="1" scaleY="1" scale9Grid="33,26,7,3" source="th_compnent_png" horizontalCenter="0"/>
+		<e:Label id="pageLab" text="第1页" y="2.63" anchorOffsetY="0" height="46" verticalAlign="middle" anchorOffsetX="0" width="137.67" textAlign="center" size="26" fontFamily="Microsoft YaHei" textColor="0x8c5436" horizontalCenter="0"/>
+		<e:Group id="leftGroup" width="55.34" height="52" y="0" anchorOffsetX="0" anchorOffsetY="0" left="0">
+		<e:Image id="leftBtn" x="27.01" y="29.35" scaleX="1" scaleY="1" anchorOffsetX="32.33" anchorOffsetY="34.67" source="th_page_png"/>
+		</e:Group>
+		<e:Group id="rightGroup" width="55.33" height="53.33" y="0" anchorOffsetX="0" anchorOffsetY="0" right="0">
+		<e:Image id="rightBtn" x="27.01" y="28.01" scaleX="-1" scaleY="1" anchorOffsetX="32.33" anchorOffsetY="33.33" source="th_page_png"/>
+		</e:Group>
+	</e:Group>
+	<e:Label id="noRankingDataLabel" text="暂无今日排行数据！" textColor="0x977420" horizontalCenter="0" verticalCenter="10" size="60" fontFamily="SimHei" touchEnabled="false"/>
+
+
+</e:Skin>

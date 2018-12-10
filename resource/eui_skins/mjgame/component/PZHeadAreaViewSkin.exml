@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.PZHeadAreaViewSkin" width="430" height="178" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:FL="FL.*">
+	<e:Image id="headIconBg" y="5" scaleX="1" scaleY="1" x="170" touchEnabled="true" source="avartar_box_png" height="96" width="96"/>
+	<e:Image id="headIcon" y="8" scaleX="1" scaleY="1" x="173" touchEnabled="false" width="88" height="88" source=""/>
+	<e:Image id="closeDistanceFlag" source="close_distance_png" x="173" y="8" width="88" height="88"/>
+	<e:Image id="offlineFlag" source="play_offline_png" x="173" y="8" touchEnabled="false" width="88" height="88"/>
+	<e:Image id="okIcon" source="wait_zhunbei_png" y="21" x="88" touchEnabled="false"/>
+	<e:Group id="timeoutGro" width="102" height="102" x="165" y="0.5" visible="false">
+		<e:Image id="darkImg" scale9Grid="26,29,14,10" width="102" height="102" scaleX="1" scaleY="1" source="head_circle_dark_png"/>
+		<e:Image id="lightImg" source="head_circle_light_png" x="0" y="0" scale9Grid="26,29,14,10" width="102" height="102" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Image id="gpsIcon" source="pz_gps_s_png" y="35" x="287" touchEnabled="false" visible="false"/>
+	<e:Image id="roomOwnerIcon" source="fangzhu_png" x="231" y="64.5" touchEnabled="false"/>
+	<e:Image id="zhuangIcon" source="zhuang_jia_png" x="232" y="0" touchEnabled="false"/>
+	<e:Image id="zuoAndLaIcon" source="zuo1_png" y="-34" x="162"/>
+	<e:Image id="paoAndXiaMaIcon" source="xia0_png" y="-34" x="192"/>
+	<e:Image id="piaoIcon" source="xz_score_1_png" x="139" y="5"/>
+	<e:Group id="playerInfoGroup" width="88" height="48" y="26" x="275" touchEnabled="false" touchChildren="false">
+		<e:Image id="playerBg" source="pz_player_info_png" y="0" x="0" width="88" height="48"/>
+		<e:Label id="playerShortName" text="来自星星的你.." x="0" y="4" fontFamily="SimHei" size="16" anchorOffsetX="0" width="88" textAlign="center" textColor="0xafaeae"/>
+		<e:Label id="playerScore" text="分数:50" x="0" y="26" fontFamily="SimHei" size="18" anchorOffsetX="0" width="88" textAlign="center" verticalAlign="middle" textColor="0xedec41"/>
+	</e:Group>
+	<e:Label id="playerLongName" text="一二三四五一二三四五一二.." y="115" size="22" fontFamily="SimHei" verticalAlign="middle" textAlign="center" width="300" x="65" touchEnabled="false" textColor="0xafaeae"/>
+	<e:Label id="selectedPlayerNumPattern" text="申请二人模式" size="30" fontFamily="SimHei" verticalAlign="middle" textAlign="center" width="260" touchEnabled="false" textColor="0xe7e9a3" y="148" x="85"/>
+	<e:Image id="tingIcon" source="ting_icon_png" x="180" y="92" anchorOffsetX="25" anchorOffsetY="34" touchEnabled="false"/>
+	<FL:TalkAni id="talkAniMod" x="368" y="23" skinName="skins.TalkAniSkin" scaleX="-1" visible="false"/>
+</e:Skin>

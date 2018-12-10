@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.MJGameOverDetailItemSkinN" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+    <e:Image id="plLabel0Img" source="detail_write_grid_png" x="0" y="0" width="161" height="51"/>
+	<e:Image id="plLabel1Img" source="detail_write_grid_png" width="161" height="51" x="161"/>
+	<e:Image id="plLabel2Img" source="detail_write_grid_png" width="161" height="51" x="322"/>
+	<e:Image id="plLabel3Img" source="detail_write_grid_png" width="161" height="51" x="483" visible="false"/>
+	<e:Image id="plLabel4Img" source="detail_write_grid_png" width="161" height="51" x="644" visible="false"/>
+    <e:Label id="itemName" text="玩家" x="0" y="0" size="26" fontFamily="SimHei" width="160" height="50" textColor="0x003c5a" verticalAlign="middle" textAlign="center"/>
+	<e:Label id="plLabel1" text="玩家" size="26" fontFamily="SimHei" width="160" height="50" textColor="0x003C5A" verticalAlign="middle" textAlign="center" x="161"/>
+	<e:Label id="plLabel2" text="玩家" size="26" fontFamily="SimHei" height="50" textColor="0x003C5A" verticalAlign="middle" textAlign="center" x="322" width="160"/>
+	<e:Label id="plLabel3" text="玩家" size="26" fontFamily="SimHei" height="50" textColor="0x003C5A" verticalAlign="middle" textAlign="center" x="483" width="160" visible="false"/>
+	<e:Label id="plLabel4" text="玩家" size="26" fontFamily="SimHei" height="50" textColor="0x003C5A" verticalAlign="middle" textAlign="center" x="644" width="160" visible="false"/>
+</e:Skin>

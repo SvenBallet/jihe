@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:FL="FL.*" class="skins.MJGameChatViewSkin">
+
+
+
+
+	<e:Group id="delGroup" width="702" height="720" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0">
+	</e:Group>
+	<e:Group id="contentGroup" right="6" top="17" bottom="21">
+		<e:Image scale9Grid="36,34,16,16" anchorOffsetX="0" width="568" anchorOffsetY="0" x="0" y="0" height="682" source="panel_bottom_blue_png"/>
+		<e:Image source="detail_area_bottom_png" x="32" y="32" scale9Grid="13,14,12,13" anchorOffsetX="0" width="400" anchorOffsetY="0" height="612"/>
+		<e:Group id="textGroup" width="400" height="612" x="32" y="32" anchorOffsetY="0">
+			<e:Scroller id="textScroller" x="0" y="0" anchorOffsetY="0" height="504.3">
+				<e:Group anchorOffsetX="0" width="401.33" anchorOffsetY="0">
+					<e:Group id="textLabelGroup" x="15" y="22" scaleX="1" scaleY="1">
+						<e:Label id="text0" name="0" text="不要吵了，专心玩游戏吧" x="0" y="0" textColor="0x326e87" size="28" fontFamily="Microsoft YaHei" width="360" anchorOffsetY="0" height="54" verticalAlign="middle"/>
+						<e:Label id="text1" name="1" text="不要走，决战到天亮" x="0" y="68" textColor="0x326E87" size="28" fontFamily="Microsoft YaHei" width="360" height="54" verticalAlign="middle"/>
+						<e:Label id="text2" name="2" text="很高兴见到各位" x="0" y="136" textColor="0x326E87" size="28" fontFamily="Microsoft YaHei" width="360" height="54" verticalAlign="middle"/>
+						<e:Label id="text3" name="3" text="不好意思，我要离开一会" x="0" y="204" textColor="0x326E87" size="28" fontFamily="Microsoft YaHei" width="360" height="54" verticalAlign="middle"/>
+						<e:Label id="text4" name="4" text="跟你合作真是太愉快了" x="0" y="272" textColor="0x326E87" size="28" fontFamily="Microsoft YaHei" width="360" height="54" verticalAlign="middle"/>
+						<e:Label id="text5" name="5" text="快点吧，我等到花都谢了" x="0" y="340" textColor="0x326E87" size="28" fontFamily="Microsoft YaHei" width="360" verticalAlign="middle" height="54"/>
+						<e:Label id="text6" name="6" text="你的牌打的太好了" x="0" y="408" textColor="0x326E87" size="28" fontFamily="Microsoft YaHei" width="360" verticalAlign="middle" height="54"/>
+						<e:Label id="text7" name="7" text="你是MM，还是GG" x="0" y="476" textColor="0x326E87" size="28" fontFamily="Microsoft YaHei" width="360" height="54" verticalAlign="middle"/>
+						<e:Label id="text8" name="8" text="我们交个朋友吧" x="0" y="544" textColor="0x326E87" size="28" fontFamily="Microsoft YaHei" width="360" height="54" verticalAlign="middle"/>
+						<e:Label id="text9" name="9" text="下次再玩吧，我要走了" x="0" y="612" textColor="0x326E87" size="28" fontFamily="Microsoft YaHei" width="360" height="54" verticalAlign="middle"/>
+						<e:Label id="text10" name="10" text="再见了，我会想念大家的" x="0" y="680" textColor="0x326E87" size="28" fontFamily="Microsoft YaHei" width="360" height="54" verticalAlign="middle"/>
+						<e:Label id="text11" name="11" text="又断线了，网络怎么这么差" x="0" y="748" textColor="0x326E87" size="28" fontFamily="Microsoft YaHei" width="360" height="54" verticalAlign="middle"/>
+					</e:Group>
+					<e:Image source="chat_split_line_png" x="7" y="80" scaleX="1" scaleY="1"/>
+					<e:Image source="chat_split_line_png" x="7" y="148" scaleX="1" scaleY="1"/>
+					<e:Image source="chat_split_line_png" x="7" y="216" scaleX="1" scaleY="1"/>
+					<e:Image source="chat_split_line_png" x="7" y="284" scaleX="1" scaleY="1"/>
+					<e:Image source="chat_split_line_png" x="7" y="352" scaleX="1" scaleY="1"/>
+					<e:Image source="chat_split_line_png" x="7" y="420" scaleX="1" scaleY="1"/>
+					<e:Image source="chat_split_line_png" x="7" y="488" scaleX="1" scaleY="1"/>
+					<e:Image source="chat_split_line_png" x="7" y="556" scaleX="1" scaleY="1"/>
+					<e:Image source="chat_split_line_png" x="7" y="624" scaleX="1" scaleY="1"/>
+					<e:Image source="chat_split_line_png" x="7" y="692" scaleX="1" scaleY="1"/>
+					<e:Image source="chat_split_line_png" x="7" y="760" scaleX="1" scaleY="1"/>
+				</e:Group>
+			</e:Scroller>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		</e:Group>
+		<e:Group id="faceGroup" x="32" y="32.000000000000014" anchorOffsetY="0" height="612" width="400">
+
+
+
+
+			<e:Image source="chat_split_line_png" x="10" y="102"/>
+
+
+
+
+			<e:Image source="chat_split_line_png" x="10" y="196"/>
+
+
+
+
+			<e:Image source="chat_split_line_png" x="10" y="290"/>
+
+
+
+
+			<e:Image source="chat_split_line_png" x="10" y="386"/>
+
+
+
+			<e:Group id="faceImgGroup" x="24" y="24">
+				<e:Image id="face0" name="0" source="face0_png" x="0" y="0" width="70" height="70"/>
+				<e:Image id="face1" name="1" source="face1_png" x="94" y="0" width="70" height="70"/>
+				<e:Image id="face2" name="2" source="face2_png" x="188" y="0" width="70" height="70"/>
+				<e:Image id="face3" name="3" source="face3_png" x="282" y="0" width="70" height="70"/>
+				<e:Image id="face4" name="4" x="0" y="93.99999999999999" width="70" height="70" source="face4_png"/>
+				<e:Image id="face5" name="5" x="94" y="93.99999999999999" width="70" height="70" source="face5_png"/>
+				<e:Image id="face6" name="6" x="188" y="93.99999999999999" width="70" height="70" source="face6_png"/>
+				<e:Image id="face7" name="7" x="282" y="93.99999999999999" width="70" height="70" source="face7_png"/>
+				<e:Image id="face8" name="8" x="0" y="188" width="70" height="70" source="face8_png"/>
+				<e:Image id="face9" name="9" x="94" y="188" width="70" height="70" source="face9_png"/>
+				<e:Image id="face10" name="10" x="188" y="188" width="70" height="70" source="face10_png"/>
+				<e:Image id="face11" name="11" x="282" y="188" width="70" height="70" source="face11_png"/>
+				<e:Image id="face12" name="12" x="0" y="282" width="70" height="70" source="face12_png"/>
+				<e:Image id="face13" name="13" x="94" y="282" width="70" height="70" source="face13_png"/>
+				<e:Image id="face14" name="14" x="188" y="282" width="70" height="70" source="face14_png"/>
+				<e:Image id="face15" name="15" x="282" y="282" width="70" height="70" source="face15_png"/>
+				<e:Image id="face16" name="16" x="0" y="376" width="70" height="70" source="face16_png"/>
+				<e:Image id="face17" name="17" x="94" y="376" width="70" height="70" source="face17_png"/>
+				<e:Image id="face18" name="18" x="188" y="376" width="70" height="70" source="face18_png"/>
+				<e:Image id="face19" name="19" source="face19_png" x="282" y="376" width="70" height="70"/>
+			</e:Group>
+		</e:Group>
+		<e:Group id="inputGroup" x="32" y="548" anchorOffsetY="0" height="96">
+			<e:Image source="input_area_bottom_png" x="0" y="0" scale9Grid="9,4,15,14" anchorOffsetX="0" width="400" anchorOffsetY="0" height="96"/>
+			<e:Image source="chat_input_frame_png" x="10" y="18.5" scale9Grid="12,12,11,11" anchorOffsetX="0" width="229" anchorOffsetY="0" height="58"/>
+			<e:TextInput id="inputText" width="228" height="56" x="10" y="19" anchorOffsetX="0" anchorOffsetY="0" skinName="skins.TextInputTransparentbottomSkin"/>
+			<FL:GameButton id="submitBtn" width="138" height="59" x="320.34" y="48" skinName="skins.GameButtonSkin" imgName="btn_blue_png" label="发送" anchorOffsetX="69" anchorOffsetY="30"/>
+		</e:Group>
+		<e:Image id="textBtn" x="462.8" y="347.17" source="face_btn_chosen_png" anchorOffsetX="0" width="80" anchorOffsetY="0" height="300" scale9Grid="18,16,7,9"/>
+		<e:Image id="faceBtn" x="462.8" y="32" anchorOffsetX="0" width="80" anchorOffsetY="0" height="300" scale9Grid="20,22,3,3" source="face_btn_unchosen_png"/>
+		<e:Image id="faceImg" source="chat_face_png" x="468.08" y="141.26" touchEnabled="false"/>
+		<e:Image id="textImg" source="chat_text_png" x="468" y="463.76" touchEnabled="false"/>
+		<e:Image id="arrowImg" source="chart_chosen_tab_arrow_png" x="440.48" y="470"/>
+	</e:Group>
+</e:Skin>

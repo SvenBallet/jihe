@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:FL="FL.*"
+        class="skins.TeaHouseLeaveMsgViewSkin">
+	<e:Image source="buju_22_png" x="0" y="0" />
+	<e:Group id="closeGroup" anchorOffsetY="0" anchorOffsetX="0" width="68" height="68" right="34" top="38" visible="false">
+		<e:Image id="closeBtn" scaleX="1" scaleY="1" anchorOffsetX="26" anchorOffsetY="28" horizontalCenter="0"
+		         verticalCenter="0" source="th_close_png" />
+	</e:Group>
+	<e:Group id="confirmGroup" touchThrough="false" x="345" y="410">
+		<e:Group id="confirmBtn" x="80.33" y="28.66" anchorOffsetX="80.33" anchorOffsetY="28.66">
+		<e:Image source="btn_green_1_png" x="0" y="0" anchorOffsetX="0" width="161" anchorOffsetY="0" height="57" scale9Grid="32,25,1,2"/>
+		<e:Label text="确定" horizontalCenter="0" verticalCenter="-2.5" fontFamily="Microsoft YaHei"/>
+		</e:Group>
+	</e:Group>
+	<e:EditableText id="msgLab" text="Label" x="84" y="154" anchorOffsetX="0" width="689" anchorOffsetY="0" height="203" touchEnabled="true" type="input" multiline="true"/>
+
+
+</e:Skin>

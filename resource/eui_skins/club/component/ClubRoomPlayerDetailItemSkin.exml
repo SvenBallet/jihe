@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" class="skins.ClubRoomPlayerDetailItemSkin">
+	<e:Group id="itemGroup" width="145" height="230" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0">
+
+		<e:Group id="headGroup" x="26" y="13">
+			<e:Image source="avartar_box_png" x="0" y="0"/>
+			<e:Image id="headImg" source="" left="0" right="0" top="0" bottom="0"/>
+		</e:Group>
+		<e:Image source="rule_desc_bg_png" x="10.5" y="116" anchorOffsetX="0" width="125" anchorOffsetY="0" height="24" scale9Grid="6,7,19,16"/>
+		<e:Image source="rule_desc_bg_png" x="10.5" y="148" anchorOffsetX="0" width="125" anchorOffsetY="0" height="24" scale9Grid="6,7,19,16"/>
+
+
+		<e:Label id="playerName" text="一二三四..." x="10" y="116" anchorOffsetX="0" width="126" backgroundColor="0xe5e2d7" background="false" fontFamily="Microsoft YaHei" size="22" textAlign="center" textColor="0xb95a00"/>
+		<e:Label id="playerID" text="123456" x="9" y="150" anchorOffsetX="0" width="126" backgroundColor="0xe5e2d7" background="false" fontFamily="Microsoft YaHei" size="22" textAlign="center" textColor="0xb95a00"/>
+		<FL:GameButton id="rmBtn" xmlns:FL="FL.*" width="135" height="53" x="73.5" y="204.86" anchorOffsetX="67.5" anchorOffsetY="25.86" skinName="skins.GameButtonSkin" imgName="btn_red_png" labelSize="24" label="移除"/>
+	</e:Group>
+</e:Skin>

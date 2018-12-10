@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TableBoardCardsViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:FL="FL.*" xmlns:w="http://ns.egret.com/wing" minHeight="720" minWidth="1280" width="1280" height="720">
+    <e:Image id="pzBg" source="pz_bg_green_png" right="0" top="0" bottom="0" left="0"/>
+	<e:Group id="handleMenuGroup0" width="60" height="76" right="28" top="114">
+		<e:Image id="handleMenuBtn1" x="30" y="33" scaleX="1" scaleY="1" anchorOffsetX="30" anchorOffsetY="33" source="gps_btn_png"/>
+	</e:Group>
+	<e:Image id="laiziFlag" source="M_bamboo_1_png" left="1" top="126"/>
+	<FL:PZHeadAreaView id="headViewUp" width="430" height="178" skinName="skins.PZHeadAreaViewSkin" horizontalCenter="306" top="3"/>
+	<FL:PZHeadAreaView id="headViewLeft" width="430" height="178" skinName="skins.PZHeadAreaViewSkin" verticalCenter="-31" left="-134"/>
+	<FL:PZHeadAreaView id="headViewRight" width="430" height="178" skinName="skins.PZHeadAreaViewSkin" verticalCenter="-74" right="-134"/>
+	<FL:PZHeadAreaView id="headViewDown" width="430" height="178" skinName="skins.PZHeadAreaViewSkin" horizontalCenter="-582" bottom="48"/>
+	<e:Group id="wanfaGroup" left="0" top="48">
+		<e:Group id="wanfaDescGroup" y="31" left="4">
+			<e:Image source="wanfa_bg_png" anchorOffsetY="0" left="0" scaleX="1" scaleY="1" top="0" bottom="0" right="0"/>
+			<e:Label id="wanfaDescLabel" text="一二" size="20" textColor="0x55be8c" textAlign="left" fontFamily="SimHei" verticalAlign="middle" anchorOffsetX="0" top="8" bottom="8" lineSpacing="4" right="6" left="6"/>
+		</e:Group>
+		<e:Image source="wanfa_title_png" x="0" y="0" scaleX="1" scaleY="1" width="168" anchorOffsetX="0"/>
+		<e:Label text="玩法" x="48.63" y="3.5" size="20" fontFamily="SimHei" textColor="0x55be8c"/>
+		<e:Image id="wanfaArrows" source="wanfa_title_down_png" x="134.99" y="9" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Group id="handleMenuGroup" width="61" height="66" right="28" top="40">
+		<e:Image id="handleMenuBtn" source="pz_tc_png" x="30" y="33" scaleX="1" scaleY="1" anchorOffsetX="30" anchorOffsetY="33"/>
+	</e:Group>
+	<e:Group id="microphoneGroup" width="78" height="78" right="20" verticalCenter="150">
+		<e:Image id="microphoneBtn" source="pz_mic_png" x="39" y="39" scaleX="1" scaleY="1" anchorOffsetX="39" anchorOffsetY="39"/>
+	</e:Group>
+	<e:Group id="chatGroup" width="78" height="78" right="20" verticalCenter="63">
+		<e:Image id="chatBtn" source="pz_chat_btn_png" x="39" y="39" scaleX="1" scaleY="1" anchorOffsetX="39" anchorOffsetY="39"/>
+	</e:Group>
+	<FL:TableBoardTimerView width="390" height="122" skinName="skins.TableBoardTimerViewSkin" horizontalCenter="0" verticalCenter="-23"/>
+	<e:Group id="upCardGroup" anchorOffsetY="0" verticalCenter="-164" horizontalCenter="0" width="380" height="152">
+		<e:Group width="380" height="58" anchorOffsetY="0" x="0" scaleX="1" scaleY="1" y="47">
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="left" gap="0"/>
+		</e:layout>
+			<e:Image source="B_bamboo_1_png" x="-838" y="-222" width="38" height="58" scaleX="1" scaleY="1"/>
+			<e:Image source="B_bamboo_1_png" x="-828" y="-212" width="38" height="58" scaleX="1" scaleY="1"/>
+			<e:Image source="B_bamboo_1_png" x="-818" y="-202" width="38" height="58" scaleX="1" scaleY="1"/>
+			<e:Image source="B_bamboo_1_png" x="-808" y="-192" width="38" height="58" scaleX="1" scaleY="1"/>
+			<e:Image source="B_bamboo_1_png" x="-798" y="-182" width="38" height="58" scaleX="1" scaleY="1"/>
+			<e:Image source="B_bamboo_1_png" x="-788" y="-172" width="38" height="58" scaleX="1" scaleY="1"/>
+			<e:Image source="B_bamboo_1_png" x="-778" y="-162" width="38" height="58" scaleX="1" scaleY="1"/>
+			<e:Image source="B_bamboo_1_png" x="-768" y="-152" width="38" height="58" scaleX="1" scaleY="1"/>
+			<e:Image source="B_bamboo_1_png" x="-758" y="-142" width="38" height="58" scaleX="1" scaleY="1"/>
+			<e:Image source="B_bamboo_1_png" x="-748" y="-132" width="38" height="58" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Group width="380" height="58" anchorOffsetY="0" x="0" y="94">
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="left" gap="0"/>
+		</e:layout>
+			<e:Image source="B_bamboo_1_png" x="-828" y="-79" width="38" height="58" scaleX="1" scaleY="1"/>
+			<e:Image source="B_bamboo_1_png" x="-818" y="-69" width="38" height="58" scaleX="1" scaleY="1"/>
+			<e:Image source="B_bamboo_1_png" x="-808" y="-59" width="38" height="58" scaleX="1" scaleY="1"/>
+			<e:Image source="B_bamboo_1_png" x="-798" y="-49" width="38" height="58" scaleX="1" scaleY="1"/>
+			<e:Image source="B_bamboo_1_png" x="-788" y="-39" width="38" height="58" scaleX="1" scaleY="1"/>
+			<e:Image source="B_bamboo_1_png" x="-778" y="-29" width="38" height="58" scaleX="1" scaleY="1"/>
+			<e:Image source="B_bamboo_1_png" x="-768" y="-19" width="38" height="58" scaleX="1" scaleY="1"/>
+			<e:Image source="B_bamboo_1_png" x="-758" y="-9" width="38" height="58" scaleX="1" scaleY="1"/>
+			<e:Image source="B_bamboo_1_png" x="-748" y="1" width="38" height="58" scaleX="1" scaleY="1"/>
+			<e:Image source="B_bamboo_1_png" x="-738" y="11" width="38" height="58" scaleX="1" scaleY="1"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="bottomCardGroup" anchorOffsetY="0" verticalCenter="120" horizontalCenter="0">
+		<e:Group width="380" height="58" anchorOffsetY="0" x="0" scaleX="1" scaleY="1" y="0">
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="left" gap="0"/>
+		</e:layout>
+			<e:Image source="B_bamboo_1_png" x="-1288" y="-222" width="38" height="58" scaleX="1" scaleY="1"/>
+			<e:Image source="B_bamboo_1_png" x="-1278" y="-212" width="38" height="58" scaleX="1" scaleY="1"/>
+			<e:Image source="B_bamboo_1_png" x="-1268" y="-202" width="38" height="58" scaleX="1" scaleY="1"/>
+			<e:Image source="B_bamboo_1_png" x="-1258" y="-192" width="38" height="58" scaleX="1" scaleY="1"/>
+			<e:Image source="B_bamboo_1_png" x="-1248" y="-182" width="38" height="58" scaleX="1" scaleY="1"/>
+			<e:Image source="B_bamboo_1_png" x="-1238" y="-172" width="38" height="58" scaleX="1" scaleY="1"/>
+			<e:Image source="B_bamboo_1_png" x="-1228" y="-162" width="38" height="58" scaleX="1" scaleY="1"/>
+			<e:Image source="B_bamboo_1_png" x="-1218" y="-152" width="38" height="58" scaleX="1" scaleY="1"/>
+			<e:Image source="B_bamboo_1_png" x="-1208" y="-142" width="38" height="58" scaleX="1" scaleY="1"/>
+			<e:Image source="B_bamboo_1_png" x="-1198" y="-132" width="38" height="58" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Group width="380" height="58" anchorOffsetY="0" x="0" y="47">
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="left" gap="0"/>
+		</e:layout>
+			<e:Image source="B_bamboo_1_png" x="-1738" y="-269" width="38" height="58" scaleX="1" scaleY="1"/>
+			<e:Image source="B_bamboo_1_png" x="-1728" y="-259" width="38" height="58" scaleX="1" scaleY="1"/>
+			<e:Image source="B_bamboo_1_png" x="-1718" y="-249" width="38" height="58" scaleX="1" scaleY="1"/>
+			<e:Image source="B_bamboo_1_png" x="-1708" y="-239" width="38" height="58" scaleX="1" scaleY="1"/>
+			<e:Image source="B_bamboo_1_png" x="-1698" y="-229" width="38" height="58" scaleX="1" scaleY="1"/>
+			<e:Image source="B_bamboo_1_png" x="-1688" y="-219" width="38" height="58" scaleX="1" scaleY="1"/>
+			<e:Image source="B_bamboo_1_png" x="-1678" y="-209" width="38" height="58" scaleX="1" scaleY="1"/>
+			<e:Image source="B_bamboo_1_png" x="-1668" y="-199" width="38" height="58" scaleX="1" scaleY="1"/>
+			<e:Image source="B_bamboo_1_png" x="-1658" y="-189" width="38" height="58" scaleX="1" scaleY="1"/>
+			<e:Image source="B_bamboo_1_png" x="-1648" y="-179" width="38" height="58" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Group width="380" height="58" anchorOffsetY="0" x="0" scaleX="1" scaleY="1" y="94">
+			<e:layout>
+			<e:HorizontalLayout horizontalAlign="left" gap="0"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+	<e:Group id="rightCardGroup" anchorOffsetX="0" verticalCenter="-23" height="310" width="147" horizontalCenter="277">
+		<e:Group anchorOffsetY="0" anchorOffsetX="0" y="0" scaleX="1" scaleY="1" width="49" height="310" x="0">
+			<e:layout>
+			<e:VerticalLayout verticalAlign="top" gap="-10"/>
+			</e:layout>
+			<e:Image source="R_character_9_png" x="-1" y="207"/>
+			<e:Image source="R_character_9_png" x="9" y="217"/>
+			<e:Image source="R_character_9_png" x="19" y="227"/>
+			<e:Image source="R_character_9_png" x="29" y="237"/>
+			<e:Image source="R_character_9_png" x="39" y="247"/>
+			<e:Image source="R_character_9_png" x="49" y="257"/>
+			<e:Image source="R_character_9_png" x="59" y="267"/>
+			<e:Image source="R_character_9_png" x="69" y="277"/>
+			<e:Image source="R_character_9_png" x="79" y="287"/>
+			<e:Image source="R_character_9_png" x="89" y="297"/>
+		</e:Group>
+		<e:Group anchorOffsetY="0" anchorOffsetX="0" width="49" height="310" x="49" y="0">
+			<e:layout>
+			<e:VerticalLayout verticalAlign="top" gap="-10"/>
+			</e:layout>
+			<e:Image source="R_character_9_png" x="-51" y="-148" scaleX="1" scaleY="1"/>
+			<e:Image source="R_character_9_png" x="-41" y="-138" scaleX="1" scaleY="1"/>
+			<e:Image source="R_character_9_png" x="-31" y="-128" scaleX="1" scaleY="1"/>
+			<e:Image source="R_character_9_png" x="-21" y="-118" scaleX="1" scaleY="1"/>
+			<e:Image source="R_character_9_png" x="-11" y="-108" scaleX="1" scaleY="1"/>
+			<e:Image source="R_character_9_png" x="-1" y="-98" scaleX="1" scaleY="1"/>
+			<e:Image source="R_character_9_png" x="9" y="-88" scaleX="1" scaleY="1"/>
+			<e:Image source="R_character_9_png" x="19" y="-78" scaleX="1" scaleY="1"/>
+			<e:Image source="R_character_9_png" x="29" y="-68" scaleX="1" scaleY="1"/>
+			<e:Image source="R_character_9_png" x="39" y="-58" scaleX="1" scaleY="1"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="leftCardGroup" horizontalCenter="-277" anchorOffsetX="0" verticalCenter="-23" height="310" width="147">
+		<e:Group anchorOffsetY="0" anchorOffsetX="0" y="0" scaleX="1" scaleY="1" width="49" height="310">
+		<e:layout>
+			<e:VerticalLayout verticalAlign="top" gap="-10"/>
+		</e:layout>
+			<e:Image source="L_dot_7_png" x="18" y="42" scaleX="1" scaleY="1"/>
+			<e:Image source="L_dot_7_png" x="28" y="52" scaleX="1" scaleY="1"/>
+			<e:Image source="L_dot_7_png" x="38" y="62" scaleX="1" scaleY="1"/>
+			<e:Image source="L_dot_7_png" x="48" y="72" scaleX="1" scaleY="1"/>
+			<e:Image source="L_dot_7_png" x="58" y="82" scaleX="1" scaleY="1"/>
+			<e:Image source="L_dot_7_png" x="68" y="92" scaleX="1" scaleY="1"/>
+			<e:Image source="L_dot_7_png" x="78" y="102" scaleX="1" scaleY="1"/>
+			<e:Image source="L_dot_7_png" x="88" y="112" scaleX="1" scaleY="1"/>
+			<e:Image source="L_dot_7_png" x="98" y="122" scaleX="1" scaleY="1"/>
+			<e:Image source="L_dot_7_png" x="108" y="132" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Group anchorOffsetY="0" anchorOffsetX="0" x="49" width="49" height="310">
+		<e:layout>
+			<e:VerticalLayout verticalAlign="top" gap="-10"/>
+		</e:layout>
+			<e:Image source="L_dot_7_png" x="18" y="42"/>
+			<e:Image source="L_dot_7_png" x="28" y="52"/>
+			<e:Image source="L_dot_7_png" x="38" y="62"/>
+			<e:Image source="L_dot_7_png" x="48" y="72"/>
+			<e:Image source="L_dot_7_png" x="58" y="82"/>
+			<e:Image source="L_dot_7_png" x="68" y="92"/>
+			<e:Image source="L_dot_7_png" x="78" y="102"/>
+			<e:Image source="L_dot_7_png" x="88" y="112"/>
+			<e:Image source="L_dot_7_png" x="98" y="122"/>
+			<e:Image source="L_dot_7_png" x="108" y="132"/>
+		</e:Group>
+		<e:Image source="marker_png" x="116" y="151"/>
+	</e:Group>
+	<e:Group id="rightHuaGroup" anchorOffsetX="0" anchorOffsetY="0" width="43" height="480" verticalCenter="-120" horizontalCenter="452">
+		<e:layout>
+		<e:VerticalLayout verticalAlign="top" gap="-9"/>
+		</e:layout>
+		<e:Image source="R_bamboo_1_png" x="27" y="168" width="43" height="35" scaleX="1" scaleY="1"/>
+		<e:Image source="R_bamboo_1_png" x="27" y="168" width="43" height="35" scaleX="1" scaleY="1"/>
+		<e:Image source="R_bamboo_1_png" x="47" y="188" width="43" height="35" scaleX="1" scaleY="1"/>
+		<e:Image source="R_bamboo_1_png" x="57" y="198" width="43" height="35" scaleX="1" scaleY="1"/>
+		<e:Image source="R_bamboo_1_png" x="67" y="208" width="43" height="35" scaleX="1" scaleY="1"/>
+		<e:Image source="R_bamboo_1_png" x="77" y="218" width="43" height="35" scaleX="1" scaleY="1"/>
+		<e:Image source="R_bamboo_1_png" x="87" y="228" width="43" height="35" scaleX="1" scaleY="1"/>
+		<e:Image source="R_bamboo_1_png" x="97" y="238" width="43" height="35" scaleX="1" scaleY="1"/>
+		<e:Image source="R_bamboo_1_png" x="107" y="248" width="43" height="35" scaleX="1" scaleY="1"/>
+		<e:Image source="R_bamboo_1_png" x="107" y="248" width="43" height="35" scaleX="1" scaleY="1"/>
+		<e:Image source="R_bamboo_1_png" x="117" y="258" width="43" height="35" scaleX="1" scaleY="1"/>
+		<e:Image source="R_bamboo_1_png" x="127" y="268" width="43" height="35" scaleX="1" scaleY="1"/>
+		<e:Image source="R_bamboo_1_png" x="137" y="278" width="43" height="35" scaleX="1" scaleY="1"/>
+		<e:Image source="R_bamboo_1_png" x="147" y="288" width="43" height="35" scaleX="1" scaleY="1"/>
+		<e:Image source="R_bamboo_1_png" x="157" y="298" width="43" height="35" scaleX="1" scaleY="1"/>
+		<e:Image source="R_bamboo_1_png" x="167" y="308" width="43" height="35" scaleX="1" scaleY="1"/>
+		<e:Image source="R_bamboo_1_png" x="177" y="318" width="43" height="35" scaleX="1" scaleY="1"/>
+		<e:Image source="R_bamboo_1_png" x="187" y="328" width="43" height="35" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Group id="rightHandGroup" width="49" anchorOffsetX="0" anchorOffsetY="0" height="478" horizontalCenter="395" verticalCenter="-61">
+		<e:layout>
+		<e:VerticalLayout verticalAlign="top" gap="-10"/>
+		</e:layout>
+		<e:Image source="R_bamboo_1_png" x="91" y="104"/>
+		<e:Image source="R_bamboo_1_png" x="101" y="114"/>
+		<e:Image source="R_bamboo_1_png" x="111" y="124"/>
+		<e:Image source="R_bamboo_1_png" x="111" y="124"/>
+		<e:Image source="R_bamboo_1_png" x="121" y="134"/>
+		<e:Image source="R_bamboo_1_png" x="131" y="144"/>
+		<e:Image source="R_bamboo_1_png" x="141" y="154"/>
+		<e:Image source="R_bamboo_1_png" x="151" y="164"/>
+		<e:Image source="R_bamboo_1_png" x="161" y="174"/>
+		<e:Image source="R_bamboo_1_png" x="171" y="184"/>
+		<e:Image source="R_bamboo_1_png" x="181" y="194"/>
+		<e:Image source="R_bamboo_1_png" x="101" y="114"/>
+		<e:Image source="R_bamboo_1_png" x="111" y="124"/>
+		<e:Image source="R_bamboo_1_png" x="131" y="144"/>
+		<e:Image source="R_bamboo_1_png" x="141" y="154"/>
+	</e:Group>
+	<e:Group id="rightGameGroup" width="270" anchorOffsetX="0" height="720" x="1010" y="0">
+	</e:Group>
+	<e:Group id="leftHuaGroup" anchorOffsetX="0" anchorOffsetY="0" width="43" height="480" horizontalCenter="-452" verticalCenter="-120">
+		<e:layout>
+		<e:VerticalLayout verticalAlign="top" gap="-9"/>
+		</e:layout>
+		<e:Image source="L_wind_5_png" x="1" y="29" width="43" height="35"/>
+		<e:Image source="L_wind_5_png" x="11" y="39" width="43" height="35"/>
+		<e:Image source="L_wind_5_png" x="21" y="49" width="43" height="35"/>
+		<e:Image source="L_wind_5_png" x="31" y="59" width="43" height="35"/>
+		<e:Image source="L_wind_5_png" x="41" y="69" width="43" height="35"/>
+		<e:Image source="L_wind_5_png" x="51" y="79" width="43" height="35"/>
+		<e:Image source="L_wind_5_png" x="61" y="89" width="43" height="35"/>
+		<e:Image source="L_wind_5_png" x="71" y="99" width="43" height="35"/>
+		<e:Image source="L_wind_5_png" x="81" y="109" width="43" height="35"/>
+		<e:Image source="L_wind_5_png" x="91" y="119" width="43" height="35"/>
+		<e:Image source="L_wind_5_png" x="101" y="129" width="43" height="35"/>
+		<e:Image source="L_wind_5_png" x="111" y="139" width="43" height="35"/>
+		<e:Image source="L_wind_5_png" x="121" y="149" width="43" height="35"/>
+		<e:Image source="L_wind_5_png" x="131" y="159" width="43" height="35"/>
+		<e:Image source="L_wind_5_png" x="141" y="169" width="43" height="35"/>
+		<e:Image source="L_wind_5_png" x="151" y="179" width="43" height="35"/>
+		<e:Image source="L_wind_5_png" x="161" y="189" width="43" height="35"/>
+		<e:Image source="L_wind_5_png" x="181" y="209" width="43" height="35"/>
+	</e:Group>
+	<e:Group id="leftHandGroup" width="49" anchorOffsetX="0" anchorOffsetY="0" height="478" horizontalCenter="-395" verticalCenter="-85">
+		<e:layout>
+		<e:VerticalLayout verticalAlign="top" horizontalAlign="middle" gap="-30"/>
+		</e:layout>
+		<e:Image source="e_mj_left_png" x="8" y="23"/>
+		<e:Image source="e_mj_left_png" x="18" y="33"/>
+		<e:Image source="e_mj_left_png" x="28" y="43"/>
+		<e:Image source="e_mj_left_png" x="38" y="53"/>
+		<e:Image source="e_mj_left_png" x="48" y="63"/>
+		<e:Image source="e_mj_left_png" x="58" y="73"/>
+		<e:Image source="e_mj_left_png" x="68" y="83"/>
+		<e:Image source="e_mj_left_png" x="78" y="93"/>
+		<e:Image source="e_mj_left_png" x="88" y="103"/>
+		<e:Image source="e_mj_left_png" x="98" y="113"/>
+		<e:Image source="e_mj_left_png" x="98" y="113"/>
+		<e:Image source="e_mj_left_png" x="108" y="123"/>
+		<e:Image source="e_mj_left_png" x="118" y="133"/>
+		<e:Image source="e_mj_left_png" x="128" y="143"/>
+		<e:Image source="e_mj_left_png" x="138" y="388"/>
+	</e:Group>
+	<e:Group id="leftGameGroup" anchorOffsetX="0" height="720" verticalCenter="0" width="270" left="0">
+	</e:Group>
+	<e:Group id="downHuaGroup" height="50" anchorOffsetY="0" width="660" verticalCenter="182" horizontalCenter="0">
+		<e:layout>
+		<e:HorizontalLayout horizontalAlign="right" gap="0"/>
+		</e:layout>
+		<e:Image source="B_bamboo_1_png" width="33" height="50" x="566" y="143" scaleX="1" scaleY="1"/>
+		<e:Image source="B_bamboo_1_png" width="33" height="50" x="576" y="153" scaleX="1" scaleY="1"/>
+		<e:Image source="B_bamboo_1_png" width="33" height="50" x="586" y="163" scaleX="1" scaleY="1"/>
+		<e:Image source="B_bamboo_1_png" width="33" height="50" x="596" y="173" scaleX="1" scaleY="1"/>
+		<e:Image source="B_bamboo_1_png" width="33" height="50" x="606" y="183" scaleX="1" scaleY="1"/>
+		<e:Image source="B_bamboo_1_png" width="33" height="50" x="616" y="193" scaleX="1" scaleY="1"/>
+		<e:Image source="B_bamboo_1_png" width="33" height="50" x="626" y="203" scaleX="1" scaleY="1"/>
+		<e:Image source="B_bamboo_1_png" width="33" height="50" x="636" y="213" scaleX="1" scaleY="1"/>
+		<e:Image source="B_bamboo_1_png" width="33" height="50" x="646" y="223" scaleX="1" scaleY="1"/>
+		<e:Image source="B_bamboo_1_png" width="33" height="50" x="656" y="233" scaleX="1" scaleY="1"/>
+		<e:Image source="B_bamboo_1_png" width="33" height="50" x="666" y="243" scaleX="1" scaleY="1"/>
+		<e:Image source="B_bamboo_1_png" width="33" height="50" x="676" y="253" scaleX="1" scaleY="1"/>
+		<e:Image source="B_bamboo_1_png" width="33" height="50" x="686" y="263" scaleX="1" scaleY="1"/>
+		<e:Image source="B_bamboo_1_png" width="33" height="50" x="696" y="273" scaleX="1" scaleY="1"/>
+		<e:Image source="B_bamboo_1_png" width="33" height="50" x="706" y="283" scaleX="1" scaleY="1"/>
+		<e:Image source="B_bamboo_1_png" width="33" height="50" x="716" y="293" scaleX="1" scaleY="1"/>
+		<e:Image source="B_bamboo_1_png" width="33" height="50" x="726" y="303" scaleX="1" scaleY="1"/>
+		<e:Image source="B_bamboo_1_png" width="33" height="50" x="736" y="313" scaleX="1" scaleY="1"/>
+		<e:Image source="B_bamboo_1_png" width="33" height="50" x="746" y="323" scaleX="1" scaleY="1"/>
+		<e:Image source="B_bamboo_1_png" width="33" height="50" x="756" y="333" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Group id="bottomGameGroup" width="1280" horizontalCenter="0" bottom="-3" anchorOffsetY="0" height="270">
+		<e:Label text="胡牌" x="276" size="22" fontFamily="SimHei" textColor="0xedec41" bottom="136"/>
+		<e:Group anchorOffsetY="0" anchorOffsetX="0" width="952" x="327" bottom="127" height="42">
+			<e:layout>
+			<e:HorizontalLayout horizontalAlign="left" gap="0"/>
+			</e:layout>
+			<e:Image source="M_dot_9_png" x="29" y="14" width="28" height="42"/>
+			<e:Image source="M_dot_9_png" x="39" y="24" width="28" height="42"/>
+			<e:Image source="M_dot_9_png" x="49" y="34" width="28" height="42"/>
+			<e:Image source="M_dot_9_png" x="59" y="44" width="28" height="42"/>
+			<e:Image source="M_dot_9_png" x="69" y="54" width="28" height="42"/>
+			<e:Image source="M_dot_9_png" x="79" y="64" width="28" height="42"/>
+			<e:Image source="M_dot_9_png" x="89" y="74" width="28" height="42"/>
+			<e:Image source="M_dot_9_png" x="99" y="84" width="28" height="42"/>
+			<e:Image source="M_dot_9_png" x="109" y="94" width="28" height="42"/>
+			<e:Image source="M_dot_9_png" x="119" y="104" width="28" height="42"/>
+			<e:Image source="M_dot_9_png" x="129" y="114" width="28" height="42"/>
+			<e:Image source="M_dot_9_png" x="139" y="124" width="28" height="42"/>
+			<e:Image source="M_dot_9_png" x="149" y="134" width="28" height="42"/>
+			<e:Image source="M_dot_9_png" x="159" y="144" width="28" height="42"/>
+			<e:Image source="M_dot_9_png" x="169" y="154" width="28" height="42"/>
+			<e:Image source="M_dot_9_png" x="179" y="164" width="28" height="42"/>
+			<e:Image source="M_dot_9_png" x="189" y="174" width="28" height="42"/>
+			<e:Image source="M_dot_9_png" x="199" y="184" width="28" height="42"/>
+			<e:Image source="M_dot_9_png" x="209" y="194" width="28" height="42"/>
+			<e:Image source="M_dot_9_png" x="219" y="204" width="28" height="42"/>
+			<e:Image source="M_dot_9_png" x="229" y="214" width="28" height="42"/>
+			<e:Image source="M_dot_9_png" x="239" y="224" width="28" height="42"/>
+			<e:Image source="M_dot_9_png" x="249" y="234" width="28" height="42"/>
+			<e:Image source="M_dot_9_png" x="259" y="244" width="28" height="42"/>
+			<e:Image source="M_dot_9_png" x="269" y="254" width="28" height="42"/>
+			<e:Image source="M_dot_9_png" x="279" y="264" width="28" height="42"/>
+			<e:Image source="M_dot_9_png" x="289" y="274" width="28" height="42"/>
+			<e:Image source="M_dot_9_png" x="299" y="284" width="28" height="42"/>
+			<e:Image source="M_dot_9_png" x="309" y="294" width="28" height="42"/>
+			<e:Image source="M_dot_9_png" x="319" y="304" width="28" height="42"/>
+			<e:Image source="M_dot_9_png" x="329" y="314" width="28" height="42"/>
+			<e:Image source="M_dot_9_png" x="339" y="324" width="28" height="42"/>
+			<e:Image source="M_dot_9_png" x="349" y="334" width="28" height="42"/>
+			<e:Image source="M_dot_9_png" x="359" y="344" width="28" height="42"/>
+		</e:Group>
+		<e:Group width="1118" height="129" anchorOffsetX="0" x="26" scaleX="1" scaleY="1" bottom="0">
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="right" gap="0"/>
+		</e:layout>
+		<e:Image source="M_bamboo_1_png" x="0" y="0" width="86" height="129"/>
+		<e:Image source="M_bamboo_1_png" x="10" y="10" width="86" height="129"/>
+		<e:Image source="M_bamboo_1_png" x="20" y="20" width="86" height="129"/>
+		<e:Image source="M_bamboo_1_png" x="30" y="30" width="86" height="129"/>
+		<e:Image source="M_bamboo_1_png" x="40" y="40" width="86" height="129"/>
+		<e:Image source="M_bamboo_1_png" x="50" y="50" width="86" height="129"/>
+		<e:Image source="M_bamboo_1_png" x="60" y="60" width="86" height="129"/>
+		<e:Image source="M_bamboo_1_png" x="70" y="70" width="86" height="129"/>
+		<e:Image source="M_bamboo_1_png" x="80" y="80" width="86" height="129"/>
+		<e:Image source="M_bamboo_1_png" x="90" y="90" width="86" height="129"/>
+		<e:Image source="M_bamboo_1_png" x="100" y="100" width="86" height="129"/>
+		<e:Image source="M_bamboo_1_png" x="110" y="110" width="86" height="129"/>
+		<e:Image source="M_bamboo_1_png" x="120" y="120" width="86" height="129"/>
+		</e:Group>
+		<e:Image source="M_bamboo_1_png" width="86" height="129" scaleX="1" scaleY="1" bottom="0" right="25"/>
+		<e:Image source="e_mj_b_up_png" x="27.5" width="68" height="106" bottom="0"/>
+		<e:Image source="guo_btn_png" x="987" top="0"/>
+		<e:Image x="840" source="chi_btn_png" top="0"/>
+		<e:Image x="693" source="peng_btn_png" top="0"/>
+		<e:Image x="546" source="gang_btn_png" top="0"/>
+		<e:Image x="399" width="147" height="147" source="ting_key_png" top="0"/>
+		<e:Image x="456" width="147" height="147" top="-4" source="hu_btn_png"/>
+		<e:Image source="ting_icon_png" y="60" x="317"/>
+		<e:Group width="218" height="136" x="163" y="47" anchorOffsetX="0">
+			<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0xffffff"/>
+			<e:Image source="hubg_png" scale9Grid="28,35,13,29" width="76" x="129" height="120" anchorOffsetX="0" anchorOffsetY="0" y="8"/>
+			<e:Image source="btnCanHu_png" x="0" y="0"/>
+			<e:Image source="M_bamboo_1_png" x="141" y="18" width="52" height="78" scaleX="1" scaleY="1"/>
+			<e:Label text="60分" x="129" y="97" size="22" fontFamily="SimHei" width="80" textAlign="center" verticalAlign="middle" textColor="0xf9f104"/>
+		</e:Group>
+		<e:Group width="150" height="136" x="439" y="116" anchorOffsetX="0">
+			<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0xFFFFFF"/>
+			<e:Image source="hubg_png" scale9Grid="28,35,13,29" width="70" x="124" height="94" anchorOffsetX="0" anchorOffsetY="0" y="21"/>
+			<e:Image source="btnCanHu_png" x="0" y="0"/>
+			<e:Image source="M_bamboo_1_png" x="133" width="52" height="78" scaleX="1" scaleY="1" y="29"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="upHuaGroup" anchorOffsetY="0" anchorOffsetX="0" width="660" height="50" verticalCenter="-228" horizontalCenter="0">
+		<e:layout>
+		<e:HorizontalLayout horizontalAlign="left" gap="0"/>
+		</e:layout>
+		<e:Image source="B_wind_6_png" x="-5" y="-3" width="33" height="50"/>
+		<e:Image source="B_wind_6_png" x="-5" y="-3" width="33" height="50"/>
+		<e:Image source="B_wind_6_png" x="5" y="7" width="33" height="50"/>
+		<e:Image source="B_wind_6_png" x="15" y="17" width="33" height="50"/>
+		<e:Image source="B_wind_6_png" x="25" y="27" width="33" height="50"/>
+		<e:Image source="B_wind_6_png" x="35" y="37" width="33" height="50"/>
+		<e:Image source="B_wind_6_png" x="45" y="47" width="33" height="50"/>
+		<e:Image source="B_wind_6_png" x="55" y="57" width="33" height="50"/>
+		<e:Image source="B_wind_6_png" x="65" y="67" width="33" height="50"/>
+		<e:Image source="B_wind_6_png" x="75" y="77" width="33" height="50"/>
+		<e:Image source="B_wind_6_png" x="85" y="87" width="33" height="50"/>
+		<e:Image source="B_wind_6_png" x="95" y="97" width="33" height="50"/>
+		<e:Image source="B_wind_6_png" x="105" y="107" width="33" height="50"/>
+		<e:Image source="B_wind_6_png" x="115" y="117" width="33" height="50"/>
+		<e:Image source="B_wind_6_png" x="125" y="127" width="33" height="50"/>
+		<e:Image source="B_wind_6_png" x="135" y="137" width="33" height="50"/>
+		<e:Image source="B_wind_6_png" x="145" y="147" width="33" height="50"/>
+		<e:Image source="B_wind_6_png" x="155" y="157" width="33" height="50"/>
+		<e:Image source="B_wind_6_png" x="165" y="167" width="33" height="50"/>
+		<e:Image source="B_wind_6_png" x="175" y="177" width="33" height="50"/>
+	</e:Group>
+	<e:Group anchorOffsetY="0" width="588" horizontalCenter="-50" top="40">
+		<e:layout>
+		<e:HorizontalLayout horizontalAlign="right" gap="0"/>
+		</e:layout>
+		<e:Image source="B_wind_9_png" x="345" y="-2.5" width="42" height="64"/>
+		<e:Image source="B_wind_9_png" x="141" y="12" width="42" height="64"/>
+		<e:Image source="B_wind_9_png" x="151" y="22" width="42" height="64"/>
+		<e:Image source="B_wind_9_png" x="161" y="32" width="42" height="64"/>
+		<e:Image source="B_wind_9_png" x="171" y="42" width="42" height="64"/>
+		<e:Image source="B_wind_9_png" x="181" y="52" width="42" height="64"/>
+		<e:Image source="B_wind_9_png" x="191" y="62" width="42" height="64"/>
+		<e:Image source="B_wind_9_png" x="201" y="72" width="42" height="64"/>
+		<e:Image source="B_wind_9_png" x="211" y="82" width="42" height="64"/>
+		<e:Image source="B_wind_9_png" x="221" y="92" width="42" height="64"/>
+		<e:Image source="B_wind_9_png" x="231" y="102" width="42" height="64"/>
+		<e:Image source="B_wind_9_png" x="241" y="112" width="42" height="64"/>
+		<e:Image source="B_wind_9_png" x="251" y="122" width="42" height="64"/>
+		<e:Image source="B_wind_9_png" x="261" y="132" width="42" height="64"/>
+	</e:Group>
+	<e:Group id="upGameGroup" height="150" left="0" right="0" top="40" anchorOffsetY="0">
+	</e:Group>
+	<e:Group id="topGroup" width="662" height="46" anchorOffsetY="0" left="0" top="0">
+		<e:Image source="pz_top_bg_png" x="560" y="0"/>
+		<e:Image source="pz_top_bg1_png" x="0" y="0" width="560" anchorOffsetX="0"/>
+		<e:Label id="timeLabel" text="2017-11-16 17:04" x="20" size="22" textColor="0x235064" fontFamily="SimHei" y="5" width="180"/>
+		<e:Label id="roomNum" text="房间号:123456" x="215" size="22" textColor="0x235064" fontFamily="SimHei" y="5" bold="true" anchorOffsetX="0" width="152"/>
+		<e:Image source="pz_top_split_png" x="384" y="6"/>
+		<e:Label id="wanfaLabel" text="灵璧夹子" x="406" size="22" textColor="0x235064" fontFamily="SimHei" y="5" bold="true" width="176" anchorOffsetX="0"/>
+	</e:Group>
+	<e:Image source="e_mj_b_up_png" x="298" y="46"/>
+	<e:Image source="peng_key_png" verticalCenter="-30" horizontalCenter="-310"/>
+	<e:Image source="peng_key_png" verticalCenter="-30" horizontalCenter="-440"/>
+	<e:Image verticalCenter="-30" horizontalCenter="-280" source="M_bamboo_1_png"/>
+	<e:Image source="peng_key_png" verticalCenter="-30" horizontalCenter="310"/>
+	<e:Image source="peng_key_png" verticalCenter="-200" horizontalCenter="0"/>
+	<e:Image source="peng_key_png" verticalCenter="150" horizontalCenter="0"/>
+</e:Skin>

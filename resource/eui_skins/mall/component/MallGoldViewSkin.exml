@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.MallGoldViewSkin" width="215" height="332" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="imgBg" scaleX="1" scaleY="1" anchorOffsetX="0" width="217" anchorOffsetY="0" height="255" top="0" left="0" source="daily_award_bg_png" scale9Grid="18,51,32,23"/>
+	<e:Image id="imgRes" source="gold4_png" anchorOffsetX="0" width="180" anchorOffsetY="0" height="137" horizontalCenter="2.5" verticalCenter="-24.5"/>
+	<e:Label id="goldTitle" text="金币100000" anchorOffsetX="0" width="217" anchorOffsetY="0" height="40" size="30" verticalAlign="middle" textAlign="center" fontFamily="SimHei" textColor="0xfffabc" horizontalCenter="0" verticalCenter="-144"/>
+	<e:Image x="-1" y="269" anchorOffsetX="0" width="217" anchorOffsetY="0" height="65" source="btn_red_png" scale9Grid="16,11,23,25"/>
+	<e:Image id="zuanshiImg" source="diamond2_png" x="50" y="277" anchorOffsetX="0" width="45" anchorOffsetY="0" height="47"/>
+	<e:Label id="zuanshiNum" text="10" y="279" x="98" textAlign="left" fontFamily="SimHei" textColor="0xffffff" size="38"/>
+	<e:Label id="rmbNum" text="10" fontFamily="SimHei" size="38" textColor="0xffffff" anchorOffsetX="0" width="214" anchorOffsetY="0" height="60" textAlign="center" verticalAlign="middle" x="1" y="268"/>
+</e:Skin>

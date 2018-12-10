@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:FL="FL.*"
+        class="skins.TeaHouseLogWinnerViewSkin" width="780" height="554">
+    <e:Image anchorOffsetX="0" anchorOffsetY="0" scale9Grid="24,23,3,3" left="0" right="3"
+             top="0" bottom="85" x="0" y="0"  source="th_compnent_png"/>
+
+    <e:Scroller id="scroller" anchorOffsetX="0" anchorOffsetY="0" left="14" top="14" right="17" bottom="99">
+        <e:DataGroup id="dataGroup" anchorOffsetX="0" width="602" anchorOffsetY="0" height="395.55" x="-125.5" y="352" />
+    </e:Scroller>
+	<e:Group id="removeAllGroup" horizontalCenter="-2.5" bottom="5">
+		<e:Group id="removeAllBtn" x="110" y="39" anchorOffsetX="110" anchorOffsetY="39">
+			<e:Image source="th_yellow_btn_png" scale9Grid="53,32,1,1" anchorOffsetX="0" width="219" x="0" y="0"/>
+			<e:Image source="th_removeall_png" x="47" y="13"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

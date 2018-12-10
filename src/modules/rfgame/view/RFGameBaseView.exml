@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RFGameBaseViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:FL="FL.*" xmlns:w="http://ns.egret.com/wing"
+        minHeight="720" minWidth="1280" width="1280" height="720">
+    <e:Image id="pzBg" source="pz_bg_green_png" right="0" top="0" bottom="0" left="0" />
+    <e:Group id="handleMenuGroup0" width="60" height="76" right="28" top="114">
+        <e:Image id="handleMenuBtn1" x="30" y="33" scaleX="1" scaleY="1" anchorOffsetX="30" anchorOffsetY="33"
+                 source="gps_btn_png" />
+    </e:Group>
+    <FL:PZHeadAreaView id="headViewUp" width="430" height="178" skinName="skins.PZHeadAreaViewSkin"
+                       horizontalCenter="306" top="3" />
+    <FL:PZHeadAreaView id="headViewLeft" width="430" height="178" skinName="skins.PZHeadAreaViewSkin"
+                       verticalCenter="-31" left="-134" />
+    <FL:PZHeadAreaView id="headViewRight" width="430" height="178" skinName="skins.PZHeadAreaViewSkin"
+                       verticalCenter="-74" right="-134" />
+    <FL:PZHeadAreaView id="headViewDown" width="430" height="178" skinName="skins.PZHeadAreaViewSkin"
+                       horizontalCenter="-582" bottom="48" />
+    <e:Group id="wanfaGroup" left="0" top="48">
+        <e:Group id="wanfaDescGroup" y="31" left="4">
+            <e:Image source="wanfa_bg_png" anchorOffsetY="0" left="0" scaleX="1" scaleY="1" top="0" bottom="0" right="0" />
+            <e:Label id="wanfaDescLabel" text="一二" size="20" textColor="0x55be8c" textAlign="left" fontFamily="SimHei"
+                     verticalAlign="middle" anchorOffsetX="0" top="8" bottom="8" lineSpacing="4" right="6" left="6" />
+        </e:Group>
+        <e:Image source="wanfa_title_png" x="0" y="0" scaleX="1" scaleY="1" width="168" anchorOffsetX="0" />
+        <e:Label text="玩法" x="48.63" y="3.5" size="20" fontFamily="SimHei" textColor="0x55be8c" />
+        <e:Image id="wanfaArrows" source="wanfa_title_down_png" x="134.99" y="9" scaleX="1" scaleY="1" />
+    </e:Group>
+    <e:Group id="handleMenuGroup" width="61" height="66" right="28" top="40">
+        <e:Image id="handleMenuBtn" source="pz_tc_png" x="30" y="33" scaleX="1" scaleY="1" anchorOffsetX="30"
+                 anchorOffsetY="33" />
+    </e:Group>
+    <e:Group id="microphoneGroup" width="78" height="78" right="20" verticalCenter="150">
+        <e:Image id="microphoneBtn" source="pz_mic_png" x="39" y="39" scaleX="1" scaleY="1" anchorOffsetX="39"
+                 anchorOffsetY="39" />
+    </e:Group>
+    <e:Group id="chatGroup" width="78" height="78" right="20" verticalCenter="63">
+        <e:Image id="chatBtn" source="pz_chat_btn_png" x="39" y="39" scaleX="1" scaleY="1" anchorOffsetX="39"
+                 anchorOffsetY="39" />
+    </e:Group>
+	<e:Group id="bottomCardGroup" anchorOffsetY="0" bottom="279" horizontalCenter="-15">
+		<e:layout>
+		<e:HorizontalLayout horizontalAlign="center" gap="-30"/>
+		</e:layout>
+		<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin"/>
+		<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="10" y="10"/>
+		<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="20" y="20"/>
+		<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="30" y="30"/>
+		<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="40" y="40"/>
+		<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="50" y="50"/>
+		<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="60" y="60"/>
+		<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="70" y="70"/>
+		<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="80" y="80"/>
+		<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="90" y="90"/>
+		<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="100" y="100"/>
+		<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="110" y="110"/>
+		<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="120" y="120"/>
+	</e:Group>
+	<e:Group id="upCardGroup" anchorOffsetY="0" horizontalCenter="-15" top="111">
+		<e:layout>
+		<e:HorizontalLayout horizontalAlign="center" gap="-30"/>
+		</e:layout>
+		<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin"/>
+		<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="10" y="10"/>
+		<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="20" y="20"/>
+		<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="30" y="30"/>
+		<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="40" y="40"/>
+		<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="50" y="50"/>
+		<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="60" y="60"/>
+		<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="70" y="70"/>
+		<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="80" y="80"/>
+		<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="90" y="90"/>
+		<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="100" y="100"/>
+		<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="110" y="110"/>
+		<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="120" y="120"/>
+	</e:Group>
+	<e:Group id="rightCardGroup" anchorOffsetX="0" right="236" verticalCenter="-81">
+		<e:layout>
+		<e:HorizontalLayout horizontalAlign="right" gap="-30"/>
+		</e:layout>
+		<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin"/>
+		<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="10" y="10"/>
+		<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="20" y="20"/>
+		<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="30" y="30"/>
+		<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="40" y="40"/>
+		<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="50" y="50"/>
+		<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="60" y="60"/>
+		<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="70" y="70"/>
+		<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="80" y="80"/>
+		<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="90" y="90"/>
+		<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="100" y="100"/>
+		<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="110" y="110"/>
+		<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="120" y="120"/>
+	</e:Group>
+	<e:Group id="leftCardGroup" anchorOffsetX="0" left="255" verticalCenter="-81">
+		<e:layout>
+		<e:HorizontalLayout horizontalAlign="left" gap="-30"/>
+		</e:layout>
+		<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin"/>
+		<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="10" y="10"/>
+		<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="20" y="20"/>
+		<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="30" y="30"/>
+		<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="40" y="40"/>
+		<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="50" y="50"/>
+		<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="60" y="60"/>
+		<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="70" y="70"/>
+		<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="80" y="80"/>
+		<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="90" y="90"/>
+		<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="100" y="100"/>
+		<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="110" y="110"/>
+		<FL:RFHandCardItemView scaleX="0.4" scaleY="0.4" skinName="skins.RFHandCardItemSkin" x="120" y="120"/>
+	</e:Group>
+	<e:Group id="bottomEffect" anchorOffsetY="0" bottom="40" horizontalCenter="0" x="602" y="377">
+		<e:Label text="三带二" x="4" y="-6" textColor="0xd60e35" bold="true" background="true" backgroundColor="0xe57b7b"/>
+	</e:Group>
+	<e:Group id="rightEffect" anchorOffsetY="0" verticalCenter="-10.5" right="40" x="908" y="254">
+		<e:Label text="三带二" x="4" y="-6" textColor="0xD60E35" bold="true" background="true" backgroundColor="0xE57B7B"/>
+	</e:Group>
+	<e:Group id="leftEffect" anchorOffsetY="0" verticalCenter="-10.5" left="40" x="295" y="254">
+		<e:Label text="三带二" x="4" y="-6" textColor="0xD60E35" bold="true" background="true" backgroundColor="0xE57B7B"/>
+	</e:Group>
+	<e:Group id="upEffect" anchorOffsetY="0" horizontalCenter="0" top="40" x="602" y="151">
+		<e:Label text="三带二" x="4" y="-6" textColor="0xD60E35" bold="true" background="true" backgroundColor="0xE57B7B"/>
+	</e:Group>
+
+
+
+
+    <e:Group id="bottomGameGroup" width="1280" horizontalCenter="0" bottom="-3" anchorOffsetY="0" height="270">
+
+        <e:Group anchorOffsetX="0" x="88" scaleX="1" scaleY="1" bottom="0" width="1100">
+            <e:layout>
+                <e:HorizontalLayout horizontalAlign="center"  gap="-80"/>
+            </e:layout>
+            <FL:RFHandCardItemView scaleX="1" scaleY="1" skinName="skins.RFHandCardItemSkin" />
+            <FL:RFHandCardItemView scaleX="1" scaleY="1" skinName="skins.RFHandCardItemSkin" />
+            <FL:RFHandCardItemView scaleX="1" scaleY="1" skinName="skins.RFHandCardItemSkin" />
+            <FL:RFHandCardItemView scaleX="1" scaleY="1" skinName="skins.RFHandCardItemSkin" />
+            <FL:RFHandCardItemView scaleX="1" scaleY="1" skinName="skins.RFHandCardItemSkin" />
+            <FL:RFHandCardItemView scaleX="1" scaleY="1" skinName="skins.RFHandCardItemSkin" />
+            <FL:RFHandCardItemView scaleX="1" scaleY="1" skinName="skins.RFHandCardItemSkin" />
+            <FL:RFHandCardItemView scaleX="1" scaleY="1" skinName="skins.RFHandCardItemSkin" />
+            <FL:RFHandCardItemView scaleX="1" scaleY="1" skinName="skins.RFHandCardItemSkin" />
+            <FL:RFHandCardItemView scaleX="1" scaleY="1" skinName="skins.RFHandCardItemSkin" />
+            <FL:RFHandCardItemView scaleX="1" scaleY="1" skinName="skins.RFHandCardItemSkin" />
+            <FL:RFHandCardItemView scaleX="1" scaleY="1" skinName="skins.RFHandCardItemSkin" />
+            <FL:RFHandCardItemView scaleX="1" scaleY="1" skinName="skins.RFHandCardItemSkin" />
+            <FL:RFHandCardItemView scaleX="1" scaleY="1" skinName="skins.RFHandCardItemSkin" />
+            <FL:RFHandCardItemView scaleX="1" scaleY="1" skinName="skins.RFHandCardItemSkin" />
+            <FL:RFHandCardItemView scaleX="1" scaleY="1" skinName="skins.RFHandCardItemSkin" />
+        </e:Group>
+    </e:Group>
+    <e:Group id="topGroup" width="662" height="46" anchorOffsetY="0" left="0" top="0">
+        <e:Image source="pz_top_bg_png" x="560" y="0" />
+        <e:Image source="pz_top_bg1_png" x="0" y="0" width="560" anchorOffsetX="0" />
+        <e:Label id="timeLabel" text="2017-11-16 17:04" x="20" size="22" textColor="0x235064" fontFamily="SimHei" y="5"
+                 width="180" />
+        <e:Label id="roomNum" text="房间号:123456" x="215" size="22" textColor="0x235064" fontFamily="SimHei" y="5"
+                 bold="true" anchorOffsetX="0" width="152" />
+        <e:Image source="pz_top_split_png" x="384" y="6" />
+        <e:Label id="wanfaLabel" text="灵璧夹子" x="406" size="22" textColor="0x235064" fontFamily="SimHei" y="5"
+                 bold="true" width="176" anchorOffsetX="0" />
+    </e:Group>
+	<e:Group id="bottomBtnGroup" width="904" height="102" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" bottom="213">
+		<FL:GameButton id="rejectBtn" x="94" y="28" skinName="skins.GameButtonSkin" label="不要" imgName="btn_green_png"/>
+		<FL:GameButton id="playBtn" x="694.4" y="28" skinName="skins.GameButtonSkin" label="出牌" imgName="btn_green_png"/>
+		<FL:GameButton id="promptBtn" x="417" y="28" skinName="skins.GameButtonSkin" label="提示" imgName="btn_green_png"/>
+	</e:Group>
+</e:Skin>

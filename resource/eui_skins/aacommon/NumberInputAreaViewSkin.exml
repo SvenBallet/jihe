@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.NumberInputAreaViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:FL="FL.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group height="720" anchorOffsetX="0" width="906" verticalCenter="0" horizontalCenter="0">
+		<e:Image x="42.02" y="66" anchorOffsetY="0" height="557" anchorOffsetX="0" width="818" source="panel_bottom_blue_png" scale9Grid="44,40,26,25"/>
+		<FL:GameButton id="oneBtn" width="246" height="90" x="195.36" y="223.33" skinName="skins.GameButtonSkin" label="1" labelColor="0x9B6E0F" labelSize="70" imgName="number_btn_png" anchorOffsetX="123" anchorOffsetY="45" name="1"/>
+		<FL:GameButton id="twoBtn" width="246" height="90" x="451.36" y="223.33" skinName="skins.GameButtonSkin" scaleX="1" scaleY="1" imgName="number_btn_png" label="2" labelColor="0x9B6E0F" labelSize="70" anchorOffsetX="123" anchorOffsetY="45" name="2"/>
+		<FL:GameButton id="threeBtn" width="246" height="90" x="707.36" y="223.33" skinName="skins.GameButtonSkin" scaleX="1" scaleY="1" imgName="number_btn_png" label="3" labelColor="0x9B6E0F" labelSize="70" anchorOffsetY="45" anchorOffsetX="123" name="3"/>
+		<FL:GameButton id="fourBtn" width="246" height="90" x="195.36" y="329.33" skinName="skins.GameButtonSkin" scaleX="1" scaleY="1" imgName="number_btn_png" label="4" labelColor="0x9B6E0F" labelSize="70" anchorOffsetX="123" anchorOffsetY="45" name="4"/>
+		<FL:GameButton id="fineBtn" width="246" height="90" x="451.36" y="329.33" skinName="skins.GameButtonSkin" scaleX="1" scaleY="1" imgName="number_btn_png" label="5" labelColor="0x9B6E0F" labelSize="70" anchorOffsetY="45" anchorOffsetX="123" name="5"/>
+		<FL:GameButton id="sixBtn" width="246" height="90" x="707.36" y="329.33" skinName="skins.GameButtonSkin" scaleX="1" scaleY="1" imgName="number_btn_png" label="6" labelColor="0x9B6E0F" labelSize="70" anchorOffsetX="123" anchorOffsetY="45" name="6"/>
+		<FL:GameButton id="sevenBtn" width="246" height="90" x="195.36" y="435.33" skinName="skins.GameButtonSkin" scaleX="1" scaleY="1" imgName="number_btn_png" label="7" labelColor="0x9B6E0F" labelSize="70" anchorOffsetX="123" anchorOffsetY="45" name="7"/>
+		<FL:GameButton id="eightBtn" width="246" height="90" x="451.36" y="435.33" skinName="skins.GameButtonSkin" scaleX="1" scaleY="1" imgName="number_btn_png" label="8" labelColor="0x9B6E0F" labelSize="70" anchorOffsetY="45" anchorOffsetX="123" name="8"/>
+		<FL:GameButton id="nineBtn" width="246" height="90" x="707.36" y="435.33" skinName="skins.GameButtonSkin" scaleX="1" scaleY="1" imgName="number_btn_png" label="9" labelColor="0x9B6E0F" labelSize="70" anchorOffsetX="123" anchorOffsetY="45" name="9"/>
+		<FL:GameButton id="reenterBtn" width="246" height="90" x="195.36" y="541.33" skinName="skins.GameButtonSkin" scaleX="1" scaleY="1" imgName="number_btn_png" label="重输" labelColor="0x9B6E0F" labelSize="40" anchorOffsetX="123" anchorOffsetY="45"/>
+		<FL:GameButton id="zeroBtn" width="246" height="90" x="451.36" y="541.33" skinName="skins.GameButtonSkin" scaleX="1" scaleY="1" imgName="number_btn_png" label="0" labelColor="0x9B6E0F" labelSize="70" anchorOffsetX="123" anchorOffsetY="45" name="0"/>
+		<FL:GameButton id="deleteBtn" width="246" height="90" x="707.36" y="541.33" skinName="skins.GameButtonSkin" scaleX="1" scaleY="1" imgName="number_btn_png" label="删除" labelColor="0x9B6E0F" labelSize="40" anchorOffsetY="45" anchorOffsetX="123"/>
+		<e:Group horizontalCenter="0" top="0">
+			<e:Image source="panel_title_lg_png" x="0" y="0" scale9Grid="54,27,15,26" anchorOffsetX="0" width="295" anchorOffsetY="0" height="69"/>
+			<e:Label id="titleLabel" text="输入数字" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" fontFamily="Microsoft YaHei" textColor="0xB47819" left="0" top="5" bottom="0" right="0" verticalAlign="middle" size="36"/>
+		</e:Group>
+		<e:Image x="70.02" y="90" anchorOffsetX="0" width="760" anchorOffsetY="0" height="75" source="chat_input_frame_png" scale9Grid="13,13,15,17"/>
+		<e:List id="dataList" width="751.33" height="75" x="75.02" y="90" anchorOffsetX="0" useVirtualLayout="false"/>
+		<FL:GameButton id="confirmBtn" width="234" height="74" imgName="btn_red_png" label="确认输入" skinName="skins.GameButtonSkin" bottom="13" horizontalCenter="-1"/>
+		<e:Group id="closeGroup" width="78" height="82" x="734.84" y="53.38">
+			<e:Image id="closeBtn" source="close_png" scaleX="1" scaleY="1" anchorOffsetX="28" anchorOffsetY="31" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

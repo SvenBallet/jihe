@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.ClubBaseViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:FL="FL.*">
+	<e:Group id="baseGroup" left="20" right="20" top="10" bottom="10">
+		<e:Image anchorOffsetX="0" anchorOffsetY="0" left="-14" right="-16"
+		         top="57" bottom="-2"  source="panel_bottom_blue_png" scale9Grid="42,35,29,29"/>
+		<e:Image source="panel_bottom_gray_png" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="28,28,19,10" top="100" bottom="44" width="226" x="33"/>
+		<e:Group id="clubGroup" left="281" top="174" bottom="115" right="44" x="283" y="90" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Group id="headGroup" top="90" width="821" left="283">
+			<e:Image source="char_bg_png" x="6" y="21" scale9Grid="47,0,67,6" anchorOffsetY="0" height="36" anchorOffsetX="0" width="291"/>
+			<e:Image source="char_deco_png" x="25" y="33" scale9Grid="7,7,1,1"/>
+			<e:Group id="diamondGroup" x="310" y="0">
+			<e:Image source="page_bottom_png" x="-21.33" y="12.96" anchorOffsetX="0" width="228.67" scaleX="1" scaleY="1" scale9Grid="33,26,7,3"/>
+			<e:Image source="diamond_png" x="-10" y="21.67"/>
+			<e:Group id="addDiamondGroup" width="72" height="72" x="146" y="3.99" anchorOffsetX="0" anchorOffsetY="0">
+				<e:Image id="addDiamondBtn" source="add_png" scaleX="1" scaleY="1" anchorOffsetX="21.33" anchorOffsetY="20" horizontalCenter="0" verticalCenter="0"/>
+			</e:Group>
+			<e:Label id="diamondNum" text="3000000" x="43" y="27.5" size="26" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1" textAlign="center"/>
+			</e:Group>
+			<e:Label id="titleLabel" text="俱乐部名称" bold="true" anchorOffsetX="0" width="229" fontFamily="Microsoft YaHei" size="30" x="61" y="24" textColor="0xb95a00"/>
+			<e:Label id="clubID" text="ID:123456" x="682" y="25" textColor="0xb95a00"/>
+		</e:Group>
+		<e:Group id="footerGroup" bottom="40" right="46" height="68" left="285">
+			<e:Group id="paginationGroup" y="7" left="0">
+				<e:Image source="page_bottom_png" x="-7.99" y="-3" anchorOffsetX="0" width="228.67" scaleX="1" scaleY="1" scale9Grid="33,26,7,3"/>
+				<e:Label id="pageLabel" text="第1页" x="50" y="-1.03" anchorOffsetY="0" height="46" verticalAlign="middle" anchorOffsetX="0" width="114" textAlign="center" size="26" fontFamily="Microsoft YaHei" textColor="0x96731e"/>
+				<e:Group id="leftGroup" width="46" height="48" x="0" y="0">
+				<e:Image id="leftBtn" source="page_left_png" x="23" y="24" scaleX="1" scaleY="1" anchorOffsetX="23" anchorOffsetY="24"/>
+				</e:Group>
+				<e:Group id="rightGroup" width="46" height="48" x="168" y="0">
+				<e:Image id="rightBtn" source="page_right_png" x="23" y="24" scaleX="1" scaleY="1" anchorOffsetX="23" anchorOffsetY="24"/>
+				</e:Group>
+			</e:Group>
+			<FL:GameButton id="refreshBtn" width="120" height="62" skinName="skins.GameButtonSkin" label="刷新" imgName="btn_green_png" labelSize="26" anchorOffsetX="60" anchorOffsetY="31" y="35" right="-2"/>
+			<FL:GameButton id="commonBtn" width="174.54" height="63.58" skinName="skins.GameButtonSkin" label="俱乐部开房" labelSize="26" anchorOffsetX="87.27" anchorOffsetY="31.79" y="35.52" horizontalCenter="-67"/>
+			<FL:GameButton id="backupBtn" width="174.54" height="63.58" skinName="skins.GameButtonSkin" label="全部拒绝" imgName="btn_red_png" labelSize="26" anchorOffsetX="87.27" anchorOffsetY="31.79" y="35.17" horizontalCenter="157"/>
+		</e:Group>
+		<e:Group horizontalCenter="-6" top="-9" x="405" y="-62" scaleX="1" scaleY="1">
+			<e:Image source="panel_title_lg_png" x="0" y="0" scale9Grid="54,27,15,26" anchorOffsetX="0" width="389.66" anchorOffsetY="0" height="69"/>
+			<e:Label text="俱乐部" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" fontFamily="Microsoft YaHei" textColor="0xB47819" left="0" top="5" bottom="0" right="0" verticalAlign="middle" size="36"/>
+		</e:Group>
+		<e:Scroller id="listScoller" scrollPolicyV="on" scrollPolicyH="off" anchorOffsetY="0" top="111" bottom="46" width="223" x="44">
+			<e:Group id="listGroup" anchorOffsetY="0" x="0" height="569.24" y="-10.61">
+			<e:List id="btnList" width="223" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+			</e:Group>
+		</e:Scroller>
+		<e:Group id="autoOpenRoomGroup" left="33" bottom="46" width="222" height="74">
+			<e:Image source="club_left_bottom_png" anchorOffsetX="0" width="222" x="0" y="3" scale9Grid="25,9,10,12" anchorOffsetY="0" height="72"/>
+			<FL:GameButton id="autoOpenRoomBtn" width="200" height="56" skinName="skins.GameButtonSkin" label="自动开房设置" labelSize="26" anchorOffsetX="100" anchorOffsetY="28" x="111.05" y="39.28"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="closeGroup" width="78" height="82" top="59" right="52">
+		<e:Image id="closeBtn" source="close_png" scaleX="1" scaleY="1" anchorOffsetX="25" anchorOffsetY="31"  horizontalCenter="0" verticalCenter="0"/>
+	</e:Group>
+</e:Skin>

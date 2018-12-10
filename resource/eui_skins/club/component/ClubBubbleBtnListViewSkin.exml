@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:FL="FL.*" class="skins.ClubBubbleBtnListViewSkin">
+	<e:Image id="maskImg" source="shade_bg_png" left="-1117" top="-617" bottom="-650" right="-1150" alpha="0" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Image source="club_bubble_png" y="0" scale9Grid="13,53,20,76" anchorOffsetX="0" width="176" anchorOffsetY="0" height="137" right="0"/>
+	<FL:GameButton id="mgrBtn" width="135" height="55" y="12" skinName="skins.GameButtonSkin" anchorOffsetX="0" anchorOffsetY="0" labelSize="22" label="取消管理员" right="29"/>
+	<FL:GameButton id="clubOutBtn" width="135" height="55" y="74" skinName="skins.GameButtonSkin" anchorOffsetX="0" anchorOffsetY="0" labelSize="22" label="踢出俱乐部" imgName="btn_red_png" right="28"/>
+</e:Skin>

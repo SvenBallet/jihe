@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:FL="FL.*" class="skins.MahjongSelectActionViewSkin" width="820" height="517">
+	<e:Image source="panel_bottom_blue_png" scale9Grid="55,54,8,7" anchorOffsetX="0" anchorOffsetY="0" width="820" height="450" x="-0.17" y="66.6"/>
+	<e:Group horizontalCenter="0" top="2" x="405" y="-62" scaleX="1" scaleY="1">
+		<e:Image source="panel_title_lg_png" x="0" y="0" scale9Grid="54,27,15,26" anchorOffsetX="0" width="317.66" anchorOffsetY="0" height="69"/>
+		<e:Label text="选择操作" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" fontFamily="Microsoft YaHei" textColor="0xB47819" left="0" top="5" bottom="0" right="0" verticalAlign="middle" size="36"/>
+	</e:Group>
+	<e:Label id="tipLabel" text="玩家【我是你爸】可开杠，如下所示：" x="33" y="98" textColor="0xb95a00" fontFamily="Microsoft YaHei" size="28"/>
+	<e:Label text="请选择你可以进行的操作" x="32" y="139" textColor="0xB95A00" fontFamily="Microsoft YaHei" size="28"/>
+
+	<e:Group id="actionGroup1" width="515" height="98" x="37" y="193" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image source="rule_desc_bg_png" scale9Grid="10,7,12,15" anchorOffsetX="0" left="0" top="0" right="0" bottom="0"/>
+		<e:Image source="rule_desc_bg_png" scale9Grid="10,7,12,15" anchorOffsetX="0" left="0" top="0" right="0" bottom="0"/>
+		<e:Image id="card1" x="18" y="7" width="55" height="84" source=""/>
+		<e:Image id="chiBtn1" source="btnChi_png" x="143" y="48" anchorOffsetX="43" anchorOffsetY="40" width="86" height="81"/>
+		<e:Image id="pengBtn1" source="btnPeng_png" x="244" y="49" anchorOffsetX="43" anchorOffsetY="40" width="86" height="81"/>
+		<e:Image id="gangBtn1" source="btnGang_png" x="343" y="50" width="86" height="81" anchorOffsetX="43" anchorOffsetY="40"/>
+		<e:Image id="buBtn1" source="btnBu_png" x="444" y="48" anchorOffsetX="43" anchorOffsetY="40" width="86" height="81"/>
+
+	</e:Group>
+	<e:Group id="actionGroup2" width="515" height="98" x="37" y="315" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image source="rule_desc_bg_png" scale9Grid="10,7,12,15" anchorOffsetX="0" left="0" top="0" right="0" bottom="0"/>
+		<e:Image id="card2" x="18" y="7" width="55" height="84" source=""/>
+		<e:Image id="chiBtn2" source="btnChi_png" x="143" y="47" anchorOffsetX="43" anchorOffsetY="40" width="86" height="81"/>
+		<e:Image id="pengBtn2" source="btnPeng_png" x="244" y="46" anchorOffsetX="43" anchorOffsetY="40" width="86" height="81"/>
+		<e:Image id="gangBtn2" source="btnGang_png" x="344" y="46" anchorOffsetX="43" anchorOffsetY="40" width="86" height="81"/>
+		<e:Image id="buBtn2" source="btnBu_png" x="445" y="47" width="86" height="81" anchorOffsetX="43" anchorOffsetY="40"/>
+	</e:Group>
+	<e:Group id="showCard1" width="55" height="84" x="658" y="258">
+		<e:Image x="0" y="0" width="55" height="84" scaleX="1" scaleY="1" source=""/>
+	</e:Group>
+	<e:Group id="showCard2" width="55" height="84" x="726" y="258">
+		<e:Image x="0" y="0" width="55" height="84" scaleX="1" scaleY="1" source=""/>
+	</e:Group>
+
+
+	<FL:GameButton id="guoBtn" width="137" height="58" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="198" skinName="skins.GameButtonSkin" label="过" imgName="btn_blue_png"/>
+	<e:Image id="huBtn" source="btnHu_png" x="609" y="299" anchorOffsetX="43" anchorOffsetY="40" width="86" height="81"/>
+	<e:Label id="score1" text="共12分" x="660.5" y="348.5" textColor="0xb95a00" fontFamily="Microsoft YaHei" size="26" width="105" textAlign="left" anchorOffsetX="0" visible="false"/>
+
+	<e:Group id="popUpGroup" width="800" height="149" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0" verticalCenter="-154"/>
+</e:Skin>

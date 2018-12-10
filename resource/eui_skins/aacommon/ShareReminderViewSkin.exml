@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.ShareReminderViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" minHeight="600" minWidth="930">
+	<e:Image source="shade_bg_png" left="-50" top="-50" bottom="-50" right="-50" alpha="0.7"/>
+	<e:Image source="share_arrows_png" right="11" bottom="52" scaleX="-1" scaleY="-1"/>
+	<e:Image id="shareIcon" source="share_circle_of_friends_2_png" width="154" height="156" anchorOffsetX="0" anchorOffsetY="0" right="448" bottom="95"/>
+	<e:Group anchorOffsetY="0" anchorOffsetX="0" top="0" left="0" right="0" bottom="434">
+		<e:Image source="top_in_chat_png" scaleX="1" scaleY="1" top="11" left="220"/>
+		<e:Label text="在聊天中置顶" fontFamily="SimHei" bold="true" anchorOffsetX="0" textAlign="center" size="26" scaleX="1" scaleY="1" height="26" width="160" left="198" top="130"/>
+		<e:Label text="温馨提示：点击" fontFamily="SimHei" bold="true" anchorOffsetX="0" textAlign="center" scaleX="1" scaleY="1" size="26" textColor="0x00ff00" left="0" top="65" height="30" width="186"/>
+		<e:Label text="将游戏放在微信聊天顶部，可以快速进入游戏！" fontFamily="SimHei" bold="true" anchorOffsetX="0" textAlign="center" scaleX="1" scaleY="1" size="26" textColor="0x00ff00" left="369" top="65" bottom="75" right="4"/>
+	</e:Group>
+	<e:Label id="shareIconName" text="分享到朋友圈" fontFamily="SimHei" bold="true" size="50" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" right="131" bottom="148"/>
+</e:Skin>

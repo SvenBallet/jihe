@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.TeaHouseAlterRulesViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:FL="FL.*">
+    <e:Group id="baseGroup" left="100" right="100" top="10" bottom="10">
+        <e:Image anchorOffsetX="0" anchorOffsetY="0" left="-14" right="-16" top="57" bottom="-2"
+                 source="panel_bottom_blue_png" scale9Grid="42,35,29,29" />
+			<e:Group horizontalCenter="-6" top="2" x="15" y="-8" scaleX="1" scaleY="1">
+				<e:Image scale9Grid="54,27,15,26" anchorOffsetX="0" anchorOffsetY="0" source="th_top_png"/>
+				<e:Label id="titleLab0" text="茶楼管理" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" fontFamily="Microsoft YaHei" textColor="0xB47819" left="0" top="0" bottom="0" right="0" verticalAlign="middle" size="36" visible="false"/>
+				<e:Image id="titleImg" y="14" horizontalCenter="0" source="th_set_png"/>
+			</e:Group>
+
+        <e:Group left="130" top="100" bottom="135" right="130" x="283" y="90" anchorOffsetX="0" anchorOffsetY="0">
+            <e:Group id="topGroup" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" left="0" top="0" right="0"
+                     bottom="153" />
+            <e:Group id="contentGroup" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" left="0" top="146"
+                     right="0" bottom="0" />
+        </e:Group>
+			<e:Group id="alterGroup" horizontalCenter="0" bottom="28">
+				<e:Group id="alterBtn" x="0" y="0">
+					<e:Image source="th_green_btn_png" scale9Grid="52,37,1,1" anchorOffsetX="0" width="215" x="0" y="0"/>
+					<e:Image source="th_confirmalter_png" x="34" y="15"/>
+				</e:Group>
+			</e:Group>
+    </e:Group>
+    <e:Group id="closeGroup" width="78" height="82" top="48" right="71">
+        <e:Image id="closeBtn" scaleX="1" scaleY="1" anchorOffsetX="25" anchorOffsetY="31"
+                 horizontalCenter="0" verticalCenter="0"  source="th_close_png"/>
+    </e:Group>
+</e:Skin>

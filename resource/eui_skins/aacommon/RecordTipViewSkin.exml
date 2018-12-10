@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.RecordTipViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:FL="FL.*" xmlns:w="http://ns.egret.com/wing" width="148" height="122">
+	<e:Image source="recording_bg_png" scale9Grid="13,11,9,9" height="122" width="148" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image source="recording_png" horizontalCenter="-30" verticalCenter="0"/>
+	<e:Image id="volumeImg" source="recording_v1_png" horizontalCenter="36" verticalCenter="0"/>
+</e:Skin>
